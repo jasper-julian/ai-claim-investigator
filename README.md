@@ -6,6 +6,10 @@ WaytoAGI 1024 切磋大会侦探赛道作品：输入一句公开 AI 产品宣�
 
 ## 演示视频与快速入口
 
+### 主演示视频（可直接播放）
+
+https://github.com/user-attachments/assets/1b558e78-c714-4b59-a676-4f819362cb09
+
 - 主演示视频（3 分 22 秒，1280×720，H.264）：[`docs/videos/ai-claim-investigator-demo.mp4`](docs/videos/ai-claim-investigator-demo.mp4)｜[直接下载（7.3 MB）](https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4)
 - 三个真实案例录屏：[`query-01.mp4`](docs/videos/query-01.mp4)、[`query-02.mp4`](docs/videos/query-02.mp4)、[`query-03.mp4`](docs/videos/query-03.mp4)
 - 录制时间、参数、SHA256、真实/回放标识与剪辑说明：[`docs/videos/README.md`](docs/videos/README.md)
