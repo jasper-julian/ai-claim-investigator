@@ -49,7 +49,7 @@
 - 主演示视频（3:22，1280×720，H.264）：<https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4>
 - 三段真实案例录屏：`docs/videos/query-01.mp4`、`query-02.mp4`、`query-03.mp4`
 - 录制参数、SHA256、真实/回放标注：`docs/videos/README.md`
-- 仓库：<https://github.com/jasper-julian/ai-claim-investigator>（tag `v1.3-submission`）
+- 仓库：<https://github.com/jasper-julian/ai-claim-investigator>（tag `v1.4-submission`）
 - 最终验收：`deliverables/FINAL_TEST_REPORT.md`；提交包：`SUBMISSION_READY.md`
 
 ## 三次真实查询索引
