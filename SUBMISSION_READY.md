@@ -25,7 +25,7 @@
 | 封面 | 4:3，1600×1200 PNG，取自实际案卷页面 | `deliverables/submission/cover-1600x1200.png`（339 KB） | 小于 10 MB ✅ |
 | 主体视频 | 3:14，1280×720，H.264，无配音、中文字幕叠层 | <https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4>（7.6 MB） | 小于 500 MB ✅ |
 | 仓库 | 源码、证据、报告、视频 | <https://github.com/jasper-julian/ai-claim-investigator> | 公开可读 ✅ |
-| 提交版本 | 提交 SHA | `385a377f156f4a52930aa22219ee4f16471d31ac`（tag `v1.0-submission`） | ✅ |
+| 提交版本 | 提交 SHA | tag `v1.1-submission`（最终提交版本，见仓库 Commits 最新一次） | ✅ |
 | 在线演示 | **无公网部署** | 不提供 `127.0.0.1` 给评委 | 表单如要求在线链接，选择“视频 + 可运行源码/Skill”说明 |
 
 ## 3. 三次真实查询材料

@@ -78,7 +78,7 @@ WorkBuddy 保留了真实记录、指定域名零命中、补充直访官方来�
 
 - 本机地址：<http://127.0.0.1:4191/>；配置：<http://127.0.0.1:4191/settings>。
 - 真实案例：`/?case=01`、`02`、`03`；新案卷：`/?case=save-e4aa6cf73922`（Copilot）、`/?case=save-4789ff258808`（Notion）。
-- 公开仓库：<https://github.com/jasper-julian/ai-claim-investigator>，提交 `385a377`，tag `v1.0-submission`。
+- 公开仓库：<https://github.com/jasper-julian/ai-claim-investigator>，tag `v1.1-submission`（最终提交版本）。
 - 网页没有独立大模型接口；新问题的 AI 深查必须由 Skill 驱动 AI 助手继续阅读原文，并用 `save-card.mjs` 保存后才有独立链接。
 - 需求重算只匹配已核实条件，不搜索、不出概率；超范围会要求再次查证。
 - GitHub Release 未创建（无 API 凭据）；演示视频已作为仓库文件提供，可直接下载。
