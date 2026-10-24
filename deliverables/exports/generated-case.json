@@ -1,230 +1,243 @@
 {
   "schemaVersion": "1.1",
-  "caseId": "save-4789ff258808",
-  "claim": "Notion AI 免费版是否支持商用？",
-  "domain": "notion.com",
-  "need": "我只做个人非商业记录，没有每月固定 AI 用量要求，也不需要 API。",
-  "startedAt": "2026-10-24T11:52:38.827Z",
-  "completedAt": "2026-10-24T11:52:40.729Z",
-  "exportedAt": "2026-10-24T12:00:24.846Z",
+  "caseId": "save-e4aa6cf73922",
+  "claim": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。",
+  "domain": "github.com",
+  "need": "我只做个人学习，每月最多 300 次补全，不需要对话，也没有公司提供的 Copilot。",
+  "startedAt": "2026-10-24T14:47:02.988Z",
+  "completedAt": "2026-10-24T14:47:03.700Z",
+  "exportedAt": "2026-10-24T14:56:13.838Z",
   "outcome": "researched",
   "rounds": [
     {
       "label": "找宣传原句与官方说明",
-      "query": "Notion AI 免费版是否支持商用？ 官方 说明 原文",
-      "site": "notion.com",
+      "query": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。 官方 说明 原文",
+      "site": "github.com",
       "status": "success",
-      "requestId": "a4ded514-cb34-433a-b8e0-a6e731dedd17",
+      "requestId": "52cb8fac-58be-4db0-bd9c-cfce17525f6a",
       "pages": [
         {
-          "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
-          "url": "https://notion.com/pricing",
-          "passage": "Notion Pricing Plans: Free, Plus, Business, & Enterprise. Notion。One tool to run your company. Select payment mode: Pay monthly Pay yearly Price inUSD Essentials for staying organized. Free $0per member / month For individuals to organize personal projects and life. Sign up Includes: Trial AI capabilities like generating docs, or autofilling databases Trial of Notion AI Capture, organize, and act on responses right inside Notion. Basic forms Publish a Notion page to the web B",
-          "date": "",
-          "site": "notion.com"
+          "title": " GitHub Copilot FAQ",
+          "url": "https://github.com/community/community/discussions/144674",
+          "passage": "🔖 GitHub Copilot FAQ GitHub。🔖 GitHub Copilot FAQ #144674 Akash1134 asked this question in Copilot Conversations Akash1134 on Nov 15, 2024Nov 15, 2024 Akash1134 on Nov 15, 2024Nov 15, 2024 GitHub Copilot FAQ Your complete guide to using GitHub Copilot effectively. Whether you're just getting started, troubleshooting issues, or exploring advanced features, you'll find answers and resources here. Note Last updated: January 9, 2026 | For real-time Copilot status, check GitHub's",
+          "date": "2024/11/15 00:00:00",
+          "site": "GitHub"
         },
         {
-          "title": "Notion定价方案:免费版､Plus 版､商业版和企业版｡",
-          "url": "https://notion.com/zh-CN/pricing",
-          "passage": "Notion定价方案:免费版、Plus 版、商业版和企业版。 Notion。使用一个工具运营公司业务。 受到以下团队的信任 选择支付方式: 月付 年付 年付方案最高可节省 20% 选择货币USD 必备工具,让一切井井有条。 免费 US$0每席位/月 为管理个人的项目和生活而生。 注册 Plus 版* US$10每席位/月 为小型团队和专业人士的携手共赢而生。 立即开始 包括: 试用 AI 功能,如生成文档或自动填充数据库 Notion AI 试用版 在 Notion 中直接捕捉、整理和回复信息。 基础表单 将 Notion 页面发布到网上 基础网站 连接多个 Google 日历以共同管理工作和时间。 Notion 日历 在同一个平台整理成百上千个事项,如项目或任务 数据库,包括子任务、依赖项、自定义属性等 免费版的全部功能,以及: 试用 AI 功能,如生成文档或自动填充数据库 Notion AI 试用版 移除公共表单中的 Notion 品牌标识 自定义表单 自定义顶部标题,选择浅色或深色主题,添加自定义图标,并与 Google Analytics",
+          "title": "Introducing GitHub Copilot Free · community · Discussion #147189",
+          "url": "https://github.com/orgs/community/discussions/147189",
+          "passage": "Introducing GitHub Copilot Free · community · Discussion #147189 GitHub。Introducing GitHub Copilot Free #147189 We’re thrilled to announce the GitHub Copilot Free plan! It’s now easier than ever for developers to explore the power of GitHub Copilot in your favourite IDE Visual Studio Code, Visual Studio, JetBrains, and directly on GitHub. 🎉 By signing in with your personal GitHub account, you’ll gain 2000 code completions and 50 chat messages per month—enough to experience h",
           "date": "",
-          "site": "notion.com"
+          "site": "GitHub"
         },
         {
-          "title": "What is Notion?  Notion",
-          "url": "https://notion.com/es-es/product/notion",
-          "passage": "What is Notion? | Notion Notion。 Espacios de equipo privados Verifica la titularidad de un dominio de correo electrónico para acceder a funciones de seguridad avanzada, como el inicio de sesión único. Verificación de dominios Conéctate a GitHub, Asana y mucho más Conexiones prémium Questions & Answers What is Notion used for? Notion is a connected workspace that brings docs, wikis, projects, and databases together in one place. With Notion AI and custom agents built in, it al",
-          "date": "",
-          "site": "notion.com"
+          "title": "GitHub Copilot for Developers",
+          "url": "https://github.com/timothywarner/copilot-dev/blob/main/README.md",
+          "passage": "GitHub Copilot for Developers GitHub。 GH-300 revision effective August 7. Subscription Tiers (July 2026) Billing is usage-based on GitHub AI Credits . 1 AI credit = $0.01 USD. Base credits match the subscription price one-for-one; the flex allotment sits on top and is designed to change as AI economics change. Credits do not roll over, and the allowance resets at 00:00:00 UTC on the first of each month. Code completions and Next Edit Suggestions are unlimited on paid plans an",
+          "date": "2026/07/22 00:00:00",
+          "site": "GitHub"
         },
         {
-          "title": "可容纳 Wikis 百科､文档和项目的互联工作空间Notion",
-          "url": "https://notion.com/zh-cn/startups",
-          "passage": "可容纳 Wikis 百科、文档和项目的互联工作空间|Notion Notion。一个工作空间,集齐所有创业必备工具。 AI 工作空间,让你的灵感付诸行动。免费获得长达 6 个月的商业版方案,内含 Notion AI 功能。 破纪录增长的企业都在使用 Notion 效率飞跃,成本锐减。 全能型 AI 工作空间,支持随需扩展。立享 6 个月免费商业版,轻松节省 12000 美元。 AI 工具太多?在此计算潜在节省金额。 AI 搜索35 美元/用户AI 聊天机器人20 美元/用户AI 速记18 美元/用户AI 写作助手20 美元/用户AI 电子邮件应用30 美元/用户AI 探究40 美元/用户日程安排15 美元/用户团队 Wikis 百科10 美元/用户项目管理工具24 美元/用户基础 CRM20 美元/用户网站生成器20 美元/用户表单15 美元/用户 团队规模月节省金额US$340年节省金额US$4,080 创业公司的首选工具。 强大、灵活、极速——这就是全球创业公司都选择入驻 Notion 的原因。 94% 的福布斯 AI 50 强公司使用 No",
+          "title": "Pricing calculator",
+          "url": "https://github.com/pricing/calculator?feature=codespaces",
+          "passage": "Pricing calculator GitHub。Pricing calculator Configure and estimate the costs for GitHub products. Plans GitHub Enterprise Security, compliance and flexible deployment. Maximize developer agility and productivity. Developers can enjoy a fully-feature environment to build and innovate from idea to production. Work more collaboratively and efficiently anytime, anywhere, with secure open-source code repos and integrated code-to-cloud workflows. Number of seats Cost per month $0.",
           "date": "",
-          "site": "notion.com"
+          "site": "GitHub"
         },
         {
-          "title": "Your connected workspace for wiki, docs & projects  Notion",
-          "url": "https://notion.com/startups",
-          "passage": "Your connected workspace for wiki, docs & projects | Notion Notion。Notion for Startups Build and run your entire startup in one place. The AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included. The fastest growing companies in history build on Notion Move faster, cut costs. Go all-in-one with the AI workspace that scales with you. Get the Business plan free for up to 6 months and save $12,000. The tool of choice for startups. It’",
+          "title": "Pricing calculator",
+          "url": "https://github.com/pricing/calculator?feature=actions",
+          "passage": "Pricing calculator GitHub。Pricing calculator Configure and estimate the costs for GitHub products. Plans GitHub Enterprise Security, compliance and flexible deployment. Maximize developer agility and productivity. Developers can enjoy a fully-feature environment to build and innovate from idea to production. Work more collaboratively and efficiently anytime, anywhere, with secure open-source code repos and integrated code-to-cloud workflows. Number of seats Cost per month $0.",
           "date": "",
-          "site": "notion.com"
+          "site": "GitHub"
         },
         {
-          "title": "Notion AI for databases",
-          "url": "https://notion.com/help/autofill",
-          "passage": "Notion AI for databases Notion。Notion AI for databases In this Article Learn how to use Notion AI to create databases and make them even more valuable 🪄 Create a database with Notion AI You can create a database in just seconds using Notion AI. Creating a database with Notion AI is free on the Business or Enterprise plans. If you are not on those plans, Notion AI will use credits from your workspace, including any complimentary credits you may have available. From a page To ",
+          "title": "Command your craft",
+          "url": "https://github.com/features/copilot?culture=en-us",
+          "passage": "Command your craft GitHub。 Access to Copilot Business and Enterprise is managed by your GitHub Administrator. They can control access to preview features, models, and set GitHub Copilot policies for your organization. Additionally, you can use your network firewall to explicitly allow access to Copilot Business and/or block access to Copilot Pro or Free. For more details, refer to the documentation . Plans & Pricing What are the differences between the Free, Pro, Pro+, Max, B",
           "date": "",
-          "site": "notion.com"
+          "site": "GitHub"
         },
         {
-          "title": "Notion  Every",
-          "url": "https://notion.com/redeem/every",
-          "passage": "Notion 🤝 Every Notion。Notion 🤝 Every Get 6 months of Notion Business with Notion AI for free. Exclusively for Every All Access Subscribers. The AI workspace for work that matters Capture context, find answers, and automate tasks with AI built for you. Capture knowledge Meetings, decisions, processes. The notes take themselves, and documentation keeps itself up to date. Find answers Was that info in an email? Slide deck? Slack message? Just ask Notion. Automate busywork Agen",
+          "title": "GitHub Copilot",
+          "url": "https://github.com/features/copilot?q=is%3Aissue+sort%3Areactions-heart-desc+label%3Abug+is%3Aclosed",
+          "passage": "GitHub Copilot GitHub。GitHub Copilot More Command your craft Your AI accelerator for every workflow, from the editor to the enterprise. Go beyond one-size-fits-all Choose from leading LLMs optimized for speed, accuracy, or cost. Use your agents, your way Use GitHub Copilot, your own custom agents, or the third-party ones you already rely on. Stay in your flow Copilot works where you do—in GitHub, your IDE, the CLI, project tools, chat apps, and custom MCP servers. Workflow Co",
           "date": "",
-          "site": "notion.com"
+          "site": "GitHub"
         },
         {
-          "title": "Your connected workspace for wiki, docs & projects  Notion",
-          "url": "https://notion.com/es-es/lp/linkedin-new",
-          "passage": "Your connected workspace for wiki, docs & projects | Notion Notion。One workspace. Every startup tool. The AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included. Unlock your startup offer The fastest growing companies in history build on Notion Move faster, cut costs. Go all-in-one with the AI workspace that scales with you. Get the Business plan free for up to 6 months and save $12,000. Unlock your startup offer ¿Demasiadas herra",
+          "title": "39.4 大模型本地部署",
+          "url": "https://github.com/lfourneen/FreeBSD-Ask/blob/main/di-39-zhang-ren-gong-zhi-neng-ai/di-39.4-jie-da-mo-xing-ben-di-bu-shu.md",
+          "passage": "39.4 大模型本地部署 GitHub。 GitHub Copilot CLI GitHub Copilot CLI 是 GitHub 的闭源项目。GitHub 提供免费套餐(每月 2000 次代码补全和 50 次聊天请求),超出额度或使用高级功能则需付费订阅。 GitHub Copilot CLI 将 AI 编程助手集成到命令行环境中,用户可以通过自然语言对话编写、调试和理解代码,并与 GitHub 工作流程实现集成。 安装 使用 pkg 安装: # pkg install github-copilot-cli 使用 Ports 安装: # cd /usr/ports/misc/github-copilot-cli/ # make install clean 使用 GitHub Copilot CLI $ copilot 在浏览器打开 https://github.com/login/device,输入 Copilot 输出的一次性验证码,在授权后即可使用 Copilot。 连续按两次 Ctrl + C 即可退出该工具。...",
           "date": "",
-          "site": "notion.com"
+          "site": "GitHub"
+        },
+        {
+          "title": "更新 Copilot 设置页",
+          "url": "https://github.com/V-orl/github-chinese/commit/7acc2065990f5a8d5e8e1348eb9628a933f53a29",
+          "passage": "更新 Copilot 设置页 GitHub。\", 4665 + //\"Copilot Free is active for your account\": \"您的账户已启用 Copilot 免费版\", 4666 + //\"Responses are capped at 2,000 code completions and 50 chat messages per month.\": \"回复上限为每月 2,000 次代码完成和 50 条聊天信息。\", 4665 4667 \"Get unlimited usage with Copilot Pro\": \"通过 Copilot Pro 无限制使用\", 4666 4668 \"Unlimited messages and interactions\": \"信息和互动无限制\", 4667 4669 \"Access to the latest models\": \"访问最新模型\", @@ -4670,7 +4672,7 @@ I18N[\"zh-CN\"][\"settings/copilot\"] = { // 设置 - G",
+          "date": "",
+          "site": "GitHub"
         }
       ]
     },
     {
-      "label": "核对额度、商用、功能",
-      "query": "Notion AI 免费版是否支持商用？ 额度 次数 使用量 商用 授权 许可 功能 版本 权限 条件 限制 官方",
-      "site": "notion.com",
+      "label": "核对商用、功能",
+      "query": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。 商用 授权 许可 功能 版本 权限 条件 限制 官方",
+      "site": "github.com",
       "status": "success",
-      "requestId": "8c2679f6-9c1a-4085-98ed-d61254be069d",
+      "requestId": "31c5849a-fe69-4475-9f21-fb2853c7f5e3",
       "pages": [
         {
-          "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
-          "url": "https://notion.com/pricing",
-          "passage": "Notion Pricing Plans: Free, Plus, Business, & Enterprise. Notion。One tool to run your company. Select payment mode: Pay monthly Pay yearly Price inUSD Essentials for staying organized. Free $0per member / month For individuals to organize personal projects and life. Sign up Includes: Trial AI capabilities like generating docs, or autofilling databases Trial of Notion AI Capture, organize, and act on responses right inside Notion. Basic forms Publish a Notion page to the web B",
-          "date": "",
-          "site": "notion.com"
+          "title": "GitHub Copilot for Developers",
+          "url": "https://github.com/timothywarner/copilot-dev/blob/main/README.md",
+          "passage": "GitHub Copilot for Developers GitHub。 GH-300 revision effective August 7. Subscription Tiers (July 2026) Billing is usage-based on GitHub AI Credits . 1 AI credit = $0.01 USD. Base credits match the subscription price one-for-one; the flex allotment sits on top and is designed to change as AI economics change. Credits do not roll over, and the allowance resets at 00:00:00 UTC on the first of each month. Code completions and Next Edit Suggestions are unlimited on paid plans an",
+          "date": "2026/07/22 00:00:00",
+          "site": "GitHub"
         },
         {
-          "title": "Meet your AI team  Notion",
-          "url": "https://notion.com/zh-CN/retro",
-          "passage": "Meet your AI team | Notion Notion。Meet your 24/7 AI team Infinite minds, built for teamwork. Answer questions, prioritize tasks, and write reports—all while you sleep. Trusted by teams at Agents Enterprise search AI Meeting Notes Admin controls Enterprise Search 16:10 Admin Controls 16:10 If it’s something that’s repetitive, we have a Notion Agent for it. Ben LevickHead of AI & Operations, Ramp AI that works where your team works. Try for free. Free $0per member / month For i",
-          "date": "",
-          "site": "notion.com"
+          "title": " GitHub Copilot FAQ",
+          "url": "https://github.com/orgs/community/discussions/144674",
+          "passage": "🔖 GitHub Copilot FAQ GitHub。🔖 GitHub Copilot FAQ #144674 Akash1134 asked this question in Copilot Conversations Akash1134 on Nov 15, 2024Nov 15, 2024 Akash1134 on Nov 15, 2024Nov 15, 2024 GitHub Copilot FAQ Your complete guide to using GitHub Copilot effectively. Whether you're just getting started, troubleshooting issues, or exploring advanced features, you'll find answers and resources here. Note Last updated: January 9, 2026 | For real-time Copilot status, check GitHub's",
+          "date": "2024/11/15 00:00:00",
+          "site": "GitHub"
         },
         {
-          "title": "Notion  Every",
-          "url": "https://notion.com/redeem/every",
-          "passage": "Notion 🤝 Every Notion。Notion 🤝 Every Get 6 months of Notion Business with Notion AI for free. Exclusively for Every All Access Subscribers. The AI workspace for work that matters Capture context, find answers, and automate tasks with AI built for you. Capture knowledge Meetings, decisions, processes. The notes take themselves, and documentation keeps itself up to date. Find answers Was that info in an email? Slide deck? Slack message? Just ask Notion. Automate busywork Agen",
+          "title": "GitHub Copilot",
+          "url": "https://github.com/features/copilot?q=is%3Aissue+sort%3Areactions-heart-desc+label%3Abug+is%3Aclosed",
+          "passage": "GitHub Copilot GitHub。GitHub Copilot More Command your craft Your AI accelerator for every workflow, from the editor to the enterprise. Go beyond one-size-fits-all Choose from leading LLMs optimized for speed, accuracy, or cost. Use your agents, your way Use GitHub Copilot, your own custom agents, or the third-party ones you already rely on. Stay in your flow Copilot works where you do—in GitHub, your IDE, the CLI, project tools, chat apps, and custom MCP servers. Workflow Co",
           "date": "",
-          "site": "notion.com"
+          "site": "GitHub"
         },
         {
-          "title": "Meet your AI team  Notion",
-          "url": "https://notion.com/pt/break",
-          "passage": "Meet your AI team | Notion。Meet your 24/7 AI team Infinite minds, built for teamwork. Answer questions, prioritize tasks, and write reports—all while you sleep. Trusted by teams at Agents Admin controls Enterprise Search 16:10 Admin Controls 16:10 If it’s something that’s repetitive, we have a Notion Agent for it. Ben LevickHead of AI & Operations, Ramp AI that works where your team works. Try for free. Free $0per member / month For individuals to organize personal projects a",
+          "title": "GitHub Copilot · Plans & pricing",
+          "url": "https://github.com/features/copilot/plans?cft=copilot_li.features_copilot_!",
+          "passage": "GitHub Copilot · Plans & pricing GitHub。Take flight with GitHub Copilot Pricing plans For individualsFor businesses Free For getting started with GitHub Copilot. $0USD Get startedOpen in VS Code What's included: 2,000 completions per month Access to Haiku 4.5, GPT-5 mini, and more Copilot CLI Community Support No credit card required. Verified students have access to the GitHub Copilot Student plan. Learn more Pro For everyday coding with agents in GitHub Copilot. $10USDper u",
           "date": "",
-          "site": "notion.com"
+          "site": "GitHub"
         },
         {
-          "title": "Your connected workspace for wiki, docs & projects  Notion",
-          "url": "https://notion.com/startups",
-          "passage": "Your connected workspace for wiki, docs & projects | Notion Notion。Notion for Startups Build and run your entire startup in one place. The AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included. The fastest growing companies in history build on Notion Move faster, cut costs. Go all-in-one with the AI workspace that scales with you. Get the Business plan free for up to 6 months and save $12,000. The tool of choice for startups. It’",
+          "title": "Command your craft",
+          "url": "https://github.com/features/copilot?culture=en-us",
+          "passage": "Command your craft GitHub。GitHub Copilot GitHub Copilot Your AI accelerator for every workflow, from the editor to the enterprise. Go beyond one-size-fits-all Choose from leading LLMs optimized for speed, accuracy, or cost. Use your agents, your way Use GitHub Copilot, your own custom agents, or the third-party ones you already rely on. Stay in your flow Copilot works where you do—in GitHub, your IDE, the CLI, project tools, chat apps, and custom MCP servers. Workflow Code, c",
           "date": "",
-          "site": "notion.com"
+          "site": "GitHub"
         },
         {
-          "title": "Notion 2.21: Notion AI, for everyone",
-          "url": "https://notion.com/releases/2023-02-22",
-          "passage": "Notion 2.21: Notion AI, for everyone Notion。Try Notion AI for free No more waitlist, no “limited preview.” That means you can start to leverage the power of AI right inside Notion, across all your existing docs and notes—today. Use Notion AI to augment your capabilities in new and unexpected ways. Just open any Notion page, and give these a try: Generate an instant summary from a page of messy notes. Start a new line, hit space on your keyboard, then select “Summarize.” Becom",
-          "date": "2023/02/22 00:00:00",
-          "site": "notion.com"
+          "title": "GitHub Copilot · Your AI coding agent · GitHub",
+          "url": "https://github.com/features/copilot?after=0.14.0",
+          "passage": "Command your craft Your AI accelerator for every workflow, from the editor to the enterprise. Download for Linux See plans & pricing Already have Visual Studio Code? Open now Companies powered by GitHub DuolingoFedExAmerican AirlinesShopifyStripeCocaColaCoyote LogisticsMercado LibreGeneral Motors DuolingoFedExAmerican AirlinesShopifyStripeCocaColaCoyote LogisticsMercado LibreGeneral Motors Go beyond one-size-fits-all Choose from leading LLMs optimized for speed, accuracy, or ",
+          "date": "",
+          "site": "GitHub"
         },
         {
-          "title": "Who’s who in a workspace",
-          "url": "https://notion.com/help/whos-who-in-a-workspace",
-          "passage": "Who’s who in a workspace Notion。Who’s who in a workspace In this help doc Learn about the different kinds of people in a workspace. A Notion workspace can have several types of users or roles: Members Restricted members Guests Temporary members Workspace owners (Enterprise Plan only) Membership admins (Enterprise Plan only) Organization owners Read on to learn more about each type of user. Members Members are individuals in your company or organization. These could be colleag",
+          "title": "GitHub Copilot · Your AI pair programmer",
+          "url": "https://github.com/features/copilot?q=is%3Apr+no%3Aassignee+is%3Aopen+updated%3A%3E2024-04-07+sort%3Acomments-desc+review%3Arequired",
+          "passage": "GitHub Copilot · Your AI pair programmer GitHub。 GitHub Copilot Autofix provides contextual explanations and code suggestions to help developers fix vulnerabilities in code, and is included in GitHub Advanced Security. What if I do not want GitHub Copilot? GitHub Copilot is entirely optional and requires you to opt in before gaining access. You can easily configure its usage directly in the editor, enabling or disabling it at any time. Additionally, you have control over whic",
           "date": "",
-          "site": "notion.com"
+          "site": "GitHub"
         },
         {
-          "title": "Your connected workspace for wiki, docs & projects  Notion",
-          "url": "https://notion.com/es-es/lp/linkedin-new",
-          "passage": "Your connected workspace for wiki, docs & projects | Notion Notion。One workspace. Every startup tool. The AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included. Unlock your startup offer The fastest growing companies in history build on Notion Move faster, cut costs. Go all-in-one with the AI workspace that scales with you. Get the Business plan free for up to 6 months and save $12,000. Unlock your startup offer ¿Demasiadas herra",
+          "title": "Make and commit code changes locally or on GitHub",
+          "url": "https://github.com/features/copilot/plans?locale=en-US",
+          "passage": "Make and commit code changes locally or on GitHub GitHub。 GitHub Copilot has multiple offerings for organizations and individual developers. Key differences between the plans include total GitHub AI Credits and available models. To see more information and a comparison chart between plans, please see our plans & pricing page . What happens when I hit my usage limit? When you've used your monthly allowance, you have a few options: Wait for your next cycle. Your included allowa",
           "date": "",
-          "site": "notion.com"
+          "site": "GitHub"
+        },
+        {
+          "title": "Introducing GitHub Copilot Free · community · Discussion #147189",
+          "url": "https://github.com/orgs/community/discussions/147189",
+          "passage": "Introducing GitHub Copilot Free · community · Discussion #147189 GitHub。Introducing GitHub Copilot Free #147189 We’re thrilled to announce the GitHub Copilot Free plan! It’s now easier than ever for developers to explore the power of GitHub Copilot in your favourite IDE Visual Studio Code, Visual Studio, JetBrains, and directly on GitHub. 🎉 By signing in with your personal GitHub account, you’ll gain 2000 code completions and 50 chat messages per month—enough to experience h",
+          "date": "",
+          "site": "GitHub"
         }
       ]
     },
     {
       "label": "找反例与例外",
-      "query": "Notion AI 免费版是否支持商用？ 额度 次数 使用量 商用 授权 许可 功能 版本 权限 不适用 例外 实际使用 公告",
+      "query": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。 商用 授权 许可 功能 版本 权限 不适用 例外 实际使用 公告",
       "status": "success",
-      "requestId": "64a2dce0-2208-4f86-b1d0-9bd2f0bfaf43",
+      "requestId": "fd9a8eae-7e6a-45d7-9ff9-02a6aa9487a9",
       "pages": [
         {
-          "title": "Standard, Select and Notion credits: eligible features",
-          "url": "https://www.notion.com/en-gb/help/standard-select-and-notion-credits-eligible-features",
-          "passage": "Standard, Select and Notion credits: eligible features Notion。Standard, Select and Notion credits: eligible features Learn which Notion AI features use Standard credits, Select credits and Notion credits. When changes start New Business and Enterprise workspaces move to the new credit system explained in this article starting 19/10/26. For existing workspaces, it takes effect on 02/11/26. Business and Enterprise plans include two kinds of AI credits for each member, plus a sh",
+          "title": "GitHub Copilot 评测 2026:四年后还值 10/月吗?",
+          "url": "https://www.nxcode.io/zh/resources/news/github-copilot-review-2026-worth-10-dollars",
+          "passage": "GitHub Copilot 评测 2026:四年后还值 $10/月吗? NxCode。 Agent 模式缩小了差距 Copilot 的 Agent 模式现在可以进行多文件编辑、运行终端命令并自主迭代。虽然不如 Cursor 的 Composer 或 Claude Code 强大,但覆盖了大多数场景。 免费层很慷慨 Copilot Free 每月提供 2,000 次补全和 50 条聊天消息。没有其他主要 AI 编码工具提供如此实用的免费层。 GitHub 集成无可匹敌 PR 摘要、自动代码审查、Copilot Workspace 的 Issue 到代码功能、与 GitHub Actions 的集成。 缺点 Agent 模式弱于竞品 复杂的多文件重构——需要理解跨代码库架构影响的那种——Cursor 和 Claude Code 更胜一筹。 聊天不如 Claude 深入的代码解释和架构讨论方面,Claude 提供明显更好的回复。 300 次高级请求感觉受限 Pro 计划每月 300 次高级模型请求。重度用户月中就会用完。 定价 计划 价格 补全 聊天",
+          "date": "2026/03/20 00:00:00",
+          "site": "www.nxcode.io"
+        },
+        {
+          "title": "GitHub Copilot",
+          "url": "https://www.huoi.cn/sites/652.html",
+          "passage": "GitHub Copilot Ai地带。 支持的语言、IDE 和平台 编程语言:支持多种编程语言,训练数据源于公共代码库,对主流语言如 JavaScript 支持良好,其他语言的支持程度取决于其在公共代码库中的数据量和多样性。 集成开发环境(IDE):可作为扩展集成到 Visual Studio Code、Visual Studio、JetBrains IDEs、Neovim 等主流 IDE 中,在不同开发环境下为开发者提供一致的辅助体验,部分环境已支持聊天功能,未来将在更多环境中拓展。 平台支持:通过 GitHub CLI 在终端提供支持,GitHub Copilot Enterprise 计划将其原生集成到GitHub.com,所有计划都将在 GitHub Mobile 中提供该功能,方便开发者随时随地使用。 定价与计划 个人版(Individual):面向个人开发者、自由职业者、学生和教育工作者,每月 10 美元或每年 100 美元,学生、教师和热门开源项目维护者可免费使用,提供代码补全和聊天协助功能。 商业版(Business):适用于企",
+          "date": "2025/01/06 08:03:08",
+          "site": "www.huoi.cn"
+        },
+        {
+          "title": "GitHub Copilot for Developers",
+          "url": "http://git-hub.com/timothywarner/copilot-dev",
+          "passage": "GitHub Copilot for Developers GitHub。 GH-300 revision effective August 7. Subscription Tiers (July 2026) Billing is usage-based on GitHub AI Credits. 1 AI credit = $0.01 USD. Base credits match the subscription price one-for-one; the flex allotment sits on top and is designed to change as AI economics change. Credits do not roll over, and the allowance resets at 00:00:00 UTC on the first of each month. Code completions and Next Edit Suggestions are unlimited on paid plans and",
           "date": "",
-          "site": "www.notion.com"
+          "site": "git-hub.com"
         },
         {
-          "title": "Notion Pricing Plans: Free, Plus, Business and Enterprise.",
-          "url": "https://www.notion.com/en-gb/pricing",
-          "passage": "Notion Pricing Plans: Free, Plus, Business and Enterprise. Notion。One tool to run your company. Essentials for staying organised. Free US$0per member/month For individuals to organise personal projects and life. Sign up Includes: Trial AI capabilities like generating docs or autofilling databases Trial of Notion AI Capture, organise and act on responses right inside Notion. Basic forms Publish a Notion page on the Web Basic sites Connect multiple calendars to manage work and ",
+          "title": "关于个人 GitHub Copilot 计划及其权益",
+          "url": "http://gitdocs.cn/en/copilot/concepts/billing/individual-plans",
+          "passage": "关于个人 GitHub Copilot 计划及其权益 GitHub文档。关于个人 GitHub Copilot 计划及其权益 GitHub 为个人开发者提供多种 Copilot 计划,每种计划具备不同的功能、模型访问权限和使用限制,以满足各种编码需求。 本文内容 GitHub 为个人开发者提供三种 Copilot 计划,并提供专门的学生套餐,每种计划均依据您的编码习惯、对 AI 模型的兴趣以及所需的灵活程度来满足不同需求。 您可以从以下计划中进行选择。 GitHub Copilot 免费 适用于想要开始使用 Copilot 的开发者。 每月在 IDE 中提供最多 2,000 条内联建议 每月最多提供 50 次高级请求 旨在让您有限度地体验 Copilot 的功能 无需订阅或付款 仅供 个人使用,不适用于组织或企业管理的用户 适合想在升级到付费计划前探索 Copilot 功能的开发者 GitHub Copilot 学生版 经验证的学生可以免费获取无限次补全及额外模型。 在 IDE 中提供 无限次补全 可使用 Copilot Chat 以及额外模型 ",
           "date": "",
-          "site": "www.notion.com"
+          "site": "gitdocs.cn"
         },
         {
-          "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
-          "url": "https://www.notion.com/pricing?sid=cb4ea09c-3c1a-4e08-9595-d96c9d7d1b44",
-          "passage": "Notion Pricing Plans: Free, Plus, Business, & Enterprise. Notion。One tool to run your company. Essentials for staying organized. Free $0per seat / month For individuals to organize personal projects and life. Sign up Plus* $10per seat / month For small teams and professionals to work together. Get started Includes: Trial AI capabilities like generating docs, or autofilling databases Trial of Notion AI Capture, organize, and act on responses right inside Notion. Basic forms Pu",
+          "title": " GitHub Copilot FAQ",
+          "url": "https://github.com/community/community/discussions/144674",
+          "passage": "🔖 GitHub Copilot FAQ GitHub。🔖 GitHub Copilot FAQ #144674 Akash1134 asked this question in Copilot Conversations Akash1134 on Nov 15, 2024Nov 15, 2024 Akash1134 on Nov 15, 2024Nov 15, 2024 GitHub Copilot FAQ Your complete guide to using GitHub Copilot effectively. Whether you're just getting started, troubleshooting issues, or exploring advanced features, you'll find answers and resources here. Note Last updated: January 9, 2026 | For real-time Copilot status, check GitHub's",
+          "date": "2024/11/15 00:00:00",
+          "site": "GitHub"
+        },
+        {
+          "title": "GitHub Copilot works where you work",
+          "url": "https://dstplatform.ru/#expert",
+          "passage": "GitHub Copilot works where you work。Features Agent mode: Because two brains are better than one From broken to brilliant, fast. Need to make a sweeping change? Agent mode helps you do it quickly by analyzing code, proposing edits, running tests, and validating results across multiple files. Try agent mode Plans the path, handles the work. Agent mode reasons through the problem, coordinates next steps, and applies the changes—while keeping you in the driver’s seat. Don’t sweat",
           "date": "",
-          "site": "www.notion.com"
+          "site": "dstplatform.ru"
         },
         {
-          "title": "Notion AI Pricing 2026: Every Plan, Cost, and the Add-On Change Explained",
-          "url": "https://felloai.com/notion-ai-pricing/",
-          "passage": "Notion AI Pricing 2026: Every Plan, Cost, and the Add-On Change Explained Fello AI。 Notion Free at $0 and Plus at $10/User/Month You can still try Notion AI for free, but the trial is finite, not a recurring quota. Notion’s own docs describe it as “a limited number of complimentary AI responses”, which is enough to test the writing tools and database autofill in a few sessions. There is no published per-month free quota. The Plus plan ($10/user/month annual, $12 monthly) gets",
-          "date": "2026/10/14 00:00:00",
-          "site": "felloai.com"
-        },
-        {
-          "title": "One tool for your whole company.Free for teams to try.",
-          "url": "https://www.notion.so/pricing?pscd=affiliate.notion.so&ps_partner_key=YnJlbmRvbm1hY2RvbmFsZDk3MDI&ps_xid=CTtAwqzlMPHHjk&gsxid=CTtAwqzlMPHHjk&gspk=YnJlbmRvbm1hY2RvbmFsZDk3MDI",
-          "passage": "One tool for your whole company.Free for teams to try.。 Just click the ( ? ) button at the bottom right on desktop, or tap “Help & feedback” if you’re on mobile. Priority support Our team of customer success managers are experts to help you get the most out of Notion. Customer success manager Custom Free Unlimited blocks for individuals. Limited block trial for teams Get started Plus $8 per user/month billed annually Business $15 per user/month billed annually Used by the wor",
+          "title": "GitHub Copilot",
+          "url": "https://github.com/features/copilot?q=is%3Aissue+sort%3Areactions-heart-desc+label%3Abug+is%3Aclosed",
+          "passage": "GitHub Copilot GitHub。GitHub Copilot More Command your craft Your AI accelerator for every workflow, from the editor to the enterprise. Go beyond one-size-fits-all Choose from leading LLMs optimized for speed, accuracy, or cost. Use your agents, your way Use GitHub Copilot, your own custom agents, or the third-party ones you already rely on. Stay in your flow Copilot works where you do—in GitHub, your IDE, the CLI, project tools, chat apps, and custom MCP servers. Workflow Co",
           "date": "",
-          "site": "www.notion.so"
+          "site": "GitHub"
         },
         {
-          "title": "變更您的方案",
-          "url": "https://www.notion.so/zh-tw/help/upgrade-or-downgrade-your-plan",
-          "passage": "變更您的方案 Notion。變更您的方案 在此說明文件中 我們為各類使用者與團隊提供四種不同的定價方案。在此,我們將逐一介紹,並說明升級或降級工作空間的意義。 注意: 方案適用於工作空間層級並以此計費。一個帳戶可以擁有多個工作空間,且每個工作空間都可以使用不同的方案。 如需計費與付款的詳細指南,請閱讀 這篇文章 → Notion 提供免費方案以及多種付費方案。您可以前往 notion.com/pricing 比較我們的方案並查看價格。方案的適用性可能因工作區而異,因此下方列出的方案未必皆提供給您。我們的方案概覽如下: 免費版:此方案專為想要整理個人專案與任務的個人使用者所設計。 Plus 版:此方案非常適合小型團隊協作。Plus 版可能不適用於所有工作空間。 商業版:此方案讓企業能夠使用 Notion AI 與高階整合功能進行協作。 企業版:此方案專為追求擴充性、高階控制與安全性的較大型組織所設計。它也包含 Notion AI。 員工人數少於 100 人的組織可以 從 Notion 設定中升級至企業版。 員工人數超過 100 人的組織可以 聯絡我",
-          "date": "",
-          "site": "www.notion.so"
-        },
-        {
-          "title": "Notion Pricing in 2026: Every Tier, Plus the Costs Nobody Mentions",
-          "url": "https://www.usecarly.com/blog/notion-pricing?trk=public_post_comment-text",
-          "passage": "Notion Pricing in 2026: Every Tier, Plus the Costs Nobody Mentions Carly。Notion Pricing in 2026: Every Tier, Plus the Costs Nobody Mentions Notion has four plans: Free at $0, Plus at $10 per member/month, Business at $20 per member/month, and Enterprise at custom pricing. Those Plus and Business figures are the annual-billed rates; pay month-to-month and they rise to roughly $12 and $24 per member respectively. Pricing is per seat, so a 5-person team on Business is $100/month",
-          "date": "2026/07/15 00:00:00",
-          "site": "www.usecarly.com"
-        },
-        {
-          "title": "Notion AI and Notion credits",
-          "url": "https://wiki.licenseware.io/wiki/notion-ai-and-notion-credits",
-          "passage": "Notion AI and Notion credits Licenseware Wiki。Notion AI and Notion credits This article is about how Notion licenses Notion AI: inclusion in the Business and Enterprise plans, the usage allowance, complimentary responses on Free and Plus, the legacy Notion AI add-on, and Notion credits for Custom Agents, Workers and premium models. For seat billing see Notion seat billing and true-ups. Notion AI is the set of artificial-intelligence features in Notion: Notion Agent, AI Meetin",
-          "date": "2026/10/07 00:00:00",
-          "site": "wiki.licenseware.io"
-        },
-        {
-          "title": "Manage your usage allowance for Notion AI",
-          "url": "https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai",
-          "passage": "Manage your usage allowance for Notion AI Notion。Manage your usage allowance for Notion AI In this help doc Learn about the usage allowance for Notion AI, and how admins can manage this for their team. To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features. If you come close to using the full allowance, access to some AI features may temporarily pause until your usage refreshes. You can view how your usage i",
-          "date": "",
-          "site": "www.notion.com"
-        },
-        {
-          "title": "Notion AI Review (2026): Features & Pricing",
-          "url": "https://ainewsandupdates.com/?p=99",
-          "passage": "Notion AI Review (2026): Features & Pricing。 Annual billing trims roughly 20%; guests are free on all tiers. Plan Price What you get Free $0 / member Full workspace, but trial-only AI — a small lifetime quota of responses (~20), then nothing. Plus ~£8 / $10 per member / mo More workspace features, but the same trial-only AI. The plan that frustrates most — the price implies AI is included, and beyond the trial it isn’t. Business ~£16 / $20 per member / mo (annual) — $24 month",
-          "date": "2026/06/20 00:00:00",
-          "site": "ainewsandupdates.com"
+          "title": "Announcing 150M developers and a new free tier for GitHub Copilot in VS Code",
+          "url": "https://github.blog/news-insights/product-news/github-copilot-in-vscode-free/?_bhlid=1c96dda4366d8070d06e00abf1c4746e80a06fe2",
+          "passage": "Announcing 150M developers and a new free tier for GitHub Copilot in VS Code The GitHub Blog。Come and join 150M developers on GitHub that can now code with Copilot for free in VS Code. GitHub has a long history of offering free products and services to developers. Starting with free open source and public collaboration, we added free private repos, free minutes for GitHub Actions and GitHub Codespaces, and free package and release storage. Today, we are adding GitHub Copilot ",
+          "date": "2024/12/18 00:00:00",
+          "site": "github.blog"
         }
       ]
     }
   ],
   "sources": [
     {
-      "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
-      "url": "https://notion.com/pricing",
-      "passage": "Notion Pricing Plans: Free, Plus, Business, & Enterprise. Notion。One tool to run your company. Select payment mode: Pay monthly Pay yearly Price inUSD Essentials for staying organized. Free $0per member / month For individuals to organize personal projects and life. Sign up Includes: Trial AI capabilities like generating docs, or autofilling databases Trial of Notion AI Capture, organize, and act on responses right inside Notion. Basic forms Publish a Notion page to the web B",
+      "title": " GitHub Copilot FAQ",
+      "url": "https://github.com/community/community/discussions/144674",
+      "passage": "🔖 GitHub Copilot FAQ GitHub。🔖 GitHub Copilot FAQ #144674 Akash1134 asked this question in Copilot Conversations Akash1134 on Nov 15, 2024Nov 15, 2024 Akash1134 on Nov 15, 2024Nov 15, 2024 GitHub Copilot FAQ Your complete guide to using GitHub Copilot effectively. Whether you're just getting started, troubleshooting issues, or exploring advanced features, you'll find answers and resources here. Note Last updated: January 9, 2026 | For real-time Copilot status, check GitHub's",
+      "date": "2024/11/15 00:00:00",
+      "site": "GitHub",
+      "rounds": [
+        1,
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Introducing GitHub Copilot Free · community · Discussion #147189",
+      "url": "https://github.com/orgs/community/discussions/147189",
+      "passage": "Introducing GitHub Copilot Free · community · Discussion #147189 GitHub。Introducing GitHub Copilot Free #147189 We’re thrilled to announce the GitHub Copilot Free plan! It’s now easier than ever for developers to explore the power of GitHub Copilot in your favourite IDE Visual Studio Code, Visual Studio, JetBrains, and directly on GitHub. 🎉 By signing in with your personal GitHub account, you’ll gain 2000 code completions and 50 chat messages per month—enough to experience h",
       "date": "",
-      "site": "notion.com",
+      "site": "GitHub",
       "rounds": [
         1,
         2
@@ -233,47 +246,11 @@
       "assessment": "unreviewed"
     },
     {
-      "title": "Notion定价方案:免费版､Plus 版､商业版和企业版｡",
-      "url": "https://notion.com/zh-CN/pricing",
-      "passage": "Notion定价方案:免费版、Plus 版、商业版和企业版。 Notion。使用一个工具运营公司业务。 受到以下团队的信任 选择支付方式: 月付 年付 年付方案最高可节省 20% 选择货币USD 必备工具,让一切井井有条。 免费 US$0每席位/月 为管理个人的项目和生活而生。 注册 Plus 版* US$10每席位/月 为小型团队和专业人士的携手共赢而生。 立即开始 包括: 试用 AI 功能,如生成文档或自动填充数据库 Notion AI 试用版 在 Notion 中直接捕捉、整理和回复信息。 基础表单 将 Notion 页面发布到网上 基础网站 连接多个 Google 日历以共同管理工作和时间。 Notion 日历 在同一个平台整理成百上千个事项,如项目或任务 数据库,包括子任务、依赖项、自定义属性等 免费版的全部功能,以及: 试用 AI 功能,如生成文档或自动填充数据库 Notion AI 试用版 移除公共表单中的 Notion 品牌标识 自定义表单 自定义顶部标题,选择浅色或深色主题,添加自定义图标,并与 Google Analytics",
-      "date": "",
-      "site": "notion.com",
-      "rounds": [
-        1
-      ],
-      "provenance": "yuanbao_search",
-      "assessment": "unreviewed"
-    },
-    {
-      "title": "What is Notion?  Notion",
-      "url": "https://notion.com/es-es/product/notion",
-      "passage": "What is Notion? | Notion Notion。 Espacios de equipo privados Verifica la titularidad de un dominio de correo electrónico para acceder a funciones de seguridad avanzada, como el inicio de sesión único. Verificación de dominios Conéctate a GitHub, Asana y mucho más Conexiones prémium Questions & Answers What is Notion used for? Notion is a connected workspace that brings docs, wikis, projects, and databases together in one place. With Notion AI and custom agents built in, it al",
-      "date": "",
-      "site": "notion.com",
-      "rounds": [
-        1
-      ],
-      "provenance": "yuanbao_search",
-      "assessment": "unreviewed"
-    },
-    {
-      "title": "可容纳 Wikis 百科､文档和项目的互联工作空间Notion",
-      "url": "https://notion.com/zh-cn/startups",
-      "passage": "可容纳 Wikis 百科、文档和项目的互联工作空间|Notion Notion。一个工作空间,集齐所有创业必备工具。 AI 工作空间,让你的灵感付诸行动。免费获得长达 6 个月的商业版方案,内含 Notion AI 功能。 破纪录增长的企业都在使用 Notion 效率飞跃,成本锐减。 全能型 AI 工作空间,支持随需扩展。立享 6 个月免费商业版,轻松节省 12000 美元。 AI 工具太多?在此计算潜在节省金额。 AI 搜索35 美元/用户AI 聊天机器人20 美元/用户AI 速记18 美元/用户AI 写作助手20 美元/用户AI 电子邮件应用30 美元/用户AI 探究40 美元/用户日程安排15 美元/用户团队 Wikis 百科10 美元/用户项目管理工具24 美元/用户基础 CRM20 美元/用户网站生成器20 美元/用户表单15 美元/用户 团队规模月节省金额US$340年节省金额US$4,080 创业公司的首选工具。 强大、灵活、极速——这就是全球创业公司都选择入驻 Notion 的原因。 94% 的福布斯 AI 50 强公司使用 No",
-      "date": "",
-      "site": "notion.com",
-      "rounds": [
-        1
-      ],
-      "provenance": "yuanbao_search",
-      "assessment": "unreviewed"
-    },
-    {
-      "title": "Your connected workspace for wiki, docs & projects  Notion",
-      "url": "https://notion.com/startups",
-      "passage": "Your connected workspace for wiki, docs & projects | Notion Notion。Notion for Startups Build and run your entire startup in one place. The AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included. The fastest growing companies in history build on Notion Move faster, cut costs. Go all-in-one with the AI workspace that scales with you. Get the Business plan free for up to 6 months and save $12,000. The tool of choice for startups. It’",
-      "date": "",
-      "site": "notion.com",
+      "title": "GitHub Copilot for Developers",
+      "url": "https://github.com/timothywarner/copilot-dev/blob/main/README.md",
+      "passage": "GitHub Copilot for Developers GitHub。 GH-300 revision effective August 7. Subscription Tiers (July 2026) Billing is usage-based on GitHub AI Credits . 1 AI credit = $0.01 USD. Base credits match the subscription price one-for-one; the flex allotment sits on top and is designed to change as AI economics change. Credits do not roll over, and the allowance resets at 00:00:00 UTC on the first of each month. Code completions and Next Edit Suggestions are unlimited on paid plans an",
+      "date": "2026/07/22 00:00:00",
+      "site": "GitHub",
       "rounds": [
         1,
         2
@@ -282,11 +259,11 @@
       "assessment": "unreviewed"
     },
     {
-      "title": "Notion AI for databases",
-      "url": "https://notion.com/help/autofill",
-      "passage": "Notion AI for databases Notion。Notion AI for databases In this Article Learn how to use Notion AI to create databases and make them even more valuable 🪄 Create a database with Notion AI You can create a database in just seconds using Notion AI. Creating a database with Notion AI is free on the Business or Enterprise plans. If you are not on those plans, Notion AI will use credits from your workspace, including any complimentary credits you may have available. From a page To ",
+      "title": "Pricing calculator",
+      "url": "https://github.com/pricing/calculator?feature=codespaces",
+      "passage": "Pricing calculator GitHub。Pricing calculator Configure and estimate the costs for GitHub products. Plans GitHub Enterprise Security, compliance and flexible deployment. Maximize developer agility and productivity. Developers can enjoy a fully-feature environment to build and innovate from idea to production. Work more collaboratively and efficiently anytime, anywhere, with secure open-source code repos and integrated code-to-cloud workflows. Number of seats Cost per month $0.",
       "date": "",
-      "site": "notion.com",
+      "site": "GitHub",
       "rounds": [
         1
       ],
@@ -294,11 +271,23 @@
       "assessment": "unreviewed"
     },
     {
-      "title": "Notion  Every",
-      "url": "https://notion.com/redeem/every",
-      "passage": "Notion 🤝 Every Notion。Notion 🤝 Every Get 6 months of Notion Business with Notion AI for free. Exclusively for Every All Access Subscribers. The AI workspace for work that matters Capture context, find answers, and automate tasks with AI built for you. Capture knowledge Meetings, decisions, processes. The notes take themselves, and documentation keeps itself up to date. Find answers Was that info in an email? Slide deck? Slack message? Just ask Notion. Automate busywork Agen",
+      "title": "Pricing calculator",
+      "url": "https://github.com/pricing/calculator?feature=actions",
+      "passage": "Pricing calculator GitHub。Pricing calculator Configure and estimate the costs for GitHub products. Plans GitHub Enterprise Security, compliance and flexible deployment. Maximize developer agility and productivity. Developers can enjoy a fully-feature environment to build and innovate from idea to production. Work more collaboratively and efficiently anytime, anywhere, with secure open-source code repos and integrated code-to-cloud workflows. Number of seats Cost per month $0.",
       "date": "",
-      "site": "notion.com",
+      "site": "GitHub",
+      "rounds": [
+        1
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Command your craft",
+      "url": "https://github.com/features/copilot?culture=en-us",
+      "passage": "Command your craft GitHub。 Access to Copilot Business and Enterprise is managed by your GitHub Administrator. They can control access to preview features, models, and set GitHub Copilot policies for your organization. Additionally, you can use your network firewall to explicitly allow access to Copilot Business and/or block access to Copilot Pro or Free. For more details, refer to the documentation . Plans & Pricing What are the differences between the Free, Pro, Pro+, Max, B",
+      "date": "",
+      "site": "GitHub",
       "rounds": [
         1,
         2
@@ -307,60 +296,49 @@
       "assessment": "unreviewed"
     },
     {
-      "title": "Your connected workspace for wiki, docs & projects  Notion",
-      "url": "https://notion.com/es-es/lp/linkedin-new",
-      "passage": "Your connected workspace for wiki, docs & projects | Notion Notion。One workspace. Every startup tool. The AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included. Unlock your startup offer The fastest growing companies in history build on Notion Move faster, cut costs. Go all-in-one with the AI workspace that scales with you. Get the Business plan free for up to 6 months and save $12,000. Unlock your startup offer ¿Demasiadas herra",
+      "title": "GitHub Copilot",
+      "url": "https://github.com/features/copilot?q=is%3Aissue+sort%3Areactions-heart-desc+label%3Abug+is%3Aclosed",
+      "passage": "GitHub Copilot GitHub。GitHub Copilot More Command your craft Your AI accelerator for every workflow, from the editor to the enterprise. Go beyond one-size-fits-all Choose from leading LLMs optimized for speed, accuracy, or cost. Use your agents, your way Use GitHub Copilot, your own custom agents, or the third-party ones you already rely on. Stay in your flow Copilot works where you do—in GitHub, your IDE, the CLI, project tools, chat apps, and custom MCP servers. Workflow Co",
       "date": "",
-      "site": "notion.com",
+      "site": "GitHub",
       "rounds": [
         1,
-        2
+        2,
+        3
       ],
       "provenance": "yuanbao_search",
       "assessment": "unreviewed"
     },
     {
-      "title": "Meet your AI team  Notion",
-      "url": "https://notion.com/zh-CN/retro",
-      "passage": "Meet your AI team | Notion Notion。Meet your 24/7 AI team Infinite minds, built for teamwork. Answer questions, prioritize tasks, and write reports—all while you sleep. Trusted by teams at Agents Enterprise search AI Meeting Notes Admin controls Enterprise Search 16:10 Admin Controls 16:10 If it’s something that’s repetitive, we have a Notion Agent for it. Ben LevickHead of AI & Operations, Ramp AI that works where your team works. Try for free. Free $0per member / month For i",
+      "title": "39.4 大模型本地部署",
+      "url": "https://github.com/lfourneen/FreeBSD-Ask/blob/main/di-39-zhang-ren-gong-zhi-neng-ai/di-39.4-jie-da-mo-xing-ben-di-bu-shu.md",
+      "passage": "39.4 大模型本地部署 GitHub。 GitHub Copilot CLI GitHub Copilot CLI 是 GitHub 的闭源项目。GitHub 提供免费套餐(每月 2000 次代码补全和 50 次聊天请求),超出额度或使用高级功能则需付费订阅。 GitHub Copilot CLI 将 AI 编程助手集成到命令行环境中,用户可以通过自然语言对话编写、调试和理解代码,并与 GitHub 工作流程实现集成。 安装 使用 pkg 安装: # pkg install github-copilot-cli 使用 Ports 安装: # cd /usr/ports/misc/github-copilot-cli/ # make install clean 使用 GitHub Copilot CLI $ copilot 在浏览器打开 https://github.com/login/device,输入 Copilot 输出的一次性验证码,在授权后即可使用 Copilot。 连续按两次 Ctrl + C 即可退出该工具。...",
       "date": "",
-      "site": "notion.com",
+      "site": "GitHub",
       "rounds": [
-        2
+        1
       ],
       "provenance": "yuanbao_search",
       "assessment": "unreviewed"
     },
     {
-      "title": "Meet your AI team  Notion",
-      "url": "https://notion.com/pt/break",
-      "passage": "Meet your AI team | Notion。Meet your 24/7 AI team Infinite minds, built for teamwork. Answer questions, prioritize tasks, and write reports—all while you sleep. Trusted by teams at Agents Admin controls Enterprise Search 16:10 Admin Controls 16:10 If it’s something that’s repetitive, we have a Notion Agent for it. Ben LevickHead of AI & Operations, Ramp AI that works where your team works. Try for free. Free $0per member / month For individuals to organize personal projects a",
+      "title": "更新 Copilot 设置页",
+      "url": "https://github.com/V-orl/github-chinese/commit/7acc2065990f5a8d5e8e1348eb9628a933f53a29",
+      "passage": "更新 Copilot 设置页 GitHub。\", 4665 + //\"Copilot Free is active for your account\": \"您的账户已启用 Copilot 免费版\", 4666 + //\"Responses are capped at 2,000 code completions and 50 chat messages per month.\": \"回复上限为每月 2,000 次代码完成和 50 条聊天信息。\", 4665 4667 \"Get unlimited usage with Copilot Pro\": \"通过 Copilot Pro 无限制使用\", 4666 4668 \"Unlimited messages and interactions\": \"信息和互动无限制\", 4667 4669 \"Access to the latest models\": \"访问最新模型\", @@ -4670,7 +4672,7 @@ I18N[\"zh-CN\"][\"settings/copilot\"] = { // 设置 - G",
       "date": "",
-      "site": "notion.com",
+      "site": "GitHub",
       "rounds": [
-        2
+        1
       ],
       "provenance": "yuanbao_search",
       "assessment": "unreviewed"
     },
     {
-      "title": "Notion 2.21: Notion AI, for everyone",
-      "url": "https://notion.com/releases/2023-02-22",
-      "passage": "Notion 2.21: Notion AI, for everyone Notion。Try Notion AI for free No more waitlist, no “limited preview.” That means you can start to leverage the power of AI right inside Notion, across all your existing docs and notes—today. Use Notion AI to augment your capabilities in new and unexpected ways. Just open any Notion page, and give these a try: Generate an instant summary from a page of messy notes. Start a new line, hit space on your keyboard, then select “Summarize.” Becom",
-      "date": "2023/02/22 00:00:00",
-      "site": "notion.com",
-      "rounds": [
-        2
-      ],
-      "provenance": "yuanbao_search",
-      "assessment": "unreviewed"
-    },
-    {
-      "title": "Who’s who in a workspace",
-      "url": "https://notion.com/help/whos-who-in-a-workspace",
-      "passage": "Who’s who in a workspace Notion。Who’s who in a workspace In this help doc Learn about the different kinds of people in a workspace. A Notion workspace can have several types of users or roles: Members Restricted members Guests Temporary members Workspace owners (Enterprise Plan only) Membership admins (Enterprise Plan only) Organization owners Read on to learn more about each type of user. Members Members are individuals in your company or organization. These could be colleag",
-      "date": "",
-      "site": "notion.com",
+      "title": " GitHub Copilot FAQ",
+      "url": "https://github.com/orgs/community/discussions/144674",
+      "passage": "🔖 GitHub Copilot FAQ GitHub。🔖 GitHub Copilot FAQ #144674 Akash1134 asked this question in Copilot Conversations Akash1134 on Nov 15, 2024Nov 15, 2024 Akash1134 on Nov 15, 2024Nov 15, 2024 GitHub Copilot FAQ Your complete guide to using GitHub Copilot effectively. Whether you're just getting started, troubleshooting issues, or exploring advanced features, you'll find answers and resources here. Note Last updated: January 9, 2026 | For real-time Copilot status, check GitHub's",
+      "date": "2024/11/15 00:00:00",
+      "site": "GitHub",
       "rounds": [
         2
       ],
@@ -368,47 +346,59 @@
       "assessment": "unreviewed"
     },
     {
-      "title": "Standard, Select and Notion credits: eligible features",
-      "url": "https://www.notion.com/en-gb/help/standard-select-and-notion-credits-eligible-features",
-      "passage": "Standard, Select and Notion credits: eligible features Notion。Standard, Select and Notion credits: eligible features Learn which Notion AI features use Standard credits, Select credits and Notion credits. When changes start New Business and Enterprise workspaces move to the new credit system explained in this article starting 19/10/26. For existing workspaces, it takes effect on 02/11/26. Business and Enterprise plans include two kinds of AI credits for each member, plus a sh",
+      "title": "GitHub Copilot · Plans & pricing",
+      "url": "https://github.com/features/copilot/plans?cft=copilot_li.features_copilot_!",
+      "passage": "GitHub Copilot · Plans & pricing GitHub。Take flight with GitHub Copilot Pricing plans For individualsFor businesses Free For getting started with GitHub Copilot. $0USD Get startedOpen in VS Code What's included: 2,000 completions per month Access to Haiku 4.5, GPT-5 mini, and more Copilot CLI Community Support No credit card required. Verified students have access to the GitHub Copilot Student plan. Learn more Pro For everyday coding with agents in GitHub Copilot. $10USDper u",
       "date": "",
-      "site": "www.notion.com",
+      "site": "GitHub",
       "rounds": [
-        3
+        2
       ],
       "provenance": "yuanbao_search",
       "assessment": "unreviewed"
     },
     {
-      "title": "Notion Pricing Plans: Free, Plus, Business and Enterprise.",
-      "url": "https://www.notion.com/en-gb/pricing",
-      "passage": "Notion Pricing Plans: Free, Plus, Business and Enterprise. Notion。One tool to run your company. Essentials for staying organised. Free US$0per member/month For individuals to organise personal projects and life. Sign up Includes: Trial AI capabilities like generating docs or autofilling databases Trial of Notion AI Capture, organise and act on responses right inside Notion. Basic forms Publish a Notion page on the Web Basic sites Connect multiple calendars to manage work and ",
+      "title": "GitHub Copilot · Your AI coding agent · GitHub",
+      "url": "https://github.com/features/copilot?after=0.14.0",
+      "passage": "Command your craft Your AI accelerator for every workflow, from the editor to the enterprise. Download for Linux See plans & pricing Already have Visual Studio Code? Open now Companies powered by GitHub DuolingoFedExAmerican AirlinesShopifyStripeCocaColaCoyote LogisticsMercado LibreGeneral Motors DuolingoFedExAmerican AirlinesShopifyStripeCocaColaCoyote LogisticsMercado LibreGeneral Motors Go beyond one-size-fits-all Choose from leading LLMs optimized for speed, accuracy, or ",
       "date": "",
-      "site": "www.notion.com",
+      "site": "GitHub",
       "rounds": [
-        3
+        2
       ],
       "provenance": "yuanbao_search",
       "assessment": "unreviewed"
     },
     {
-      "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
-      "url": "https://www.notion.com/pricing?sid=cb4ea09c-3c1a-4e08-9595-d96c9d7d1b44",
-      "passage": "Notion Pricing Plans: Free, Plus, Business, & Enterprise. Notion。One tool to run your company. Essentials for staying organized. Free $0per seat / month For individuals to organize personal projects and life. Sign up Plus* $10per seat / month For small teams and professionals to work together. Get started Includes: Trial AI capabilities like generating docs, or autofilling databases Trial of Notion AI Capture, organize, and act on responses right inside Notion. Basic forms Pu",
+      "title": "GitHub Copilot · Your AI pair programmer",
+      "url": "https://github.com/features/copilot?q=is%3Apr+no%3Aassignee+is%3Aopen+updated%3A%3E2024-04-07+sort%3Acomments-desc+review%3Arequired",
+      "passage": "GitHub Copilot · Your AI pair programmer GitHub。 GitHub Copilot Autofix provides contextual explanations and code suggestions to help developers fix vulnerabilities in code, and is included in GitHub Advanced Security. What if I do not want GitHub Copilot? GitHub Copilot is entirely optional and requires you to opt in before gaining access. You can easily configure its usage directly in the editor, enabling or disabling it at any time. Additionally, you have control over whic",
       "date": "",
-      "site": "www.notion.com",
+      "site": "GitHub",
       "rounds": [
-        3
+        2
       ],
       "provenance": "yuanbao_search",
       "assessment": "unreviewed"
     },
     {
-      "title": "Manage your usage allowance for Notion AI",
-      "url": "https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai",
-      "passage": "Manage your usage allowance for Notion AI Notion。Manage your usage allowance for Notion AI In this help doc Learn about the usage allowance for Notion AI, and how admins can manage this for their team. To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features. If you come close to using the full allowance, access to some AI features may temporarily pause until your usage refreshes. You can view how your usage i",
+      "title": "Make and commit code changes locally or on GitHub",
+      "url": "https://github.com/features/copilot/plans?locale=en-US",
+      "passage": "Make and commit code changes locally or on GitHub GitHub。 GitHub Copilot has multiple offerings for organizations and individual developers. Key differences between the plans include total GitHub AI Credits and available models. To see more information and a comparison chart between plans, please see our plans & pricing page . What happens when I hit my usage limit? When you've used your monthly allowance, you have a few options: Wait for your next cycle. Your included allowa",
       "date": "",
-      "site": "www.notion.com",
+      "site": "GitHub",
+      "rounds": [
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "GitHub Copilot 评测 2026:四年后还值 10/月吗?",
+      "url": "https://www.nxcode.io/zh/resources/news/github-copilot-review-2026-worth-10-dollars",
+      "passage": "GitHub Copilot 评测 2026:四年后还值 $10/月吗? NxCode。 Agent 模式缩小了差距 Copilot 的 Agent 模式现在可以进行多文件编辑、运行终端命令并自主迭代。虽然不如 Cursor 的 Composer 或 Claude Code 强大,但覆盖了大多数场景。 免费层很慷慨 Copilot Free 每月提供 2,000 次补全和 50 条聊天消息。没有其他主要 AI 编码工具提供如此实用的免费层。 GitHub 集成无可匹敌 PR 摘要、自动代码审查、Copilot Workspace 的 Issue 到代码功能、与 GitHub Actions 的集成。 缺点 Agent 模式弱于竞品 复杂的多文件重构——需要理解跨代码库架构影响的那种——Cursor 和 Claude Code 更胜一筹。 聊天不如 Claude 深入的代码解释和架构讨论方面,Claude 提供明显更好的回复。 300 次高级请求感觉受限 Pro 计划每月 300 次高级模型请求。重度用户月中就会用完。 定价 计划 价格 补全 聊天",
+      "date": "2026/03/20 00:00:00",
+      "site": "www.nxcode.io",
       "rounds": [
         3
       ],
@@ -416,11 +406,11 @@
       "assessment": "unreviewed"
     },
     {
-      "title": "Notion AI Pricing 2026: Every Plan, Cost, and the Add-On Change Explained",
-      "url": "https://felloai.com/notion-ai-pricing/",
-      "passage": "Notion AI Pricing 2026: Every Plan, Cost, and the Add-On Change Explained Fello AI。 Notion Free at $0 and Plus at $10/User/Month You can still try Notion AI for free, but the trial is finite, not a recurring quota. Notion’s own docs describe it as “a limited number of complimentary AI responses”, which is enough to test the writing tools and database autofill in a few sessions. There is no published per-month free quota. The Plus plan ($10/user/month annual, $12 monthly) gets",
-      "date": "2026/10/14 00:00:00",
-      "site": "felloai.com",
+      "title": "GitHub Copilot",
+      "url": "https://www.huoi.cn/sites/652.html",
+      "passage": "GitHub Copilot Ai地带。 支持的语言、IDE 和平台 编程语言:支持多种编程语言,训练数据源于公共代码库,对主流语言如 JavaScript 支持良好,其他语言的支持程度取决于其在公共代码库中的数据量和多样性。 集成开发环境(IDE):可作为扩展集成到 Visual Studio Code、Visual Studio、JetBrains IDEs、Neovim 等主流 IDE 中,在不同开发环境下为开发者提供一致的辅助体验,部分环境已支持聊天功能,未来将在更多环境中拓展。 平台支持:通过 GitHub CLI 在终端提供支持,GitHub Copilot Enterprise 计划将其原生集成到GitHub.com,所有计划都将在 GitHub Mobile 中提供该功能,方便开发者随时随地使用。 定价与计划 个人版(Individual):面向个人开发者、自由职业者、学生和教育工作者,每月 10 美元或每年 100 美元,学生、教师和热门开源项目维护者可免费使用,提供代码补全和聊天协助功能。 商业版(Business):适用于企",
+      "date": "2025/01/06 08:03:08",
+      "site": "www.huoi.cn",
       "rounds": [
         3
       ],
@@ -428,11 +418,11 @@
       "assessment": "unreviewed"
     },
     {
-      "title": "One tool for your whole company.Free for teams to try.",
-      "url": "https://www.notion.so/pricing?pscd=affiliate.notion.so&ps_partner_key=YnJlbmRvbm1hY2RvbmFsZDk3MDI&ps_xid=CTtAwqzlMPHHjk&gsxid=CTtAwqzlMPHHjk&gspk=YnJlbmRvbm1hY2RvbmFsZDk3MDI",
-      "passage": "One tool for your whole company.Free for teams to try.。 Just click the ( ? ) button at the bottom right on desktop, or tap “Help & feedback” if you’re on mobile. Priority support Our team of customer success managers are experts to help you get the most out of Notion. Customer success manager Custom Free Unlimited blocks for individuals. Limited block trial for teams Get started Plus $8 per user/month billed annually Business $15 per user/month billed annually Used by the wor",
+      "title": "GitHub Copilot for Developers",
+      "url": "http://git-hub.com/timothywarner/copilot-dev",
+      "passage": "GitHub Copilot for Developers GitHub。 GH-300 revision effective August 7. Subscription Tiers (July 2026) Billing is usage-based on GitHub AI Credits. 1 AI credit = $0.01 USD. Base credits match the subscription price one-for-one; the flex allotment sits on top and is designed to change as AI economics change. Credits do not roll over, and the allowance resets at 00:00:00 UTC on the first of each month. Code completions and Next Edit Suggestions are unlimited on paid plans and",
       "date": "",
-      "site": "www.notion.so",
+      "site": "git-hub.com",
       "rounds": [
         3
       ],
@@ -440,11 +430,11 @@
       "assessment": "unreviewed"
     },
     {
-      "title": "變更您的方案",
-      "url": "https://www.notion.so/zh-tw/help/upgrade-or-downgrade-your-plan",
-      "passage": "變更您的方案 Notion。變更您的方案 在此說明文件中 我們為各類使用者與團隊提供四種不同的定價方案。在此,我們將逐一介紹,並說明升級或降級工作空間的意義。 注意: 方案適用於工作空間層級並以此計費。一個帳戶可以擁有多個工作空間,且每個工作空間都可以使用不同的方案。 如需計費與付款的詳細指南,請閱讀 這篇文章 → Notion 提供免費方案以及多種付費方案。您可以前往 notion.com/pricing 比較我們的方案並查看價格。方案的適用性可能因工作區而異,因此下方列出的方案未必皆提供給您。我們的方案概覽如下: 免費版:此方案專為想要整理個人專案與任務的個人使用者所設計。 Plus 版:此方案非常適合小型團隊協作。Plus 版可能不適用於所有工作空間。 商業版:此方案讓企業能夠使用 Notion AI 與高階整合功能進行協作。 企業版:此方案專為追求擴充性、高階控制與安全性的較大型組織所設計。它也包含 Notion AI。 員工人數少於 100 人的組織可以 從 Notion 設定中升級至企業版。 員工人數超過 100 人的組織可以 聯絡我",
+      "title": "关于个人 GitHub Copilot 计划及其权益",
+      "url": "http://gitdocs.cn/en/copilot/concepts/billing/individual-plans",
+      "passage": "关于个人 GitHub Copilot 计划及其权益 GitHub文档。关于个人 GitHub Copilot 计划及其权益 GitHub 为个人开发者提供多种 Copilot 计划,每种计划具备不同的功能、模型访问权限和使用限制,以满足各种编码需求。 本文内容 GitHub 为个人开发者提供三种 Copilot 计划,并提供专门的学生套餐,每种计划均依据您的编码习惯、对 AI 模型的兴趣以及所需的灵活程度来满足不同需求。 您可以从以下计划中进行选择。 GitHub Copilot 免费 适用于想要开始使用 Copilot 的开发者。 每月在 IDE 中提供最多 2,000 条内联建议 每月最多提供 50 次高级请求 旨在让您有限度地体验 Copilot 的功能 无需订阅或付款 仅供 个人使用,不适用于组织或企业管理的用户 适合想在升级到付费计划前探索 Copilot 功能的开发者 GitHub Copilot 学生版 经验证的学生可以免费获取无限次补全及额外模型。 在 IDE 中提供 无限次补全 可使用 Copilot Chat 以及额外模型 ",
       "date": "",
-      "site": "www.notion.so",
+      "site": "gitdocs.cn",
       "rounds": [
         3
       ],
@@ -452,11 +442,11 @@
       "assessment": "unreviewed"
     },
     {
-      "title": "Notion Pricing in 2026: Every Tier, Plus the Costs Nobody Mentions",
-      "url": "https://www.usecarly.com/blog/notion-pricing?trk=public_post_comment-text",
-      "passage": "Notion Pricing in 2026: Every Tier, Plus the Costs Nobody Mentions Carly。Notion Pricing in 2026: Every Tier, Plus the Costs Nobody Mentions Notion has four plans: Free at $0, Plus at $10 per member/month, Business at $20 per member/month, and Enterprise at custom pricing. Those Plus and Business figures are the annual-billed rates; pay month-to-month and they rise to roughly $12 and $24 per member respectively. Pricing is per seat, so a 5-person team on Business is $100/month",
-      "date": "2026/07/15 00:00:00",
-      "site": "www.usecarly.com",
+      "title": "GitHub Copilot works where you work",
+      "url": "https://dstplatform.ru/#expert",
+      "passage": "GitHub Copilot works where you work。Features Agent mode: Because two brains are better than one From broken to brilliant, fast. Need to make a sweeping change? Agent mode helps you do it quickly by analyzing code, proposing edits, running tests, and validating results across multiple files. Try agent mode Plans the path, handles the work. Agent mode reasons through the problem, coordinates next steps, and applies the changes—while keeping you in the driver’s seat. Don’t sweat",
+      "date": "",
+      "site": "dstplatform.ru",
       "rounds": [
         3
       ],
@@ -464,23 +454,11 @@
       "assessment": "unreviewed"
     },
     {
-      "title": "Notion AI and Notion credits",
-      "url": "https://wiki.licenseware.io/wiki/notion-ai-and-notion-credits",
-      "passage": "Notion AI and Notion credits Licenseware Wiki。Notion AI and Notion credits This article is about how Notion licenses Notion AI: inclusion in the Business and Enterprise plans, the usage allowance, complimentary responses on Free and Plus, the legacy Notion AI add-on, and Notion credits for Custom Agents, Workers and premium models. For seat billing see Notion seat billing and true-ups. Notion AI is the set of artificial-intelligence features in Notion: Notion Agent, AI Meetin",
-      "date": "2026/10/07 00:00:00",
-      "site": "wiki.licenseware.io",
-      "rounds": [
-        3
-      ],
-      "provenance": "yuanbao_search",
-      "assessment": "unreviewed"
-    },
-    {
-      "title": "Notion AI Review (2026): Features & Pricing",
-      "url": "https://ainewsandupdates.com/?p=99",
-      "passage": "Notion AI Review (2026): Features & Pricing。 Annual billing trims roughly 20%; guests are free on all tiers. Plan Price What you get Free $0 / member Full workspace, but trial-only AI — a small lifetime quota of responses (~20), then nothing. Plus ~£8 / $10 per member / mo More workspace features, but the same trial-only AI. The plan that frustrates most — the price implies AI is included, and beyond the trial it isn’t. Business ~£16 / $20 per member / mo (annual) — $24 month",
-      "date": "2026/06/20 00:00:00",
-      "site": "ainewsandupdates.com",
+      "title": "Announcing 150M developers and a new free tier for GitHub Copilot in VS Code",
+      "url": "https://github.blog/news-insights/product-news/github-copilot-in-vscode-free/?_bhlid=1c96dda4366d8070d06e00abf1c4746e80a06fe2",
+      "passage": "Announcing 150M developers and a new free tier for GitHub Copilot in VS Code The GitHub Blog。Come and join 150M developers on GitHub that can now code with Copilot for free in VS Code. GitHub has a long history of offering free products and services to developers. Starting with free open source and public collaboration, we added free private repos, free minutes for GitHub Actions and GitHub Codespaces, and free package and release storage. Today, we are adding GitHub Copilot ",
+      "date": "2024/12/18 00:00:00",
+      "site": "github.blog",
       "rounds": [
         3
       ],
@@ -489,17 +467,17 @@
     }
   ],
   "evidenceCard": {
-    "claim": "Notion AI 免费版是否支持商用？",
+    "claim": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。",
     "overallStatus": "partially_supported",
-    "summary": "Notion Free 确有 Notion AI 的有限试用，但本次打开的官方页面没有给出“每月固定 100 次免费额度”，也没有明确说明试用输出可用于客户商业项目。",
-    "cardAuthor": "WorkBuddy（AI 助手，基于 2026-10-24 的真实元宝检索并直访 Notion 官方页面）",
-    "searchContributor": "元宝搜索三轮真实记录，见 deliverables/exports/live-card-workflow.json；指定域名 notion.com",
+    "summary": "2000 次补全与“个人开发者免费”有官方页面支持；“每月 50 次对话”来自 2024-12-18 公告，当前官方页面只写有限对话与 AI credits，已不能确认仍为 50 次。免费档仅面向未通过组织或企业获得 Copilot 的个人开发者，且不含 IP indemnity 与组织管理能力。",
+    "cardAuthor": "WorkBuddy（AI 助手，基于 2026-10-24 真实元宝检索记录，并直访 GitHub 官方文档与定价页）",
+    "searchContributor": "元宝搜索三轮真实检索（本机案卷 rounds 内保留每轮请求 ID）；指定域名 github.com；补充直访 GitHub 官方文档与定价页",
     "claims": [
       {
         "id": "C1",
-        "text": "Notion Free 计划包含 Notion AI 的有限试用。",
-        "status": "supported_with_conditions",
-        "timeScope": "2026-10-24 查询时的官方定价页",
+        "text": "GitHub Copilot 免费版每月提供 2000 次代码补全。",
+        "status": "supported",
+        "timeScope": "2026-10-24 查询时的官方文档与定价页",
         "conditionIds": [
           "T1",
           "T2"
@@ -507,194 +485,193 @@
       },
       {
         "id": "C2",
-        "text": "Notion Free 提供持续可用的每月 100 次 AI 额度。",
+        "text": "免费版每月包含 50 次对话。",
         "status": "unknown",
-        "timeScope": "官方当前页面未给出持续免费次数",
+        "timeScope": "2024-12-18 公告曾如此表述；当前页面未再给出该数字",
         "conditionIds": [
-          "T3",
-          "T4"
+          "T3"
         ]
       },
       {
         "id": "C3",
-        "text": "Notion Free 试用生成的内容可以用于客户商业项目。",
-        "status": "unknown",
-        "timeScope": "本次打开的定价与帮助页未明确授权或禁止",
+        "text": "个人开发者可以免费使用 Copilot。",
+        "status": "supported_with_conditions",
+        "timeScope": "2026-10-24 查询时的官方文档",
         "conditionIds": [
+          "T4",
           "T5"
         ]
       }
     ],
     "conditions": {
       "T1": {
-        "label": "Free 价格与定位",
-        "text": "Free 为 0 价，官方描述面向个人整理项目与生活。",
+        "label": "免费档价格与定位",
+        "text": "Copilot Free 为 0 美元，官方定位是“轻量对话”，含入门模型、每月 2000 次补全与社区支持。",
         "status": "supported",
-        "quote": "Free — ¥0 per seat / month. For individuals to organize personal projects and life.",
+        "quote": "Free — For lightweight chats — $0 USD — Access to entry level models — 2,000 completions per month — Community Support — No credit card required.",
         "quoteType": "quote",
-        "checkedAt": "2026-10-24 11:55 UTC（本次复核时段）",
+        "checkedAt": "2026-10-24 22:45 UTC+8",
         "sources": [
           {
-            "title": "Notion 官方定价页",
-            "url": "https://www.notion.com/pricing",
+            "title": "GitHub Copilot · Plans & pricing（官方定价页）",
+            "url": "https://github.com/features/copilot/plans",
             "provenance": "direct_official",
-            "date": "动态页面，未提供当日日期"
+            "date": "动态页面，未提供发布日；2026-10-24 访问"
           }
         ]
       },
       "T2": {
-        "label": "AI 是试用而非持续额度",
-        "text": "Free 的 Notion AI 在定价页标为 Limited Trial；Plus 也列 Limited Trial。",
+        "label": "2000 次补全的官方原文",
+        "text": "官方文档明确写出 Copilot Free 的补全上限为每月 2000 次。",
         "status": "supported",
-        "quote": "Trial AI capabilities like generating docs, or autofilling databases. Trial of Notion AI. … Standard Credits: Free — Limited Trial; Plus — Limited Trial.",
+        "quote": "Limited to 2000 completions per month on Copilot Free.",
         "quoteType": "quote",
-        "checkedAt": "2026-10-24 11:55 UTC（本次复核时段）",
+        "checkedAt": "2026-10-24 22:45 UTC+8",
         "sources": [
           {
-            "title": "Notion 官方定价页 · Notion AI 权益",
-            "url": "https://www.notion.com/pricing",
+            "title": "GitHub Docs · Plans for GitHub Copilot",
+            "url": "https://docs.github.com/en/copilot/get-started/plans",
             "provenance": "direct_official",
-            "date": "动态页面，未提供当日日期"
+            "date": "官方文档，未标注发布日；2026-10-24 访问"
           }
         ]
       },
       "T3": {
-        "label": "非商业/企业计划的 AI 计费方式",
-        "text": "不在 Business 或 Enterprise 时，Notion AI 使用工作区 credits，包括可能存在的赠送 credits；页面没有公布 Free 的每月固定免费次数。",
+        "label": "对话额度的现行表述",
+        "text": "当前文档把免费档的对话写成“一定额度的 GitHub AI Credits”，定价页写成“Limited chat and agent usage”，都没有给出每月固定对话条数。2024-12-18 的发布公告写的是 50 条，该数字不能直接当作今天仍有效。",
         "status": "supported",
-        "quote": "If you are not on those plans, Notion AI will use credits from your workspace, including any complimentary credits you may have available.",
+        "quote": "Copilot Free — Free — An allowance of GitHub AI Credits — Limited — Auto model selection only.（文档计划表）／ Free — Limited chat and agent usage（定价页）／ “2,000 code completions and 50 chat messages per month”（2024-12-18 公告）",
         "quoteType": "quote",
-        "checkedAt": "2026-10-24 11:55 UTC（本次复核时段）",
+        "checkedAt": "2026-10-24 22:45 UTC+8",
         "sources": [
           {
-            "title": "Notion 官方帮助 · Notion AI for databases",
-            "url": "https://www.notion.com/help/autofill",
+            "title": "GitHub Docs · Plans for GitHub Copilot",
+            "url": "https://docs.github.com/en/copilot/get-started/plans",
             "provenance": "direct_official",
-            "date": "帮助页，未提供明确发布日"
+            "date": "2026-10-24 访问"
+          },
+          {
+            "title": "GitHub Blog · Introducing GitHub Copilot Free（2024-12-18）",
+            "url": "https://github.blog/news-insights/product-news/github-copilot-in-vscode-free/",
+            "provenance": "search",
+            "date": "2024-12-18"
           }
         ]
       },
       "T4": {
-        "label": "月度 allowance 的计划范围",
-        "text": "每月 Standard/Select credits 的 allowance 属于 Business 和 Enterprise；本次页面没有给 Free 同样的每月额度。",
+        "label": "免费档的适用人群限制",
+        "text": "免费档只给“没有通过组织或企业获得 Copilot”的个人开发者。",
         "status": "supported",
-        "quote": "Business and Enterprise plans give each workspace member a set amount of Notion AI credits each month. Standard credits: … 1,500 per member, no rollover. Select credits: … 500 per member, no rollover.",
+        "quote": "Copilot Free plans are only available to individual developers who don't have access to Copilot through an organization or enterprise.",
         "quoteType": "quote",
-        "checkedAt": "2026-10-24 11:55 UTC（本次复核时段）",
+        "checkedAt": "2026-10-24 22:45 UTC+8",
         "sources": [
           {
-            "title": "Notion 官方帮助 · Manage your AI credits",
-            "url": "https://www.notion.com/help/manage-your-ai-credits",
+            "title": "GitHub Docs · Plans for GitHub Copilot",
+            "url": "https://docs.github.com/en/copilot/get-started/plans",
             "provenance": "direct_official",
-            "date": "页面注明 2026-10-19 / 2026-11-02 起的 credit 调整"
+            "date": "2026-10-24 访问"
           }
         ]
       },
       "T5": {
-        "label": "商业使用授权",
-        "text": "本次打开的定价与 AI 帮助页面没有给出 Free 试用输出用于客户商业项目的明确授权；不能把“个人项目”描述直接扩展为商用许可。",
-        "status": "unknown",
-        "quote": "本次打开的三个官方页面没有给出 Free 试用输出的商业许可条款；定价页只把 Free 描述为面向个人整理项目与生活。",
-        "quoteType": "paraphrase",
-        "checkedAt": "2026-10-24 11:55 UTC（本次复核时段）",
+        "label": "公司/商用场景的保障缺项",
+        "text": "免费档在官方对比表中明确不含 IP indemnity、企业级安全、github.com 用户管理、使用量指标与 SAML SSO。本次打开的页面没有写出免费版可用于商业项目的许可表述，也没有写出禁止商用。",
+        "status": "supported",
+        "quote": "IP indemnity — Free plan: Not included；Enterprise-grade security — Free plan: Not included；User management in github.com — Free plan: Not included；Usage metrics — Free plan: Not included；SAML SSO authentication — Free plan: Not included.",
+        "quoteType": "quote",
+        "checkedAt": "2026-10-24 22:45 UTC+8",
         "sources": [
           {
-            "title": "Notion 官方定价页（个人用途描述）",
-            "url": "https://www.notion.com/pricing",
+            "title": "GitHub Copilot · Plans & pricing（功能对比）",
+            "url": "https://github.com/features/copilot/plans",
             "provenance": "direct_official",
-            "date": "动态页面，未提供当日日期"
+            "date": "2026-10-24 访问"
           }
         ]
       }
     },
-    "completedStatement": "Notion Free 提供 Notion AI 的有限试用，但当前官方页面没有承诺每月固定 100 次免费额度；非 Business/Enterprise 的 AI 使用会消耗工作区 credits 或赠送 credits。试用输出能否用于客户商业项目，本次资料没有给出明确授权，仍需查服务条款或书面许可。",
+    "completedStatement": "GitHub Copilot 免费版确实提供每月 2000 次代码补全，并且对个人开发者免费；但只面向未通过组织或企业获得 Copilot 的个人。每月 50 次对话是 2024-12-18 公告中的数字，当前官方页面只写“有限对话 + AI credits 额度”，不再公布固定条数。免费档不含 IP indemnity、企业级安全与组织策略管理，公司项目的这些保障条件不在免费档内；本次打开的官方页面没有明确写出免费版的商业使用许可，需要另按组织政策与许可条款确认。",
     "limitations": [
-      "Free 的 AI 权益是有限试用，不是已确认的持续月度配额。",
-      "Business/Enterprise 的 1,500 Standard + 500 Select credits 不适用于 Free。",
-      "定价页与 credit 规则为动态页面，计划与活动可能变化。"
+      "免费档的对话条数在现行官方页面上没有固定数字，只能确认“有限”，不能确认等于 50。",
+      "本次打开的定价页与文档没有直接写明免费版可用于或不可用于商业项目；不能据此得出“禁止商用”的结论。",
+      "模型清单与 credits 计费方式会变化，视频与截图只对应 2026-10-24 的页面。"
     ],
     "uncertainties": [
-      "Notion 当前是否给新 Free 工作区赠送固定数量的欢迎 credits，本次未读取任何账户，不能确认。",
-      "本次没有完整审阅 Notion 服务条款与输出内容许可，不能给出商业使用的法律结论。",
-      "未核查地区、税务、团队协作与 API 调用差异。"
+      "公司项目使用免费版是否违反组织政策，取决于该组织的 Copilot 采购与合规要求，公开页面未给出统一答案。",
+      "免费档的 AI credits 具体额度未在本次页面中给出数字，只写“an allowance”。"
     ],
-    "exampleNeed": "我只做个人非商业记录，没有每月固定 AI 用量要求，也不需要 API。",
+    "exampleNeed": "我只做个人学习，每月最多 300 次补全，不需要对话，也没有公司提供的 Copilot。",
     "needExamples": [
       {
-        "label": "个人试用，不设固定次数",
-        "text": "我只做个人非商业记录，没有每月固定 AI 用量要求，也不需要 API。"
+        "label": "个人学习",
+        "text": "我只做个人学习，每月最多 300 次补全，不需要对话，也没有公司提供的 Copilot。"
       },
       {
-        "label": "每月固定 100 次",
-        "text": "我每月必须使用 100 次 Notion AI，且不想购买付费计划。"
+        "label": "公司项目",
+        "text": "我要在公司项目里用 Copilot 写代码，团队没有采购付费计划，想直接用免费版。"
       },
       {
-        "label": "客户商业项目",
-        "text": "我要把 Notion AI 免费试用的输出用于客户商业广告。"
+        "label": "对话次数",
+        "text": "我每月需要 500 次对话，补全用量很小，想知道免费版够不够。"
       }
     ],
     "applicability": {
       "criteria": [
         {
-          "id": "fixed-monthly-uses",
-          "type": "trigger",
-          "label": "每月固定 AI 次数",
-          "pattern": "每月[^。；\\n]{0,18}?\\d+\\s*次",
-          "result": "unknown",
-          "failText": "本次官方页面只把 Free 的 AI 标为有限试用，没有公布每月固定免费次数；不能确认 100 次额度。",
-          "conditionIds": [
-            "T2",
-            "T3",
-            "T4"
-          ]
-        },
-        {
-          "id": "personal-trial",
-          "type": "trigger",
-          "label": "个人非商业试用",
-          "pattern": "个人非商业|个人使用|个人项目|非商业|非商用",
-          "result": "pass",
-          "passText": "个人非商业用途与官方对 Free 的个人项目定位一致；实际可用量仍取决于有限试用/赠送 credits。",
+          "id": "completions",
+          "type": "numeric_limit",
+          "label": "每月补全次数",
+          "pattern": "(\\d+)\\s*次\\s*(?:代码)?补全",
+          "operator": "lte",
+          "limit": 2000,
+          "passText": "需求中的每月 {value} 次补全，不超过官方免费档 2000 次的上限。",
+          "failText": "需求中的每月 {value} 次补全，高于官方免费档 2000 次的上限；超出部分需要在免费档之外解决。",
           "conditionIds": [
             "T1",
             "T2"
           ]
         },
         {
-          "id": "commercial-project",
+          "id": "org-project",
           "type": "trigger",
-          "label": "客户商业使用",
-          "pattern": "商用|商业用途|客户商业|客户项目|广告|出售",
-          "negativePattern": "非商业|非商用|不需要商用|不要求商用|不用于商业",
-          "result": "unknown",
-          "failText": "本次官方页面没有明确授权 Free 试用输出用于客户商业项目，现有证据不足以判断。",
+          "label": "公司/团队项目",
+          "pattern": "(公司|企业|团队|组织)[^。；\\n]{0,12}(项目|开发|代码|使用)",
+          "negativePattern": "没有(公司|企业|团队|组织)提供",
+          "result": "fail",
+          "failText": "官方文档写明 Copilot Free 只面向未通过组织或企业获得 Copilot 的个人开发者；免费档也不含 IP indemnity、企业级安全与组织策略管理。公司项目的这些条件不在免费档覆盖范围内；这不等于“禁止商用”，但需要按组织政策与许可条款另行确认。",
           "conditionIds": [
+            "T4",
             "T5"
           ]
         },
         {
-          "id": "api-access",
+          "id": "chat-quota",
           "type": "trigger",
-          "label": "API 自动调用",
-          "pattern": "API|接口调用",
-          "negativePattern": "不需要\\s*API|不用\\s*API|不需要接口",
+          "label": "每月对话次数",
+          "pattern": "(对话|聊天)",
+          "negativePattern": "(不需要|不用|无需)(对话|聊天)",
           "result": "unknown",
-          "failText": "本次只核对了 Free 与 AI credits 页面，没有确认 API 的免费额度和商业调用条件。",
-          "conditionIds": []
+          "failText": "当前官方页面只写“Limited chat and agent usage”与 AI credits 额度，没有公布每月固定对话条数；2024-12-18 公告中的 50 条不能直接当作今天仍有效的数字，这一项需要再次查证。",
+          "conditionIds": [
+            "T3"
+          ]
         },
         {
-          "id": "notion-region",
+          "id": "personal-use",
           "type": "trigger",
-          "label": "地区差异",
-          "pattern": "中国香港|香港|澳门|台湾|海外|境外",
-          "result": "unknown",
-          "failText": "本次官方页面没有覆盖该地区的计划与商业条款差异。",
-          "conditionIds": []
+          "label": "个人学习/非商业",
+          "pattern": "个人(学习|练习|使用|项目)|非商业|不用于商业|自己(学习|练习)",
+          "result": "pass",
+          "passText": "个人学习或非商业用途与免费档“个人开发者”的定位不冲突。",
+          "conditionIds": [
+            "T4"
+          ]
         }
       ]
     },
-    "cardId": "save-4789ff258808",
-    "caseId": "save-4789ff258808"
+    "cardId": "save-e4aa6cf73922",
+    "caseId": "save-e4aa6cf73922"
   },
   "applicability": {
     "status": "applies",
@@ -702,18 +679,28 @@
     "summary": "现有已核实条件覆盖了这次需求中的维度。适用仍以卡片所列来源日期和限制为准，未重新发起搜索。",
     "checks": [
       {
-        "id": "personal-trial",
-        "label": "个人非商业试用",
+        "id": "completions",
+        "label": "每月补全次数",
         "result": "pass",
-        "detail": "个人非商业用途与官方对 Free 的个人项目定位一致；实际可用量仍取决于有限试用/赠送 credits。",
+        "detail": "需求中的每月 {value} 次补全，不超过官方免费档 2000 次的上限。",
         "conditionIds": [
           "T1",
           "T2"
+        ],
+        "value": 300
+      },
+      {
+        "id": "personal-use",
+        "label": "个人学习/非商业",
+        "result": "pass",
+        "detail": "个人学习或非商业用途与免费档“个人开发者”的定位不冲突。",
+        "conditionIds": [
+          "T4"
         ]
       }
     ],
     "searched": false,
-    "evaluatedAt": "2026-10-24T12:00:24.846Z"
+    "evaluatedAt": "2026-10-24T14:56:13.838Z"
   },
   "verdict": "unreviewed",
   "notes": "",

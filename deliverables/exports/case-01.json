@@ -6,7 +6,7 @@
   "need": "我每月最多生成 5 个模型，只做个人非商业作品，不要求商用，也不使用 Blender 插件。",
   "startedAt": "2026-10-24T08:05:22.457Z",
   "completedAt": "2026-10-24T08:05:23.903Z",
-  "exportedAt": "2026-10-24T12:00:21.113Z",
+  "exportedAt": "2026-10-24T14:56:10.071Z",
   "outcome": "replay",
   "rounds": [
     {
@@ -810,7 +810,7 @@
       }
     ],
     "searched": false,
-    "evaluatedAt": "2026-10-24T12:00:21.113Z"
+    "evaluatedAt": "2026-10-24T14:56:10.071Z"
   },
   "verdict": "unreviewed",
   "notes": "",

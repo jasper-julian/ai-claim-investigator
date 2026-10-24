@@ -18,7 +18,7 @@ try{
   response=await fetch(base+'/cases/'+options.case,{signal:AbortSignal.timeout(10000)});
  }else{
   const page=await fetch(base,{signal:AbortSignal.timeout(10000)}).then(r=>r.text());
-  const nonce=page.match(/<script nonce="([a-f0-9]+)">/)?.[1];
+  const nonce=page.match(/<script[^>]*\snonce="([a-f0-9]+)"/)?.[1];
   if(!nonce)throw new Error('本机查证服务版本不兼容。');
   response=await fetch(base+'/investigate',{method:'POST',signal:AbortSignal.timeout(90000),headers:{Origin:base,'Content-Type':'application/json','X-CSRF-Token':nonce},body:JSON.stringify({claim:options.claim,domain:options.domain||'',need:options.need})});
  }

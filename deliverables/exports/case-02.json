@@ -6,7 +6,7 @@
   "need": "我想确认免费版生成内容在中国香港能否商用。",
   "startedAt": "2026-10-24T08:05:23.915Z",
   "completedAt": "2026-10-24T08:05:24.551Z",
-  "exportedAt": "2026-10-24T12:00:22.378Z",
+  "exportedAt": "2026-10-24T14:56:11.204Z",
   "outcome": "replay",
   "rounds": [
     {
@@ -450,7 +450,7 @@
     ],
     "searched": false,
     "needsResearch": true,
-    "evaluatedAt": "2026-10-24T12:00:22.378Z"
+    "evaluatedAt": "2026-10-24T14:56:11.204Z"
   },
   "verdict": "unreviewed",
   "notes": "",

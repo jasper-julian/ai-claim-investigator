@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-10-24T12:00:29.131Z",
+  "testedAt": "2026-10-24T14:56:17.147Z",
   "base": "http://127.0.0.1:4191",
   "live": false,
   "checks": [
@@ -291,7 +291,7 @@
     {
       "name": "本机生成案卷需求判断有结构化结论",
       "passed": true,
-      "details": "insufficient"
+      "details": "does_not_apply"
     },
     {
       "name": "本机生成案卷需求重算不搜索",
@@ -311,7 +311,7 @@
     {
       "name": "本机生成案卷导出文件名含案卷号",
       "passed": true,
-      "details": "AI宣传查证所-case-save-4789ff258808.json"
+      "details": "AI宣传查证所-case-save-e4aa6cf73922.json"
     },
     {
       "name": "本机生成案卷导出含证据卡与需求",

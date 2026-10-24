@@ -4,13 +4,25 @@ WaytoAGI 1024 切磋大会侦探赛道作品：输入一句公开 AI 产品宣�
 
 本选题面向使用 AI 工具的普通用户和创作者，不是官网限定题目。只研究公开产品信息，不查个人传闻或时政。
 
-## 演示视频与操作录屏
+## 演示视频与快速入口
 
-- [录屏操作步骤与讲解脚本](docs/RECORDING_GUIDE.md)
-- [演示视频目录与文件状态](docs/videos/README.md)
-- [三次真实查证材料与参赛说明](SUBMISSION.md)
+- 主演示视频（3 分 14 秒，1280×720，H.264）：[`docs/videos/ai-claim-investigator-demo.mp4`](docs/videos/ai-claim-investigator-demo.mp4)｜[Release 附件下载](https://github.com/jasper-julian/ai-claim-investigator/releases/latest)
+- 三个真实案例录屏：[`query-01.mp4`](docs/videos/query-01.mp4)、[`query-02.mp4`](docs/videos/query-02.mp4)、[`query-03.mp4`](docs/videos/query-03.mp4)
+- 录制时间、参数、SHA256、真实/回放标识与剪辑说明：[`docs/videos/README.md`](docs/videos/README.md)
+- 三个案例（本机运行后打开）：`/?case=01`、`/?case=02`、`/?case=03`；Notion 与 Copilot 的新案卷见 [SUBMISSION.md](SUBMISSION.md)
+- 深查报告：[`deliverables/deep-investigation-case-01.md`](deliverables/deep-investigation-case-01.md)
+- 最终验收报告（离线/浏览器/真实查询逐项结果）：[`deliverables/FINAL_TEST_REPORT.md`](deliverables/FINAL_TEST_REPORT.md)
+- 参赛提交包说明：[`SUBMISSION_READY.md`](SUBMISSION_READY.md)
 
-当前已提供案例截图和真实查询记录，尚未录制或上传演示视频。视频文件就绪后会在本节添加实际观看/下载链接；案例回放与现场新查询将分别标注，不把截图串联冒充真实操作录屏。
+## 快速启动
+
+```sh
+cd /Users/gongao/Documents/waytoagi/detective
+npm start        # 打开 http://127.0.0.1:4191/
+npm test         # 27 项离线测试，不访问外部搜索
+```
+
+视频中的「网页 → Skill → 证据卡」链路是两段：网页只做检索与案卷，条件卡由 WorkBuddy 加载 `skills/yuanbao-claim-investigator/SKILL.md` 后完成，再用 `save-card.mjs` 保存为本机案卷。录屏如实分开标注，不把回放讲成现场新查询。
 
 ## 已交付
 
@@ -19,7 +31,8 @@ WaytoAGI 1024 切磋大会侦探赛道作品：输入一句公开 AI 产品宣�
 - 可运行的 `yuanbao-claim-investigator` Skill：指导 AI 拆承诺、按需求调用元宝、打开关键原文、写条件卡，并可把结果保存为本机独立案卷。
 - 三次真实元宝查询：`evidence/case-01.json` 至 `case-03.json`，保留时间、请求 ID、结果及 Codex AI 草案；条件卡另存于 `evidence/cards/`，未改写原始记录。
 - 三次案例截图、完整导出案卷、Case 01 深查报告和浏览器验证记录，位于 `deliverables/`。
-- 额外真实新问题验证：Canva 免费版商用问题，以及 Notion AI 免费版商用问题 + 证据卡 + 本机案卷，证明流程不依赖三个写死案例。
+- 额外真实新问题验证：Canva 免费版商用、Notion AI 免费版商用、GitHub Copilot Free 商用与额度；三者均有独立请求 ID 与证据卡，证明流程不依赖三个写死案例。
+- 主演示视频 + 三段案例录屏，参数与哈希见 `docs/videos/README.md`。
 - 完整源码与脱敏证据随本仓库提供；可通过 GitHub 的 Code → Download ZIP 下载。个人 `.local/`、环境文件或密钥不随仓库发布。
 
 **边界：网页没有独立大模型接口。** 网页负责元宝检索和案卷整理，不会把检索摘要自动冒充 AI 结论；新问题的 AI 深查由加载 Skill 的 AI 助手继续阅读原文并完成。已保存案例中的 `analysis` 是 Codex 核对公开来源后形成的草案，贡献说明未改写。

@@ -1,0 +1,187 @@
+{
+  "claim": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。",
+  "overallStatus": "partially_supported",
+  "summary": "2000 次补全与“个人开发者免费”有官方页面支持；“每月 50 次对话”来自 2024-12-18 公告，当前官方页面只写有限对话与 AI credits，已不能确认仍为 50 次。免费档仅面向未通过组织或企业获得 Copilot 的个人开发者，且不含 IP indemnity 与组织管理能力。",
+  "cardAuthor": "WorkBuddy（AI 助手，基于 2026-10-24 真实元宝检索记录，并直访 GitHub 官方文档与定价页）",
+  "searchContributor": "元宝搜索三轮真实检索（本机案卷 rounds 内保留每轮请求 ID）；指定域名 github.com；补充直访 GitHub 官方文档与定价页",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "GitHub Copilot 免费版每月提供 2000 次代码补全。",
+      "status": "supported",
+      "timeScope": "2026-10-24 查询时的官方文档与定价页",
+      "conditionIds": ["T1", "T2"]
+    },
+    {
+      "id": "C2",
+      "text": "免费版每月包含 50 次对话。",
+      "status": "unknown",
+      "timeScope": "2024-12-18 公告曾如此表述；当前页面未再给出该数字",
+      "conditionIds": ["T3"]
+    },
+    {
+      "id": "C3",
+      "text": "个人开发者可以免费使用 Copilot。",
+      "status": "supported_with_conditions",
+      "timeScope": "2026-10-24 查询时的官方文档",
+      "conditionIds": ["T4", "T5"]
+    }
+  ],
+  "conditions": {
+    "T1": {
+      "label": "免费档价格与定位",
+      "text": "Copilot Free 为 0 美元，官方定位是“轻量对话”，含入门模型、每月 2000 次补全与社区支持。",
+      "status": "supported",
+      "quote": "Free — For lightweight chats — $0 USD — Access to entry level models — 2,000 completions per month — Community Support — No credit card required.",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 22:45 UTC+8",
+      "sources": [
+        {
+          "title": "GitHub Copilot · Plans & pricing（官方定价页）",
+          "url": "https://github.com/features/copilot/plans",
+          "provenance": "direct_official",
+          "date": "动态页面，未提供发布日；2026-10-24 访问"
+        }
+      ]
+    },
+    "T2": {
+      "label": "2000 次补全的官方原文",
+      "text": "官方文档明确写出 Copilot Free 的补全上限为每月 2000 次。",
+      "status": "supported",
+      "quote": "Limited to 2000 completions per month on Copilot Free.",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 22:45 UTC+8",
+      "sources": [
+        {
+          "title": "GitHub Docs · Plans for GitHub Copilot",
+          "url": "https://docs.github.com/en/copilot/get-started/plans",
+          "provenance": "direct_official",
+          "date": "官方文档，未标注发布日；2026-10-24 访问"
+        }
+      ]
+    },
+    "T3": {
+      "label": "对话额度的现行表述",
+      "text": "当前文档把免费档的对话写成“一定额度的 GitHub AI Credits”，定价页写成“Limited chat and agent usage”，都没有给出每月固定对话条数。2024-12-18 的发布公告写的是 50 条，该数字不能直接当作今天仍有效。",
+      "status": "supported",
+      "quote": "Copilot Free — Free — An allowance of GitHub AI Credits — Limited — Auto model selection only.（文档计划表）／ Free — Limited chat and agent usage（定价页）／ “2,000 code completions and 50 chat messages per month”（2024-12-18 公告）",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 22:45 UTC+8",
+      "sources": [
+        {
+          "title": "GitHub Docs · Plans for GitHub Copilot",
+          "url": "https://docs.github.com/en/copilot/get-started/plans",
+          "provenance": "direct_official",
+          "date": "2026-10-24 访问"
+        },
+        {
+          "title": "GitHub Blog · Introducing GitHub Copilot Free（2024-12-18）",
+          "url": "https://github.blog/news-insights/product-news/github-copilot-in-vscode-free/",
+          "provenance": "search",
+          "date": "2024-12-18"
+        }
+      ]
+    },
+    "T4": {
+      "label": "免费档的适用人群限制",
+      "text": "免费档只给“没有通过组织或企业获得 Copilot”的个人开发者。",
+      "status": "supported",
+      "quote": "Copilot Free plans are only available to individual developers who don't have access to Copilot through an organization or enterprise.",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 22:45 UTC+8",
+      "sources": [
+        {
+          "title": "GitHub Docs · Plans for GitHub Copilot",
+          "url": "https://docs.github.com/en/copilot/get-started/plans",
+          "provenance": "direct_official",
+          "date": "2026-10-24 访问"
+        }
+      ]
+    },
+    "T5": {
+      "label": "公司/商用场景的保障缺项",
+      "text": "免费档在官方对比表中明确不含 IP indemnity、企业级安全、github.com 用户管理、使用量指标与 SAML SSO。本次打开的页面没有写出免费版可用于商业项目的许可表述，也没有写出禁止商用。",
+      "status": "supported",
+      "quote": "IP indemnity — Free plan: Not included；Enterprise-grade security — Free plan: Not included；User management in github.com — Free plan: Not included；Usage metrics — Free plan: Not included；SAML SSO authentication — Free plan: Not included.",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 22:45 UTC+8",
+      "sources": [
+        {
+          "title": "GitHub Copilot · Plans & pricing（功能对比）",
+          "url": "https://github.com/features/copilot/plans",
+          "provenance": "direct_official",
+          "date": "2026-10-24 访问"
+        }
+      ]
+    }
+  },
+  "completedStatement": "GitHub Copilot 免费版确实提供每月 2000 次代码补全，并且对个人开发者免费；但只面向未通过组织或企业获得 Copilot 的个人。每月 50 次对话是 2024-12-18 公告中的数字，当前官方页面只写“有限对话 + AI credits 额度”，不再公布固定条数。免费档不含 IP indemnity、企业级安全与组织策略管理，公司项目的这些保障条件不在免费档内；本次打开的官方页面没有明确写出免费版的商业使用许可，需要另按组织政策与许可条款确认。",
+  "limitations": [
+    "免费档的对话条数在现行官方页面上没有固定数字，只能确认“有限”，不能确认等于 50。",
+    "本次打开的定价页与文档没有直接写明免费版可用于或不可用于商业项目；不能据此得出“禁止商用”的结论。",
+    "模型清单与 credits 计费方式会变化，视频与截图只对应 2026-10-24 的页面。"
+  ],
+  "uncertainties": [
+    "公司项目使用免费版是否违反组织政策，取决于该组织的 Copilot 采购与合规要求，公开页面未给出统一答案。",
+    "免费档的 AI credits 具体额度未在本次页面中给出数字，只写“an allowance”。"
+  ],
+  "exampleNeed": "我只做个人学习，每月最多 300 次补全，不需要对话，也没有公司提供的 Copilot。",
+  "needExamples": [
+    {
+      "label": "个人学习",
+      "text": "我只做个人学习，每月最多 300 次补全，不需要对话，也没有公司提供的 Copilot。"
+    },
+    {
+      "label": "公司项目",
+      "text": "我要在公司项目里用 Copilot 写代码，团队没有采购付费计划，想直接用免费版。"
+    },
+    {
+      "label": "对话次数",
+      "text": "我每月需要 500 次对话，补全用量很小，想知道免费版够不够。"
+    }
+  ],
+  "applicability": {
+    "criteria": [
+      {
+        "id": "completions",
+        "type": "numeric_limit",
+        "label": "每月补全次数",
+        "pattern": "(\\d+)\\s*次\\s*(?:代码)?补全",
+        "operator": "lte",
+        "limit": 2000,
+        "passText": "需求中的每月 {value} 次补全，不超过官方免费档 2000 次的上限。",
+        "failText": "需求中的每月 {value} 次补全，高于官方免费档 2000 次的上限；超出部分需要在免费档之外解决。",
+        "conditionIds": ["T1", "T2"]
+      },
+      {
+        "id": "org-project",
+        "type": "trigger",
+        "label": "公司/团队项目",
+        "pattern": "(公司|企业|团队|组织)[^。；\\n]{0,12}(项目|开发|代码|使用)",
+        "negativePattern": "没有(公司|企业|团队|组织)提供",
+        "result": "fail",
+        "failText": "官方文档写明 Copilot Free 只面向未通过组织或企业获得 Copilot 的个人开发者；免费档也不含 IP indemnity、企业级安全与组织策略管理。公司项目的这些条件不在免费档覆盖范围内；这不等于“禁止商用”，但需要按组织政策与许可条款另行确认。",
+        "conditionIds": ["T4", "T5"]
+      },
+      {
+        "id": "chat-quota",
+        "type": "trigger",
+        "label": "每月对话次数",
+        "pattern": "(对话|聊天)",
+        "negativePattern": "(不需要|不用|无需)(对话|聊天)",
+        "result": "unknown",
+        "failText": "当前官方页面只写“Limited chat and agent usage”与 AI credits 额度，没有公布每月固定对话条数；2024-12-18 公告中的 50 条不能直接当作今天仍有效的数字，这一项需要再次查证。",
+        "conditionIds": ["T3"]
+      },
+      {
+        "id": "personal-use",
+        "type": "trigger",
+        "label": "个人学习/非商业",
+        "pattern": "个人(学习|练习|使用|项目)|非商业|不用于商业|自己(学习|练习)",
+        "result": "pass",
+        "passText": "个人学习或非商业用途与免费档“个人开发者”的定位不冲突。",
+        "conditionIds": ["T4"]
+      }
+    ]
+  }
+}

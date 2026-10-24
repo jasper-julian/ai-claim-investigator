@@ -6,7 +6,7 @@
   "need": "我是海外机构账号，想确认 11 月 30 日以后是否仍能领取 6000 次额度。",
   "startedAt": "2026-10-24T08:05:24.555Z",
   "completedAt": "2026-10-24T08:05:25.239Z",
-  "exportedAt": "2026-10-24T12:00:23.596Z",
+  "exportedAt": "2026-10-24T14:56:12.672Z",
   "outcome": "replay",
   "rounds": [
     {
@@ -432,7 +432,7 @@
     ],
     "searched": false,
     "needsResearch": true,
-    "evaluatedAt": "2026-10-24T12:00:23.596Z"
+    "evaluatedAt": "2026-10-24T14:56:12.672Z"
   },
   "verdict": "unreviewed",
   "notes": "",
