@@ -1,0 +1,364 @@
+{
+  "testedAt": "2026-10-24T12:00:29.131Z",
+  "base": "http://127.0.0.1:4191",
+  "live": false,
+  "checks": [
+    {
+      "name": "案例 01 独立链接加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 保留三轮真实查询",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 来源链接可点击",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 请求 ID 可见",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 条件证据卡加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 恰好拆为三项承诺",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 条件来源可点击",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 初始需求可判断",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 需求示例 1 → applies",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 需求示例 2 → does_not_apply",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 需求示例 3 → insufficient",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "超出现有证据的维度要求再次查证",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 默认未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 JSON 含证据卡与适用判断",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 导出保持未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 独立链接加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 保留三轮真实查询",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 来源链接可点击",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 请求 ID 可见",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 条件证据卡加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 恰好拆为三项承诺",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 条件来源可点击",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 初始需求可判断",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 需求示例 1 → applies",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 需求示例 2 → does_not_apply",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 需求示例 3 → insufficient",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 默认未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 JSON 含证据卡与适用判断",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 导出保持未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 独立链接加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 保留三轮真实查询",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 来源链接可点击",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 请求 ID 可见",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 条件证据卡加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 恰好拆为三项承诺",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 条件来源可点击",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 初始需求可判断",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 需求示例 1 → applies",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 需求示例 2 → does_not_apply",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 需求示例 3 → insufficient",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 默认未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 JSON 含证据卡与适用判断",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 导出保持未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "三次真实案例回放均未触发新调查",
+      "passed": true,
+      "details": "investigate=0"
+    },
+    {
+      "name": "本机生成案卷独立链接可加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "本机生成案卷保留真实轮次与来源",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "本机生成案卷加载证据卡",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "本机生成案卷条件可展开来源",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "本机生成案卷需求判断有结构化结论",
+      "passed": true,
+      "details": "insufficient"
+    },
+    {
+      "name": "本机生成案卷需求重算不搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "本机生成案卷超范围要求再次查证",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "本机生成案卷默认未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "本机生成案卷导出文件名含案卷号",
+      "passed": true,
+      "details": "AI宣传查证所-case-save-4789ff258808.json"
+    },
+    {
+      "name": "本机生成案卷导出含证据卡与需求",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "本机生成案卷导出保持未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "本机生成案卷刷新后仍可加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "本机生成案卷回放未触发新调查",
+      "passed": true,
+      "details": "investigate=0"
+    },
+    {
+      "name": "刷新后仍加载指定案例",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "无效案例清楚提示",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "无效案例没有触发调查",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "移动端无横向溢出",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "浏览器无脚本或 CSP 错误",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "consoleErrors": [],
+  "passed": true
+}

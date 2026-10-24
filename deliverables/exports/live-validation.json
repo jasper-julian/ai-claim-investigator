@@ -1,0 +1,565 @@
+{
+  "schemaVersion": "1.0",
+  "caseId": null,
+  "claim": "Canva 免费版生成的内容是否都可以商用？",
+  "domain": "canva.com",
+  "startedAt": "2026-10-24T11:34:59.531Z",
+  "completedAt": "2026-10-24T11:35:01.203Z",
+  "exportedAt": "2026-10-24T11:35:01.700Z",
+  "outcome": "success",
+  "rounds": [
+    {
+      "label": "找原始出处",
+      "query": "Canva 免费版生成的内容是否都可以商用？ 官方 文档",
+      "site": "canva.com",
+      "status": "success",
+      "requestId": "0b5def9f-825c-4178-b7b1-8247c9cbace3",
+      "pages": [
+        {
+          "title": "AI Instagram Caption Generator  Canva",
+          "url": "https://canva.com/ai-caption-generator?ref=toolpotion.ai",
+          "passage": "AI Instagram Caption Generator | Canva Canva。 The AI caption generator is free to use for up to 50 queries. To go beyond this, you can sign up for a Canva Pro, Canva Teams, Canva for Nonprofits, or Canva for Education (Admin and Teachers only) account to get 500 monthly uses. This limit refreshes for each user every billing month. Can I use the AI caption generator for personal and/or commercial projects? As long as you follow our terms, you can use the Instagram captions you",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Create prototypes for any platform",
+          "url": "https://canva.com/prototypes",
+          "passage": "Create prototypes for any platform Canva。 All the features you need Canva's free drag-and-drop design tools make it easy to create any design, fast! Thousands of free templates Plenty of template design inspiration for any occasion, no need to start from scratch and 100% customizable. Millions of free images, icons, and graphics Get access to our entire library of millions of photos, icons, graphics, media elements, audio, sound effects, and more. Real-time collaboration Crea",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Animated presentation templates",
+          "url": "https://canva.com/presentations/templates/animated",
+          "passage": "Animated presentation templates Canva。Animated presentation templates Let your presentations shine with attention-grabbing slide visuals in Canva's well-curated animated templates you can easily edit and share for free. Create a blank Animated Presentation TV and Film Treatment Deck Presentation in Black and White Grey Minimalist Style Black Yellow Space Modern Space Galaxy Star Trivia Quiz Animated Game Presentation Black and Blue Retro Pixel Game Night Game Presentation Foo",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Design compelling infographics with Canva",
+          "url": "https://canva.com/infographics",
+          "passage": "Design compelling infographics with Canva Canva。Design compelling infographics with Canva Easily craft visually striking infographics with our online infographic maker and publish them in an instant. +75M customers trust Canva Worldwide All the infographic elements you need Create infographics with confidence and ease. We’ve got millions of images, icons, stickers, and shapes that you can freely use. Just drag and drop onto your design to turn your data into compelling visual",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Free paper mockup generator",
+          "url": "https://canva.com/create/paper-mockups",
+          "passage": "Free paper mockup generator Canva。Free paper mockup generator Create a paper mockup Easy drag-and-drop editor 3M+ free stock photos and graphics Design from any device Download or share designs easily Craft a paper mockup to showcase your printable design without wasting a single piece of paper. Preview your invites, promo materials, and artwork in a realistic environment with Canva’s free paper mockup generator. Visualize your design in print with paper mockups With paper mo",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Get started with Canva AI",
+          "url": "http://canva.com/help/using-canva-ai",
+          "passage": "Get started with Canva AI Canva。Get started with Canva AI At Canva Create 2026, we launched Canva AI 2.0 with new ways to create designs through conversation. Built across Canva’s Visual Suite, it moves beyond one-off prompts and static generations, instead giving you a built-in creative partner that works alongside you in the editor from first idea to final design. Check your plan eligibility Canva AI 2.0 features, including Memory Library and Connectors, are available with:",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Maak kennis met de gratis pdf-editor van Canva",
+          "url": "http://canva.com/nl_nl/pdf-bewerken-gratis",
+          "passage": "Maak kennis met de gratis pdf-editor van Canva Canva。 Miljoenen gratis afbeeldingen, pictogrammen en graphics Krijg toegang tot onze volledige bibliotheek met miljoenen foto's, pictogrammen, afbeeldingen, media-elementen, audio, geluidseffecten en meer. Lettertypebibliotheek Upload je eigen lettertype of krijg toegang tot meer dan 3.000 gratis en premium-lettertypen. Ontvang eenvoudig ieders opmerkingen Kijk het met gemak na. Krijg direct feedback op je ontwerp van je teamgen",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Gratis online video-editor",
+          "url": "http://canva.com/nl_nl/video-bewerken",
+          "passage": "Gratis online video-editor Canva。 Canva bewaart al je content veilig in de Cloud. Ondertitels Genereer automatisch ondertitels om je video's toegankelijk te maken. Geen aanvullende software nodig. Beatsynchronisatie Synchroniseer je video's naadloos met muziek met Beatsynchronisatie, onze online tool voor audiosynchronisatie. En dat allemaal zonder dat je de video-editor hoeft te verlaten. Een animatie maken Maak animaties en beheer hoe ze bewegen. Door een animatie op te nem",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Free and customizable product presentation templates  Canva",
+          "url": "https://canva.com/presentations/templates/product",
+          "passage": "Free and customizable product presentation templates | Canva Canva。Product presentation templates Take your customers on a beautiful product story with a powerful presentation that you can customize from Canva's ready-made slide templates for free.More Product presentations by Canva Presenting your new business idea or latest product is an art. It takes a powerful spiel coupled with a visual presentation to be effective. Creating a cohesive pitch that would sell to potential ",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Free Online Video Editor & Maker  Canva (Drag-and-drop)",
+          "url": "https://canva.com/video-editor/",
+          "passage": "Free Online Video Editor & Maker | Canva (Drag-and-drop) Canva。 Fill in footage gaps or go fantastical with AI-generated clips. AudiOMG Press record on professional voiceovers Pro Design with music-inspired feedback Pro Silence any background noise Pro Auto-match the rhythm of your music Pro Press play on the hottest tracks Pro Balance fluctuating audio in a click Start with a trending template Trending Hook TikTok Instagram Reels Start of list: templates and elements Skip to",
+          "date": "",
+          "site": "canva.com"
+        }
+      ]
+    },
+    {
+      "label": "查限制与例外",
+      "query": "Canva 免费版生成的内容是否都可以商用？ 使用条件 限制 定价",
+      "site": "canva.com",
+      "status": "success",
+      "requestId": "22d9daa8-2c2e-49b5-8d1a-2d5eda3b621e",
+      "pages": [
+        {
+          "title": "Set the quality of Canva AI-generated content - Canva Help Center",
+          "url": "https://canva.com/help/canva-ai-quality-tiers-standard-premium-ultra",
+          "passage": "Set the quality of Canva AI-generated content - Canva Help Center Canva。Set the quality of Canva AI-generated content You can choose the quality level for artificial intelligence (AI) generated photos and videos in Canva. Select from three tiers: Standard, Premium, or Ultra. Each tier balances your AI usage and quality. Understanding Canva AI quality tiers Understanding Canva AI quality tiers Canva offers three AI quality tiers: Standard: Good quality that consumes fewer AI a",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "AI Paragraph Generator: Create a paragraph for free  Canva",
+          "url": "https://canva.com/ai-paragraph-generator",
+          "passage": "AI Paragraph Generator: Create a paragraph for free | Canva Canva。 An AI paragraph generator is an online tool that creates a series of sentences with a common theme. The paragraph results from an idea or a set of keywords you supply. How is an AI paragraph generated by Magic Write? Using a machine learning model, Magic Write follows the directions you give to gather information from the internet until mid-2021 and generate content. Because it relies heavily on your prompts, ",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Free Online Video Editor & Maker  Canva (Drag-and-drop)",
+          "url": "https://canva.com/video-editor/",
+          "passage": "Free Online Video Editor & Maker | Canva (Drag-and-drop) Canva。 Fill in footage gaps or go fantastical with AI-generated clips. AudiOMG Press record on professional voiceovers Pro Design with music-inspired feedback Pro Silence any background noise Pro Auto-match the rhythm of your music Pro Press play on the hottest tracks Pro Balance fluctuating audio in a click Start with a trending template Trending Hook TikTok Instagram Reels Start of list: templates and elements Skip to",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Free Online Flyer Maker: Design Custom Flyers With Canva",
+          "url": "https://canva.com/create/flyers",
+          "passage": "Free Online Flyer Maker: Design Custom Flyers With Canva Canva。Free flyer maker Free flyer maker Easy drag-and-drop editor 1M+ professionally-designed templates Invite others and design together It’s the easiest flyer creator you’ll ever use. With thousands of templates to choose from, you’ll go from idea to finished flyer in minutes. Flyer designs for every need Whether you’re creating a flyer⁠(opens in a new tab or window) for a lost pet, a gallery opening or a fundraising ",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Design compelling infographics with Canva",
+          "url": "https://canva.com/infographics",
+          "passage": "Design compelling infographics with Canva Canva。Design compelling infographics with Canva Easily craft visually striking infographics with our online infographic maker and publish them in an instant. +75M customers trust Canva Worldwide All the infographic elements you need Create infographics with confidence and ease. We’ve got millions of images, icons, stickers, and shapes that you can freely use. Just drag and drop onto your design to turn your data into compelling visual",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Understanding your AI usage",
+          "url": "https://canva.com/help/ai-access",
+          "passage": "Understanding your AI usage Canva。 below. To learn more about how Canva 2.0 uses your AI allowance, see How does Canva 2.0 use my AI allowance? below. Monthly usage by plan Canva Free: Up to 200 uses for Standard AI tools, OR up to 20 uses for Premium AI tools. No access to Ultra AI tools. Canva Pro/Teams/Nonprofits: Up to 2,000 uses for Standard AI tools, OR up to 200 uses for Premium AI tools, OR up to 20 uses for Ultra AI tools Canva Business: Up to 4,000 uses for Standard",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Get started with Canva AI",
+          "url": "http://canva.com/help/using-canva-ai",
+          "passage": "Get started with Canva AI Canva。Get started with Canva AI At Canva Create 2026, we launched Canva AI 2.0 with new ways to create designs through conversation. Built across Canva’s Visual Suite, it moves beyond one-off prompts and static generations, instead giving you a built-in creative partner that works alongside you in the editor from first idea to final design. Check your plan eligibility Canva AI 2.0 features, including Memory Library and Connectors, are available with:",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Create prototypes for any platform",
+          "url": "https://canva.com/prototypes",
+          "passage": "Create prototypes for any platform Canva。 All the features you need Canva's free drag-and-drop design tools make it easy to create any design, fast! Thousands of free templates Plenty of template design inspiration for any occasion, no need to start from scratch and 100% customizable. Millions of free images, icons, and graphics Get access to our entire library of millions of photos, icons, graphics, media elements, audio, sound effects, and more. Real-time collaboration Crea",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Custom Brochures  Personalize & Order Prints from Canva",
+          "url": "http://canva.com/brochures",
+          "passage": "Custom Brochures | Personalize & Order Prints from Canva Canva。Design and print beautiful brochures Design for free Easy to customize From $27 for 25$1.08 each Captivate your customers with on-brand brochures that you can create and print in minutes. Paper finish Matte finish Gloss finish Uncoated finish How many? 100 Trifolds Total price: $87 Start inspired Get a head start with free design templates you can customize in a few clicks. 1 of 2 1 of 2 1 of 2 1 of 2 1 of 2 1 of ",
+          "date": "",
+          "site": "canva.com"
+        },
+        {
+          "title": "Maak kennis met de gratis pdf-editor van Canva",
+          "url": "http://canva.com/nl_nl/pdf-bewerken-gratis",
+          "passage": "Maak kennis met de gratis pdf-editor van Canva Canva。 Miljoenen gratis afbeeldingen, pictogrammen en graphics Krijg toegang tot onze volledige bibliotheek met miljoenen foto's, pictogrammen, afbeeldingen, media-elementen, audio, geluidseffecten en meer. Lettertypebibliotheek Upload je eigen lettertype of krijg toegang tot meer dan 3.000 gratis en premium-lettertypen. Ontvang eenvoudig ieders opmerkingen Kijk het met gemak na. Krijg direct feedback op je ontwerp van je teamgen",
+          "date": "",
+          "site": "canva.com"
+        }
+      ]
+    },
+    {
+      "label": "交叉核对",
+      "query": "Canva 免费版生成的内容是否都可以商用？ 实际使用 更新 公告",
+      "status": "success",
+      "requestId": "e355bb5a-848e-4f79-8ae8-33f97bf0e74a",
+      "pages": [
+        {
+          "title": "Using Canva for Commercial Purposes",
+          "url": "https://canvacreatorsupport.zendesk.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCI%2FwuCUEBDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCA%2FPVx0EBDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJJL2hjL2VuLXVzL2FydGljbGVzLzQ0MTU4NTkyNTc0ODctVXNpbmctQ2FudmEtZm9yLUNvbW1lcmNpYWwtUHVycG9zZXMGOwhUOglyYW5raQo%3D--91d86fbd7a535f5d016d745e35fd31f65b1cce2b",
+          "passage": "Using Canva for Commercial Purposes Canva Creator Support。At Canva, content can be either Free or Pro. You can use Free content at no cost – as the name suggests! Our Free and Pro Content licenses cover all of the content we offer – from photos, icons, and illustrations, to videos, audio, fonts, and templates. Below, we explain what these licenses allow. For Canva Free users, Pro content is watermarked. You can remove this watermark by buying a license to use the content in t",
+          "date": "",
+          "site": "canvacreatorsupport.zendesk.com"
+        },
+        {
+          "title": "获取帮助和支持 - Canva帮助中心",
+          "url": "https://canva.cn/help?query=%E7%89%88%E6%9D%83",
+          "passage": "获取帮助和支持 - Canva帮助中心 Canva可画。 将Canva可画设计用于商业用途 出于商业目的使用时,请遵循《 使用条款》 、《 内容许可协议 》和《 字体许可协议》 使用许可内容,以避免被版权所有者起诉侵犯版权。 付费用户 Canva可画高级版 、 Canva可画商业版 和 Canva可画企业版 用户可以 免费不限次数 地使用 付费素材 进行商业用途创作。 请注意,每个Canva可画高级版或Canva可画商业版帐户仅限一名自然人或一家企业/组织使用。请勿使用账号为其他关联公司提供服务,或推广其他关联公司的产品或服务,否则可能引发版权侵权纠纷。 关于如何获取商用许可授权声明,请阅读 此文章 。 免费用户 付费素材 Canva可画素材库中的所有 付费素材 均可用于商业用途。 付费图片、视频、音频和素材 可根据 《Canva可画内容许可协议》 用于商业用途。 付费字体 可根据 《字体许可协议》 用于商业用途。 免费素材 免费素材的使用须遵守 《Canva可画内容许可协议》 。 Canva可画的部分免费素材来自Pexels、Pixabay或C",
+          "date": "",
+          "site": "Canva中文官网"
+        },
+        {
+          "title": "将Canva可画设计用于商业用途",
+          "url": "https://www.canva.cn/zh_tw/help/commercial-use",
+          "passage": "将Canva可画设计用于商业用途 Canva可画。将Canva可画设计用于商业用途 出于商业目的使用时,请遵循《使用条款》、《内容许可协议》和《字体许可协议》使用许可内容,以避免被版权所有者起诉侵犯版权。 付费用户 Canva可画高级版、Canva可画商业版和Canva可画企业版用户可以免费不限次数地使用付费素材进行商业用途创作。 请注意,每个Canva可画高级版或Canva可画商业版帐户仅限一名自然人或一家企业/组织使用。请勿使用账号为其他关联公司提供服务,或推广其他关联公司的产品或服务,否则可能引发版权侵权纠纷。 关于如何获取商用许可授权声明,请阅读此文章。 免费用户 付费素材 Canva可画素材库中的所有付费素材均可用于商业用途。 付费图片、视频、音频和素材可根据《Canva可画内容许可协议》用于商业用途。 付费字体可根据《字体许可协议》用于商业用途。 免费素材 免费素材的使用须遵守《Canva可画内容许可协议》。 Canva可画的部分免费素材来自Pexels、Pixabay或CC0公共素材库(点击图片右上角即可查看图片来源)。根据这些素材",
+          "date": "",
+          "site": "Canva可画"
+        },
+        {
+          "title": "Bring your ideas to life with Canva",
+          "url": "https://www.design.ing/",
+          "passage": "Bring your ideas to life with Canva Canva Design。 With Canva, you can design, share, and print a wide variety of creative assets and visual content, like: Marketing materials like logos, posters, flyers, social media posts, websites, and stickers Print materials like business cards, invitations, postcards, mugs, T-shirts, hoodies, calendars, and labels Photos Videos Docs Presentations Graphs, charts, and diagrams Is Canva for free? Designing with Canva is free. Anyone can sig",
+          "date": "",
+          "site": "www.design.ing"
+        },
+        {
+          "title": "Free Online Video Editor & Maker  Canva (Drag-and-drop)",
+          "url": "https://www.canva.com/video-editor/?msockid=09a6da8ac08c60f306aecc47c12d61bc",
+          "passage": "Free Online Video Editor & Maker | Canva (Drag-and-drop) Canva可画。 Yes! Even if you have a free Canva account, you can export videos without a watermark as long as you use free elements, images, footage, and music. If you’re on Canva Pro, your videos won’t have any watermarks whether you’re using free or paid elements. Watermarks will only appear if you use a Canva Free account and add Pro or paid elements to your videos. Are captions supported? Yes, you can automatically gene",
+          "date": "",
+          "site": "Canva中文官网"
+        },
+        {
+          "title": "Design like a pro",
+          "url": "https://www.canva.com/pro/?msockid=0591dad415fa63900946ccfc141262c1",
+          "passage": "Design like a pro。 Canva Pro makes designing easy, fun, and stress-free. Whether you're running a business, or starting a new side hustle, it helps you achieve your goals with ease. With Canva Pro, you unlock access to premium content libraries, advanced brand tools, and AI-powered one-click features that save time and make your work shine. From brainstorming and content creation to printing your final masterpiece, Canva Pro's all-in-one solution offers everything you need to",
+          "date": "",
+          "site": "Canva中文官网"
+        },
+        {
+          "title": "Canva 定價:比較免費版､Pro､商用版和 Enterprise 方案",
+          "url": "https://www.canva.com/zh_tw/pricing?msockid=291346591bd26818091c50221a0b69fb",
+          "passage": "Canva 定價:比較免費版、Pro、商用版和 Enterprise 方案 Canva可画。方案和定價 節省 16% 免費版 US$0 /年 (一人) 開始使用 重要功能 透過免費版,獲得: 輕鬆的拖放式編輯器和超過 1,000 種設計類型 超過 160 萬個範本,讓你快速開始使用 超過 470 萬張照片、影片、圖像和音訊 1 個品牌工具組 (僅提供 3 種顏色) 廣告深入分析與 AI 廣告製作^ Affinity 使用權限 AI 使用次數 最多 20 次標準版或付費版 AI 使用^ 新功能: 個人 US$144 /年 (一人) 開始免費試用 重要功能 使用 Pro 解鎖: AI 工具 (調整尺寸、翻譯、移除背景等)+ 超過 360 萬個範本 (包括付費版) 超過 1.41 億張付費版照片、影片、圖像和音訊 5 組品牌工具組 社群媒體內容排程 推薦 US$250 /年 (每人) US$250/年 (每人) 開始免費試用聯絡銷售人員 重要功能 有了商業版,即可透過以下方式推動成長: 協作與團隊管理員工具 超過 360 萬個範本 (包括付費版) 超過",
+          "date": "",
+          "site": "Canva中文官网"
+        },
+        {
+          "title": "Canva可画免费版",
+          "url": "https://www.canva.cn/zh_cn/pricing",
+          "passage": "Canva可画免费版 Canva可画。订阅方案和价格 按月 按年 立省15%起 适用于个人 Canva可画免费版 随心设计,将你的想法变为现实。无需成本,只靠创意。 精彩内容: 使用拖放式编辑器,轻松定制设计 12万+免费模板 200多个设计类型(社交媒体帖子、演示文稿和信函等) 400万+ 免费图片和插画 AI生成的文案和设计^ 邀请家人、朋友和他人一起设计 5GB的云存储空间 适用于个人 Canva可画高级版 解锁付费内容、更多强大的AI工具以及设计功能。 免费版的所有功能,外加: 超过1亿高级版图片、视频、音频和插画 无限使用各种功能、文件夹和付费内容 超过20万付费和免费模板,每日更新 5个品牌工具箱 为特定项目创建专属文件夹 使用调整尺寸和AI转换功能无限制调整设计尺寸 利用20多种AI工具提升创造力^ 将社交媒体内容定时发布到微博 100GB的云存储 适用于您的团队 Canva可画商业版 提升协作效率,扩大品牌影响力,化繁为简。 高级版的所有内容,外加: 使用品牌管理功能,确保团队设计符合品牌风格 专为协作打造的审批流程、活动记录,以",
+          "date": "",
+          "site": "Canva可画"
+        },
+        {
+          "title": "Supercharge Your Workflow with Next-Gen AI Tools",
+          "url": "https://canvapro.cc/",
+          "passage": "Supercharge Your Workflow with Next-Gen AI Tools。 Yes, CanvaPro is 100% free forever! There are no hidden fees, no credit card required, and no subscription needed. All 50+ AI tools are available completely free with no usage limits. Just upload your content and start creating immediately. Do I need to create an account or sign up? No signup required! You can use all CanvaPro tools immediately without creating an account, providing an email, or any registration. Simply visit ",
+          "date": "",
+          "site": "canvapro.cc"
+        },
+        {
+          "title": "How to use the AI assistant",
+          "url": "https://www.canva.com/ai-assistant/?msockid=2648eb31a73e6ee92dcefc36a6116f4f",
+          "passage": "How to use the AI assistant。 An AI assistant guides you through your entire creative process, from the first draft to the final design. As your AI-powered creative partner, Canva AI helps you work faster and supports you and your team in expanding creative boundaries, demonstrating new ways to solve problems, and enhancing your work’s quality. There’s no need to switch between apps or lose your creative flow when all your favorite powerful tools are in one place. What can I c",
+          "date": "",
+          "site": "Canva中文官网"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "AI Instagram Caption Generator  Canva",
+      "url": "https://canva.com/ai-caption-generator?ref=toolpotion.ai",
+      "passage": "AI Instagram Caption Generator | Canva Canva。 The AI caption generator is free to use for up to 50 queries. To go beyond this, you can sign up for a Canva Pro, Canva Teams, Canva for Nonprofits, or Canva for Education (Admin and Teachers only) account to get 500 monthly uses. This limit refreshes for each user every billing month. Can I use the AI caption generator for personal and/or commercial projects? As long as you follow our terms, you can use the Instagram captions you",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        1
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Create prototypes for any platform",
+      "url": "https://canva.com/prototypes",
+      "passage": "Create prototypes for any platform Canva。 All the features you need Canva's free drag-and-drop design tools make it easy to create any design, fast! Thousands of free templates Plenty of template design inspiration for any occasion, no need to start from scratch and 100% customizable. Millions of free images, icons, and graphics Get access to our entire library of millions of photos, icons, graphics, media elements, audio, sound effects, and more. Real-time collaboration Crea",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        1,
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Animated presentation templates",
+      "url": "https://canva.com/presentations/templates/animated",
+      "passage": "Animated presentation templates Canva。Animated presentation templates Let your presentations shine with attention-grabbing slide visuals in Canva's well-curated animated templates you can easily edit and share for free. Create a blank Animated Presentation TV and Film Treatment Deck Presentation in Black and White Grey Minimalist Style Black Yellow Space Modern Space Galaxy Star Trivia Quiz Animated Game Presentation Black and Blue Retro Pixel Game Night Game Presentation Foo",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        1
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Design compelling infographics with Canva",
+      "url": "https://canva.com/infographics",
+      "passage": "Design compelling infographics with Canva Canva。Design compelling infographics with Canva Easily craft visually striking infographics with our online infographic maker and publish them in an instant. +75M customers trust Canva Worldwide All the infographic elements you need Create infographics with confidence and ease. We’ve got millions of images, icons, stickers, and shapes that you can freely use. Just drag and drop onto your design to turn your data into compelling visual",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        1,
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Free paper mockup generator",
+      "url": "https://canva.com/create/paper-mockups",
+      "passage": "Free paper mockup generator Canva。Free paper mockup generator Create a paper mockup Easy drag-and-drop editor 3M+ free stock photos and graphics Design from any device Download or share designs easily Craft a paper mockup to showcase your printable design without wasting a single piece of paper. Preview your invites, promo materials, and artwork in a realistic environment with Canva’s free paper mockup generator. Visualize your design in print with paper mockups With paper mo",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        1
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Get started with Canva AI",
+      "url": "http://canva.com/help/using-canva-ai",
+      "passage": "Get started with Canva AI Canva。Get started with Canva AI At Canva Create 2026, we launched Canva AI 2.0 with new ways to create designs through conversation. Built across Canva’s Visual Suite, it moves beyond one-off prompts and static generations, instead giving you a built-in creative partner that works alongside you in the editor from first idea to final design. Check your plan eligibility Canva AI 2.0 features, including Memory Library and Connectors, are available with:",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        1,
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Maak kennis met de gratis pdf-editor van Canva",
+      "url": "http://canva.com/nl_nl/pdf-bewerken-gratis",
+      "passage": "Maak kennis met de gratis pdf-editor van Canva Canva。 Miljoenen gratis afbeeldingen, pictogrammen en graphics Krijg toegang tot onze volledige bibliotheek met miljoenen foto's, pictogrammen, afbeeldingen, media-elementen, audio, geluidseffecten en meer. Lettertypebibliotheek Upload je eigen lettertype of krijg toegang tot meer dan 3.000 gratis en premium-lettertypen. Ontvang eenvoudig ieders opmerkingen Kijk het met gemak na. Krijg direct feedback op je ontwerp van je teamgen",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        1,
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Gratis online video-editor",
+      "url": "http://canva.com/nl_nl/video-bewerken",
+      "passage": "Gratis online video-editor Canva。 Canva bewaart al je content veilig in de Cloud. Ondertitels Genereer automatisch ondertitels om je video's toegankelijk te maken. Geen aanvullende software nodig. Beatsynchronisatie Synchroniseer je video's naadloos met muziek met Beatsynchronisatie, onze online tool voor audiosynchronisatie. En dat allemaal zonder dat je de video-editor hoeft te verlaten. Een animatie maken Maak animaties en beheer hoe ze bewegen. Door een animatie op te nem",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        1
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Free and customizable product presentation templates  Canva",
+      "url": "https://canva.com/presentations/templates/product",
+      "passage": "Free and customizable product presentation templates | Canva Canva。Product presentation templates Take your customers on a beautiful product story with a powerful presentation that you can customize from Canva's ready-made slide templates for free.More Product presentations by Canva Presenting your new business idea or latest product is an art. It takes a powerful spiel coupled with a visual presentation to be effective. Creating a cohesive pitch that would sell to potential ",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        1
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Free Online Video Editor & Maker  Canva (Drag-and-drop)",
+      "url": "https://canva.com/video-editor/",
+      "passage": "Free Online Video Editor & Maker | Canva (Drag-and-drop) Canva。 Fill in footage gaps or go fantastical with AI-generated clips. AudiOMG Press record on professional voiceovers Pro Design with music-inspired feedback Pro Silence any background noise Pro Auto-match the rhythm of your music Pro Press play on the hottest tracks Pro Balance fluctuating audio in a click Start with a trending template Trending Hook TikTok Instagram Reels Start of list: templates and elements Skip to",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        1,
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Set the quality of Canva AI-generated content - Canva Help Center",
+      "url": "https://canva.com/help/canva-ai-quality-tiers-standard-premium-ultra",
+      "passage": "Set the quality of Canva AI-generated content - Canva Help Center Canva。Set the quality of Canva AI-generated content You can choose the quality level for artificial intelligence (AI) generated photos and videos in Canva. Select from three tiers: Standard, Premium, or Ultra. Each tier balances your AI usage and quality. Understanding Canva AI quality tiers Understanding Canva AI quality tiers Canva offers three AI quality tiers: Standard: Good quality that consumes fewer AI a",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "AI Paragraph Generator: Create a paragraph for free  Canva",
+      "url": "https://canva.com/ai-paragraph-generator",
+      "passage": "AI Paragraph Generator: Create a paragraph for free | Canva Canva。 An AI paragraph generator is an online tool that creates a series of sentences with a common theme. The paragraph results from an idea or a set of keywords you supply. How is an AI paragraph generated by Magic Write? Using a machine learning model, Magic Write follows the directions you give to gather information from the internet until mid-2021 and generate content. Because it relies heavily on your prompts, ",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Free Online Flyer Maker: Design Custom Flyers With Canva",
+      "url": "https://canva.com/create/flyers",
+      "passage": "Free Online Flyer Maker: Design Custom Flyers With Canva Canva。Free flyer maker Free flyer maker Easy drag-and-drop editor 1M+ professionally-designed templates Invite others and design together It’s the easiest flyer creator you’ll ever use. With thousands of templates to choose from, you’ll go from idea to finished flyer in minutes. Flyer designs for every need Whether you’re creating a flyer⁠(opens in a new tab or window) for a lost pet, a gallery opening or a fundraising ",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Understanding your AI usage",
+      "url": "https://canva.com/help/ai-access",
+      "passage": "Understanding your AI usage Canva。 below. To learn more about how Canva 2.0 uses your AI allowance, see How does Canva 2.0 use my AI allowance? below. Monthly usage by plan Canva Free: Up to 200 uses for Standard AI tools, OR up to 20 uses for Premium AI tools. No access to Ultra AI tools. Canva Pro/Teams/Nonprofits: Up to 2,000 uses for Standard AI tools, OR up to 200 uses for Premium AI tools, OR up to 20 uses for Ultra AI tools Canva Business: Up to 4,000 uses for Standard",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Custom Brochures  Personalize & Order Prints from Canva",
+      "url": "http://canva.com/brochures",
+      "passage": "Custom Brochures | Personalize & Order Prints from Canva Canva。Design and print beautiful brochures Design for free Easy to customize From $27 for 25$1.08 each Captivate your customers with on-brand brochures that you can create and print in minutes. Paper finish Matte finish Gloss finish Uncoated finish How many? 100 Trifolds Total price: $87 Start inspired Get a head start with free design templates you can customize in a few clicks. 1 of 2 1 of 2 1 of 2 1 of 2 1 of 2 1 of ",
+      "date": "",
+      "site": "canva.com",
+      "rounds": [
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Free Online Video Editor & Maker  Canva (Drag-and-drop)",
+      "url": "https://www.canva.com/video-editor/?msockid=09a6da8ac08c60f306aecc47c12d61bc",
+      "passage": "Free Online Video Editor & Maker | Canva (Drag-and-drop) Canva可画。 Yes! Even if you have a free Canva account, you can export videos without a watermark as long as you use free elements, images, footage, and music. If you’re on Canva Pro, your videos won’t have any watermarks whether you’re using free or paid elements. Watermarks will only appear if you use a Canva Free account and add Pro or paid elements to your videos. Are captions supported? Yes, you can automatically gene",
+      "date": "",
+      "site": "Canva中文官网",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Design like a pro",
+      "url": "https://www.canva.com/pro/?msockid=0591dad415fa63900946ccfc141262c1",
+      "passage": "Design like a pro。 Canva Pro makes designing easy, fun, and stress-free. Whether you're running a business, or starting a new side hustle, it helps you achieve your goals with ease. With Canva Pro, you unlock access to premium content libraries, advanced brand tools, and AI-powered one-click features that save time and make your work shine. From brainstorming and content creation to printing your final masterpiece, Canva Pro's all-in-one solution offers everything you need to",
+      "date": "",
+      "site": "Canva中文官网",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Canva 定價:比較免費版､Pro､商用版和 Enterprise 方案",
+      "url": "https://www.canva.com/zh_tw/pricing?msockid=291346591bd26818091c50221a0b69fb",
+      "passage": "Canva 定價:比較免費版、Pro、商用版和 Enterprise 方案 Canva可画。方案和定價 節省 16% 免費版 US$0 /年 (一人) 開始使用 重要功能 透過免費版,獲得: 輕鬆的拖放式編輯器和超過 1,000 種設計類型 超過 160 萬個範本,讓你快速開始使用 超過 470 萬張照片、影片、圖像和音訊 1 個品牌工具組 (僅提供 3 種顏色) 廣告深入分析與 AI 廣告製作^ Affinity 使用權限 AI 使用次數 最多 20 次標準版或付費版 AI 使用^ 新功能: 個人 US$144 /年 (一人) 開始免費試用 重要功能 使用 Pro 解鎖: AI 工具 (調整尺寸、翻譯、移除背景等)+ 超過 360 萬個範本 (包括付費版) 超過 1.41 億張付費版照片、影片、圖像和音訊 5 組品牌工具組 社群媒體內容排程 推薦 US$250 /年 (每人) US$250/年 (每人) 開始免費試用聯絡銷售人員 重要功能 有了商業版,即可透過以下方式推動成長: 協作與團隊管理員工具 超過 360 萬個範本 (包括付費版) 超過",
+      "date": "",
+      "site": "Canva中文官网",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "How to use the AI assistant",
+      "url": "https://www.canva.com/ai-assistant/?msockid=2648eb31a73e6ee92dcefc36a6116f4f",
+      "passage": "How to use the AI assistant。 An AI assistant guides you through your entire creative process, from the first draft to the final design. As your AI-powered creative partner, Canva AI helps you work faster and supports you and your team in expanding creative boundaries, demonstrating new ways to solve problems, and enhancing your work’s quality. There’s no need to switch between apps or lose your creative flow when all your favorite powerful tools are in one place. What can I c",
+      "date": "",
+      "site": "Canva中文官网",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Using Canva for Commercial Purposes",
+      "url": "https://canvacreatorsupport.zendesk.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCI%2FwuCUEBDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCA%2FPVx0EBDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJJL2hjL2VuLXVzL2FydGljbGVzLzQ0MTU4NTkyNTc0ODctVXNpbmctQ2FudmEtZm9yLUNvbW1lcmNpYWwtUHVycG9zZXMGOwhUOglyYW5raQo%3D--91d86fbd7a535f5d016d745e35fd31f65b1cce2b",
+      "passage": "Using Canva for Commercial Purposes Canva Creator Support。At Canva, content can be either Free or Pro. You can use Free content at no cost – as the name suggests! Our Free and Pro Content licenses cover all of the content we offer – from photos, icons, and illustrations, to videos, audio, fonts, and templates. Below, we explain what these licenses allow. For Canva Free users, Pro content is watermarked. You can remove this watermark by buying a license to use the content in t",
+      "date": "",
+      "site": "canvacreatorsupport.zendesk.com",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "获取帮助和支持 - Canva帮助中心",
+      "url": "https://canva.cn/help?query=%E7%89%88%E6%9D%83",
+      "passage": "获取帮助和支持 - Canva帮助中心 Canva可画。 将Canva可画设计用于商业用途 出于商业目的使用时,请遵循《 使用条款》 、《 内容许可协议 》和《 字体许可协议》 使用许可内容,以避免被版权所有者起诉侵犯版权。 付费用户 Canva可画高级版 、 Canva可画商业版 和 Canva可画企业版 用户可以 免费不限次数 地使用 付费素材 进行商业用途创作。 请注意,每个Canva可画高级版或Canva可画商业版帐户仅限一名自然人或一家企业/组织使用。请勿使用账号为其他关联公司提供服务,或推广其他关联公司的产品或服务,否则可能引发版权侵权纠纷。 关于如何获取商用许可授权声明,请阅读 此文章 。 免费用户 付费素材 Canva可画素材库中的所有 付费素材 均可用于商业用途。 付费图片、视频、音频和素材 可根据 《Canva可画内容许可协议》 用于商业用途。 付费字体 可根据 《字体许可协议》 用于商业用途。 免费素材 免费素材的使用须遵守 《Canva可画内容许可协议》 。 Canva可画的部分免费素材来自Pexels、Pixabay或C",
+      "date": "",
+      "site": "Canva中文官网",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "将Canva可画设计用于商业用途",
+      "url": "https://www.canva.cn/zh_tw/help/commercial-use",
+      "passage": "将Canva可画设计用于商业用途 Canva可画。将Canva可画设计用于商业用途 出于商业目的使用时,请遵循《使用条款》、《内容许可协议》和《字体许可协议》使用许可内容,以避免被版权所有者起诉侵犯版权。 付费用户 Canva可画高级版、Canva可画商业版和Canva可画企业版用户可以免费不限次数地使用付费素材进行商业用途创作。 请注意,每个Canva可画高级版或Canva可画商业版帐户仅限一名自然人或一家企业/组织使用。请勿使用账号为其他关联公司提供服务,或推广其他关联公司的产品或服务,否则可能引发版权侵权纠纷。 关于如何获取商用许可授权声明,请阅读此文章。 免费用户 付费素材 Canva可画素材库中的所有付费素材均可用于商业用途。 付费图片、视频、音频和素材可根据《Canva可画内容许可协议》用于商业用途。 付费字体可根据《字体许可协议》用于商业用途。 免费素材 免费素材的使用须遵守《Canva可画内容许可协议》。 Canva可画的部分免费素材来自Pexels、Pixabay或CC0公共素材库(点击图片右上角即可查看图片来源)。根据这些素材",
+      "date": "",
+      "site": "Canva可画",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Bring your ideas to life with Canva",
+      "url": "https://www.design.ing/",
+      "passage": "Bring your ideas to life with Canva Canva Design。 With Canva, you can design, share, and print a wide variety of creative assets and visual content, like: Marketing materials like logos, posters, flyers, social media posts, websites, and stickers Print materials like business cards, invitations, postcards, mugs, T-shirts, hoodies, calendars, and labels Photos Videos Docs Presentations Graphs, charts, and diagrams Is Canva for free? Designing with Canva is free. Anyone can sig",
+      "date": "",
+      "site": "www.design.ing",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Canva可画免费版",
+      "url": "https://www.canva.cn/zh_cn/pricing",
+      "passage": "Canva可画免费版 Canva可画。订阅方案和价格 按月 按年 立省15%起 适用于个人 Canva可画免费版 随心设计,将你的想法变为现实。无需成本,只靠创意。 精彩内容: 使用拖放式编辑器,轻松定制设计 12万+免费模板 200多个设计类型(社交媒体帖子、演示文稿和信函等) 400万+ 免费图片和插画 AI生成的文案和设计^ 邀请家人、朋友和他人一起设计 5GB的云存储空间 适用于个人 Canva可画高级版 解锁付费内容、更多强大的AI工具以及设计功能。 免费版的所有功能,外加: 超过1亿高级版图片、视频、音频和插画 无限使用各种功能、文件夹和付费内容 超过20万付费和免费模板,每日更新 5个品牌工具箱 为特定项目创建专属文件夹 使用调整尺寸和AI转换功能无限制调整设计尺寸 利用20多种AI工具提升创造力^ 将社交媒体内容定时发布到微博 100GB的云存储 适用于您的团队 Canva可画商业版 提升协作效率,扩大品牌影响力,化繁为简。 高级版的所有内容,外加: 使用品牌管理功能,确保团队设计符合品牌风格 专为协作打造的审批流程、活动记录,以",
+      "date": "",
+      "site": "Canva可画",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Supercharge Your Workflow with Next-Gen AI Tools",
+      "url": "https://canvapro.cc/",
+      "passage": "Supercharge Your Workflow with Next-Gen AI Tools。 Yes, CanvaPro is 100% free forever! There are no hidden fees, no credit card required, and no subscription needed. All 50+ AI tools are available completely free with no usage limits. Just upload your content and start creating immediately. Do I need to create an account or sign up? No signup required! You can use all CanvaPro tools immediately without creating an account, providing an email, or any registration. Simply visit ",
+      "date": "",
+      "site": "canvapro.cc",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    }
+  ],
+  "verdict": "unreviewed",
+  "notes": "",
+  "analysis": null,
+  "humanReview": {
+    "status": "unreviewed",
+    "reviewer": "",
+    "reviewedAt": null,
+    "verdict": "unreviewed",
+    "notes": ""
+  }
+}

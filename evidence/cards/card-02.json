@@ -1,0 +1,170 @@
+{
+  "cardId": "02",
+  "caseId": "02",
+  "claim": "WorkBuddy 免费体验版包含什么，CLI 是否免费？",
+  "overallStatus": "partially_supported",
+  "summary": "WorkBuddy 确有免费体验版和每月 500 基础积分，但官方版本权益表未把 CLI 访问列入体验版；免费体验不等于全部功能免费。",
+  "cardAuthor": "WorkBuddy（AI 助手，结构化整理 Codex 检索记录并直访官方定价页）",
+  "searchContributor": "元宝搜索记录与 Codex 原草案见 evidence/case-02.json；指定 workbuddy.cn 两轮零命中，官方页为后续直访",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "WorkBuddy 提供可免费使用的体验版。",
+      "status": "supported",
+      "timeScope": "2026-07-01 起的当前版本说明，2026-10-24 核对",
+      "conditionIds": ["T1"]
+    },
+    {
+      "id": "C2",
+      "text": "免费体验版包含每月 500 基础积分及有限项目、成员和资料库容量。",
+      "status": "supported_with_conditions",
+      "timeScope": "官方定价表当前列示；限时活动会改变部分权益",
+      "conditionIds": ["T2", "T4"]
+    },
+    {
+      "id": "C3",
+      "text": "免费体验版可以直接使用 CLI 访问。",
+      "status": "contradicted",
+      "timeScope": "官方当前版本权益表",
+      "conditionIds": ["T3"]
+    }
+  ],
+  "conditions": {
+    "T1": {
+      "label": "体验版价格",
+      "text": "体验版可免费使用；标准、高级和旗舰为付费订阅。",
+      "status": "supported",
+      "quote": "WorkBuddy 提供体验版及多个付费订阅版本，其中体验版可免费使用，标准版、高级版和旗舰版为付费订阅版本。",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 11:29 UTC（本次复核时段）",
+      "sources": [{
+        "title": "WorkBuddy 官方定价说明",
+        "url": "https://www.codebuddy.cn/docs/workbuddy/Pricing",
+        "provenance": "direct_official",
+        "date": "页面更新于 2026 年订阅调整后，未提供明确当日日期"
+      }]
+    },
+    "T2": {
+      "label": "每月基础积分",
+      "text": "官方版本权益表“基础积分 / 月”一行，体验版列示 500。",
+      "status": "supported",
+      "quote": "官方版本权益表（转述）：基础积分 / 月：体验版 500；标准版 2,000；高级版 4,000；旗舰版 20,000。",
+      "quoteType": "paraphrase",
+      "checkedAt": "2026-10-24 11:29 UTC（本次复核时段）",
+      "sources": [{
+        "title": "WorkBuddy 官方版本权益表",
+        "url": "https://www.codebuddy.cn/docs/workbuddy/Pricing",
+        "provenance": "direct_official",
+        "date": "动态文档，未提供明确当日日期"
+      }]
+    },
+    "T3": {
+      "label": "CLI 访问支持",
+      "text": "官方版本权益表“CLI 访问支持”在体验版为“—”，标准版、高级版、旗舰版为“✓”。",
+      "status": "supported",
+      "quote": "官方版本权益表（转述）：CLI 访问支持：体验版 —；标准版 ✓；高级版 ✓；旗舰版 ✓。",
+      "quoteType": "paraphrase",
+      "checkedAt": "2026-10-24 11:29 UTC（本次复核时段）",
+      "sources": [{
+        "title": "WorkBuddy 官方版本权益表 · CLI 行",
+        "url": "https://www.codebuddy.cn/docs/workbuddy/Pricing",
+        "provenance": "direct_official",
+        "date": "动态文档，未提供明确当日日期"
+      }]
+    },
+    "T4": {
+      "label": "项目与协作边界",
+      "text": "体验版列示 5 个项目/人、单项目 3 人（限免 5 人）、5GB 资料库；限免活动会改变部分额度。",
+      "status": "supported",
+      "quote": "官方版本权益表（转述）：创建项目数 5 个/人；单项目成员数 3 人/项目（限免 5 人）；资料库容量 5GB。",
+      "quoteType": "paraphrase",
+      "checkedAt": "2026-10-24 11:29 UTC（本次复核时段）",
+      "sources": [{
+        "title": "WorkBuddy 官方体验版权益",
+        "url": "https://www.codebuddy.cn/docs/workbuddy/Pricing",
+        "provenance": "direct_official",
+        "date": "动态文档，未提供明确当日日期"
+      }]
+    }
+  },
+  "completedStatement": "WorkBuddy 有免费体验版，包含每月 500 基础积分、5 个项目、每项目 3 名成员（限免期 5 名）和 5GB 资料库等权益；但 CLI 访问支持在体验版标为“—”，需要标准版及以上。限时活动和实际账户余额须另行核对。",
+  "limitations": [
+    "免费体验版可用模型、自动任务、代码补全等权益带有限免条件，活动结束后可能变化。",
+    "积分以实际模型调用和任务消耗为准，不能把 500 当成固定任务数。",
+    "CLI 不支持体验版是当前官方版本表的口径，不代表所有历史版本或企业版。"
+  ],
+  "uncertainties": [
+    "官方页面没有给出查询当日所有限时活动的统一截止时间。",
+    "未读取任何个人账户，不确认具体账号的积分余额或赠送权益。"
+  ],
+  "exampleNeed": "我只需要个人轻量办公，每月使用不超过 100 积分，不要求 CLI 和团队协作。",
+  "needExamples": [
+    {"label": "个人轻量使用", "text": "我只需要个人轻量办公，每月使用不超过 100 积分，不要求 CLI 和团队协作。"},
+    {"label": "必须免费用 CLI", "text": "我必须使用免费版的 CLI，且不打算购买标准版。"},
+    {"label": "地区与商用未知", "text": "我想确认免费版生成内容在中国香港能否商用。"}
+  ],
+  "applicability": {
+    "criteria": [
+      {
+        "id": "monthly-credits",
+        "type": "numeric_limit",
+        "label": "每月基础积分",
+        "pattern": "(?:每月|每个月|月度|月内)[^。；\\n]{0,16}?(\\d+)\\s*(?:积分|分)",
+        "operator": "lte",
+        "limit": 500,
+        "passText": "需求中的每月 {value} 积分不超过官方列示的体验版 500 基础积分；实际消耗仍取决于任务。",
+        "failText": "需求中的每月 {value} 积分高于体验版 500 基础积分；需要购买或调整用量，不能沿用免费结论。",
+        "conditionIds": ["T2"]
+      },
+      {
+        "id": "cli-access",
+        "type": "trigger",
+        "label": "CLI 需求",
+        "pattern": "CLI|命令行",
+        "negativePattern": "不需要\\s*CLI|不要求\\s*CLI|不用\\s*CLI|不使用\\s*CLI",
+        "result": "fail",
+        "failText": "当前官方版本权益表未把 CLI 访问列入体验版；免费体验不能直接满足 CLI 需求。",
+        "conditionIds": ["T3"]
+      },
+      {
+        "id": "team-members",
+        "type": "numeric_limit",
+        "label": "单项目协作人数",
+        "pattern": "(\\d+)\\s*(?:人|位)(?:团队|协作|成员|一起)?",
+        "operator": "lte",
+        "limit": 3,
+        "passText": "需求中的 {value} 人不高于当前体验版单项目 3 人限制（限免期可能为 5 人）。",
+        "failText": "需求中的 {value} 人高于当前体验版单项目 3 人限制；即使限免到 5 人也需重新核对。",
+        "conditionIds": ["T4"]
+      },
+      {
+        "id": "lightweight",
+        "type": "trigger",
+        "label": "免费轻量使用",
+        "pattern": "轻量办公|个人使用|个人办公|体验|不付费|免费使用",
+        "result": "pass",
+        "passText": "免费体验版与该轻量、个人使用意图相符，但仍受积分和限免条款约束。",
+        "conditionIds": ["T1"]
+      },
+      {
+        "id": "commercial-workbuddy",
+        "type": "trigger",
+        "label": "生成内容商用",
+        "pattern": "商用|商业用途|广告投放|出售",
+        "negativePattern": "非商用|非商业|不可商用|不商用|不需要商用|不要求商用",
+        "result": "unknown",
+        "failText": "本次核对的定价与权益表没有给出生成内容的商用授权结论，现有证据不足。",
+        "conditionIds": []
+      },
+      {
+        "id": "workbuddy-region",
+        "type": "trigger",
+        "label": "地区或账号适用性",
+        "pattern": "中国香港|香港|澳门|台湾|海外|境外|国际账号|地区",
+        "result": "unknown",
+        "failText": "本次官方定价页没有覆盖该地区或账号类型的权益差异，需要再次查证。",
+        "conditionIds": []
+      }
+    ]
+  }
+}

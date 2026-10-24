@@ -1,0 +1,506 @@
+{
+  "schemaVersion": "1.1",
+  "caseId": null,
+  "claim": "Notion AI 免费版是否支持商用？",
+  "domain": "notion.com",
+  "need": "我每月使用 100 次，只需个人非商业用途，不需要 API。",
+  "startedAt": "2026-10-24T11:52:38.827Z",
+  "completedAt": "2026-10-24T11:52:40.729Z",
+  "exportedAt": "2026-10-24T11:52:41.353Z",
+  "outcome": "success",
+  "rounds": [
+    {
+      "label": "找宣传原句与官方说明",
+      "query": "Notion AI 免费版是否支持商用？ 官方 说明 原文",
+      "facet": "source",
+      "site": "notion.com",
+      "status": "success",
+      "requestId": "a4ded514-cb34-433a-b8e0-a6e731dedd17",
+      "pages": [
+        {
+          "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
+          "url": "https://notion.com/pricing",
+          "passage": "Notion Pricing Plans: Free, Plus, Business, & Enterprise. Notion。One tool to run your company. Select payment mode: Pay monthly Pay yearly Price inUSD Essentials for staying organized. Free $0per member / month For individuals to organize personal projects and life. Sign up Includes: Trial AI capabilities like generating docs, or autofilling databases Trial of Notion AI Capture, organize, and act on responses right inside Notion. Basic forms Publish a Notion page to the web B",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "Notion定价方案:免费版､Plus 版､商业版和企业版｡",
+          "url": "https://notion.com/zh-CN/pricing",
+          "passage": "Notion定价方案:免费版、Plus 版、商业版和企业版。 Notion。使用一个工具运营公司业务。 受到以下团队的信任 选择支付方式: 月付 年付 年付方案最高可节省 20% 选择货币USD 必备工具,让一切井井有条。 免费 US$0每席位/月 为管理个人的项目和生活而生。 注册 Plus 版* US$10每席位/月 为小型团队和专业人士的携手共赢而生。 立即开始 包括: 试用 AI 功能,如生成文档或自动填充数据库 Notion AI 试用版 在 Notion 中直接捕捉、整理和回复信息。 基础表单 将 Notion 页面发布到网上 基础网站 连接多个 Google 日历以共同管理工作和时间。 Notion 日历 在同一个平台整理成百上千个事项,如项目或任务 数据库,包括子任务、依赖项、自定义属性等 免费版的全部功能,以及: 试用 AI 功能,如生成文档或自动填充数据库 Notion AI 试用版 移除公共表单中的 Notion 品牌标识 自定义表单 自定义顶部标题,选择浅色或深色主题,添加自定义图标,并与 Google Analytics",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "What is Notion?  Notion",
+          "url": "https://notion.com/es-es/product/notion",
+          "passage": "What is Notion? | Notion Notion。 Espacios de equipo privados Verifica la titularidad de un dominio de correo electrónico para acceder a funciones de seguridad avanzada, como el inicio de sesión único. Verificación de dominios Conéctate a GitHub, Asana y mucho más Conexiones prémium Questions & Answers What is Notion used for? Notion is a connected workspace that brings docs, wikis, projects, and databases together in one place. With Notion AI and custom agents built in, it al",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "可容纳 Wikis 百科､文档和项目的互联工作空间Notion",
+          "url": "https://notion.com/zh-cn/startups",
+          "passage": "可容纳 Wikis 百科、文档和项目的互联工作空间|Notion Notion。一个工作空间,集齐所有创业必备工具。 AI 工作空间,让你的灵感付诸行动。免费获得长达 6 个月的商业版方案,内含 Notion AI 功能。 破纪录增长的企业都在使用 Notion 效率飞跃,成本锐减。 全能型 AI 工作空间,支持随需扩展。立享 6 个月免费商业版,轻松节省 12000 美元。 AI 工具太多?在此计算潜在节省金额。 AI 搜索35 美元/用户AI 聊天机器人20 美元/用户AI 速记18 美元/用户AI 写作助手20 美元/用户AI 电子邮件应用30 美元/用户AI 探究40 美元/用户日程安排15 美元/用户团队 Wikis 百科10 美元/用户项目管理工具24 美元/用户基础 CRM20 美元/用户网站生成器20 美元/用户表单15 美元/用户 团队规模月节省金额US$340年节省金额US$4,080 创业公司的首选工具。 强大、灵活、极速——这就是全球创业公司都选择入驻 Notion 的原因。 94% 的福布斯 AI 50 强公司使用 No",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "Your connected workspace for wiki, docs & projects  Notion",
+          "url": "https://notion.com/startups",
+          "passage": "Your connected workspace for wiki, docs & projects | Notion Notion。Notion for Startups Build and run your entire startup in one place. The AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included. The fastest growing companies in history build on Notion Move faster, cut costs. Go all-in-one with the AI workspace that scales with you. Get the Business plan free for up to 6 months and save $12,000. The tool of choice for startups. It’",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "Notion AI for databases",
+          "url": "https://notion.com/help/autofill",
+          "passage": "Notion AI for databases Notion。Notion AI for databases In this Article Learn how to use Notion AI to create databases and make them even more valuable 🪄 Create a database with Notion AI You can create a database in just seconds using Notion AI. Creating a database with Notion AI is free on the Business or Enterprise plans. If you are not on those plans, Notion AI will use credits from your workspace, including any complimentary credits you may have available. From a page To ",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "Notion  Every",
+          "url": "https://notion.com/redeem/every",
+          "passage": "Notion 🤝 Every Notion。Notion 🤝 Every Get 6 months of Notion Business with Notion AI for free. Exclusively for Every All Access Subscribers. The AI workspace for work that matters Capture context, find answers, and automate tasks with AI built for you. Capture knowledge Meetings, decisions, processes. The notes take themselves, and documentation keeps itself up to date. Find answers Was that info in an email? Slide deck? Slack message? Just ask Notion. Automate busywork Agen",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "Your connected workspace for wiki, docs & projects  Notion",
+          "url": "https://notion.com/es-es/lp/linkedin-new",
+          "passage": "Your connected workspace for wiki, docs & projects | Notion Notion。One workspace. Every startup tool. The AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included. Unlock your startup offer The fastest growing companies in history build on Notion Move faster, cut costs. Go all-in-one with the AI workspace that scales with you. Get the Business plan free for up to 6 months and save $12,000. Unlock your startup offer ¿Demasiadas herra",
+          "date": "",
+          "site": "notion.com"
+        }
+      ]
+    },
+    {
+      "label": "核对额度、商用、功能",
+      "query": "Notion AI 免费版是否支持商用？ 额度 次数 使用量 商用 授权 许可 功能 版本 权限 条件 限制 官方",
+      "facet": "quota,commercial,feature",
+      "site": "notion.com",
+      "status": "success",
+      "requestId": "8c2679f6-9c1a-4085-98ed-d61254be069d",
+      "pages": [
+        {
+          "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
+          "url": "https://notion.com/pricing",
+          "passage": "Notion Pricing Plans: Free, Plus, Business, & Enterprise. Notion。One tool to run your company. Select payment mode: Pay monthly Pay yearly Price inUSD Essentials for staying organized. Free $0per member / month For individuals to organize personal projects and life. Sign up Includes: Trial AI capabilities like generating docs, or autofilling databases Trial of Notion AI Capture, organize, and act on responses right inside Notion. Basic forms Publish a Notion page to the web B",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "Meet your AI team  Notion",
+          "url": "https://notion.com/zh-CN/retro",
+          "passage": "Meet your AI team | Notion Notion。Meet your 24/7 AI team Infinite minds, built for teamwork. Answer questions, prioritize tasks, and write reports—all while you sleep. Trusted by teams at Agents Enterprise search AI Meeting Notes Admin controls Enterprise Search 16:10 Admin Controls 16:10 If it’s something that’s repetitive, we have a Notion Agent for it. Ben LevickHead of AI & Operations, Ramp AI that works where your team works. Try for free. Free $0per member / month For i",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "Notion  Every",
+          "url": "https://notion.com/redeem/every",
+          "passage": "Notion 🤝 Every Notion。Notion 🤝 Every Get 6 months of Notion Business with Notion AI for free. Exclusively for Every All Access Subscribers. The AI workspace for work that matters Capture context, find answers, and automate tasks with AI built for you. Capture knowledge Meetings, decisions, processes. The notes take themselves, and documentation keeps itself up to date. Find answers Was that info in an email? Slide deck? Slack message? Just ask Notion. Automate busywork Agen",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "Meet your AI team  Notion",
+          "url": "https://notion.com/pt/break",
+          "passage": "Meet your AI team | Notion。Meet your 24/7 AI team Infinite minds, built for teamwork. Answer questions, prioritize tasks, and write reports—all while you sleep. Trusted by teams at Agents Admin controls Enterprise Search 16:10 Admin Controls 16:10 If it’s something that’s repetitive, we have a Notion Agent for it. Ben LevickHead of AI & Operations, Ramp AI that works where your team works. Try for free. Free $0per member / month For individuals to organize personal projects a",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "Your connected workspace for wiki, docs & projects  Notion",
+          "url": "https://notion.com/startups",
+          "passage": "Your connected workspace for wiki, docs & projects | Notion Notion。Notion for Startups Build and run your entire startup in one place. The AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included. The fastest growing companies in history build on Notion Move faster, cut costs. Go all-in-one with the AI workspace that scales with you. Get the Business plan free for up to 6 months and save $12,000. The tool of choice for startups. It’",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "Notion 2.21: Notion AI, for everyone",
+          "url": "https://notion.com/releases/2023-02-22",
+          "passage": "Notion 2.21: Notion AI, for everyone Notion。Try Notion AI for free No more waitlist, no “limited preview.” That means you can start to leverage the power of AI right inside Notion, across all your existing docs and notes—today. Use Notion AI to augment your capabilities in new and unexpected ways. Just open any Notion page, and give these a try: Generate an instant summary from a page of messy notes. Start a new line, hit space on your keyboard, then select “Summarize.” Becom",
+          "date": "2023/02/22 00:00:00",
+          "site": "notion.com"
+        },
+        {
+          "title": "Who’s who in a workspace",
+          "url": "https://notion.com/help/whos-who-in-a-workspace",
+          "passage": "Who’s who in a workspace Notion。Who’s who in a workspace In this help doc Learn about the different kinds of people in a workspace. A Notion workspace can have several types of users or roles: Members Restricted members Guests Temporary members Workspace owners (Enterprise Plan only) Membership admins (Enterprise Plan only) Organization owners Read on to learn more about each type of user. Members Members are individuals in your company or organization. These could be colleag",
+          "date": "",
+          "site": "notion.com"
+        },
+        {
+          "title": "Your connected workspace for wiki, docs & projects  Notion",
+          "url": "https://notion.com/es-es/lp/linkedin-new",
+          "passage": "Your connected workspace for wiki, docs & projects | Notion Notion。One workspace. Every startup tool. The AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included. Unlock your startup offer The fastest growing companies in history build on Notion Move faster, cut costs. Go all-in-one with the AI workspace that scales with you. Get the Business plan free for up to 6 months and save $12,000. Unlock your startup offer ¿Demasiadas herra",
+          "date": "",
+          "site": "notion.com"
+        }
+      ]
+    },
+    {
+      "label": "找反例与例外",
+      "query": "Notion AI 免费版是否支持商用？ 额度 次数 使用量 商用 授权 许可 功能 版本 权限 不适用 例外 实际使用 公告",
+      "facet": "counterexample",
+      "status": "success",
+      "requestId": "64a2dce0-2208-4f86-b1d0-9bd2f0bfaf43",
+      "pages": [
+        {
+          "title": "Standard, Select and Notion credits: eligible features",
+          "url": "https://www.notion.com/en-gb/help/standard-select-and-notion-credits-eligible-features",
+          "passage": "Standard, Select and Notion credits: eligible features Notion。Standard, Select and Notion credits: eligible features Learn which Notion AI features use Standard credits, Select credits and Notion credits. When changes start New Business and Enterprise workspaces move to the new credit system explained in this article starting 19/10/26. For existing workspaces, it takes effect on 02/11/26. Business and Enterprise plans include two kinds of AI credits for each member, plus a sh",
+          "date": "",
+          "site": "www.notion.com"
+        },
+        {
+          "title": "Notion Pricing Plans: Free, Plus, Business and Enterprise.",
+          "url": "https://www.notion.com/en-gb/pricing",
+          "passage": "Notion Pricing Plans: Free, Plus, Business and Enterprise. Notion。One tool to run your company. Essentials for staying organised. Free US$0per member/month For individuals to organise personal projects and life. Sign up Includes: Trial AI capabilities like generating docs or autofilling databases Trial of Notion AI Capture, organise and act on responses right inside Notion. Basic forms Publish a Notion page on the Web Basic sites Connect multiple calendars to manage work and ",
+          "date": "",
+          "site": "www.notion.com"
+        },
+        {
+          "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
+          "url": "https://www.notion.com/pricing?sid=cb4ea09c-3c1a-4e08-9595-d96c9d7d1b44",
+          "passage": "Notion Pricing Plans: Free, Plus, Business, & Enterprise. Notion。One tool to run your company. Essentials for staying organized. Free $0per seat / month For individuals to organize personal projects and life. Sign up Plus* $10per seat / month For small teams and professionals to work together. Get started Includes: Trial AI capabilities like generating docs, or autofilling databases Trial of Notion AI Capture, organize, and act on responses right inside Notion. Basic forms Pu",
+          "date": "",
+          "site": "www.notion.com"
+        },
+        {
+          "title": "Notion AI Pricing 2026: Every Plan, Cost, and the Add-On Change Explained",
+          "url": "https://felloai.com/notion-ai-pricing/",
+          "passage": "Notion AI Pricing 2026: Every Plan, Cost, and the Add-On Change Explained Fello AI。 Notion Free at $0 and Plus at $10/User/Month You can still try Notion AI for free, but the trial is finite, not a recurring quota. Notion’s own docs describe it as “a limited number of complimentary AI responses”, which is enough to test the writing tools and database autofill in a few sessions. There is no published per-month free quota. The Plus plan ($10/user/month annual, $12 monthly) gets",
+          "date": "2026/10/14 00:00:00",
+          "site": "felloai.com"
+        },
+        {
+          "title": "One tool for your whole company.Free for teams to try.",
+          "url": "https://www.notion.so/pricing?pscd=affiliate.notion.so&ps_partner_key=YnJlbmRvbm1hY2RvbmFsZDk3MDI&ps_xid=CTtAwqzlMPHHjk&gsxid=CTtAwqzlMPHHjk&gspk=YnJlbmRvbm1hY2RvbmFsZDk3MDI",
+          "passage": "One tool for your whole company.Free for teams to try.。 Just click the ( ? ) button at the bottom right on desktop, or tap “Help & feedback” if you’re on mobile. Priority support Our team of customer success managers are experts to help you get the most out of Notion. Customer success manager Custom Free Unlimited blocks for individuals. Limited block trial for teams Get started Plus $8 per user/month billed annually Business $15 per user/month billed annually Used by the wor",
+          "date": "",
+          "site": "www.notion.so"
+        },
+        {
+          "title": "變更您的方案",
+          "url": "https://www.notion.so/zh-tw/help/upgrade-or-downgrade-your-plan",
+          "passage": "變更您的方案 Notion。變更您的方案 在此說明文件中 我們為各類使用者與團隊提供四種不同的定價方案。在此,我們將逐一介紹,並說明升級或降級工作空間的意義。 注意: 方案適用於工作空間層級並以此計費。一個帳戶可以擁有多個工作空間,且每個工作空間都可以使用不同的方案。 如需計費與付款的詳細指南,請閱讀 這篇文章 → Notion 提供免費方案以及多種付費方案。您可以前往 notion.com/pricing 比較我們的方案並查看價格。方案的適用性可能因工作區而異,因此下方列出的方案未必皆提供給您。我們的方案概覽如下: 免費版:此方案專為想要整理個人專案與任務的個人使用者所設計。 Plus 版:此方案非常適合小型團隊協作。Plus 版可能不適用於所有工作空間。 商業版:此方案讓企業能夠使用 Notion AI 與高階整合功能進行協作。 企業版:此方案專為追求擴充性、高階控制與安全性的較大型組織所設計。它也包含 Notion AI。 員工人數少於 100 人的組織可以 從 Notion 設定中升級至企業版。 員工人數超過 100 人的組織可以 聯絡我",
+          "date": "",
+          "site": "www.notion.so"
+        },
+        {
+          "title": "Notion Pricing in 2026: Every Tier, Plus the Costs Nobody Mentions",
+          "url": "https://www.usecarly.com/blog/notion-pricing?trk=public_post_comment-text",
+          "passage": "Notion Pricing in 2026: Every Tier, Plus the Costs Nobody Mentions Carly。Notion Pricing in 2026: Every Tier, Plus the Costs Nobody Mentions Notion has four plans: Free at $0, Plus at $10 per member/month, Business at $20 per member/month, and Enterprise at custom pricing. Those Plus and Business figures are the annual-billed rates; pay month-to-month and they rise to roughly $12 and $24 per member respectively. Pricing is per seat, so a 5-person team on Business is $100/month",
+          "date": "2026/07/15 00:00:00",
+          "site": "www.usecarly.com"
+        },
+        {
+          "title": "Notion AI and Notion credits",
+          "url": "https://wiki.licenseware.io/wiki/notion-ai-and-notion-credits",
+          "passage": "Notion AI and Notion credits Licenseware Wiki。Notion AI and Notion credits This article is about how Notion licenses Notion AI: inclusion in the Business and Enterprise plans, the usage allowance, complimentary responses on Free and Plus, the legacy Notion AI add-on, and Notion credits for Custom Agents, Workers and premium models. For seat billing see Notion seat billing and true-ups. Notion AI is the set of artificial-intelligence features in Notion: Notion Agent, AI Meetin",
+          "date": "2026/10/07 00:00:00",
+          "site": "wiki.licenseware.io"
+        },
+        {
+          "title": "Manage your usage allowance for Notion AI",
+          "url": "https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai",
+          "passage": "Manage your usage allowance for Notion AI Notion。Manage your usage allowance for Notion AI In this help doc Learn about the usage allowance for Notion AI, and how admins can manage this for their team. To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features. If you come close to using the full allowance, access to some AI features may temporarily pause until your usage refreshes. You can view how your usage i",
+          "date": "",
+          "site": "www.notion.com"
+        },
+        {
+          "title": "Notion AI Review (2026): Features & Pricing",
+          "url": "https://ainewsandupdates.com/?p=99",
+          "passage": "Notion AI Review (2026): Features & Pricing。 Annual billing trims roughly 20%; guests are free on all tiers. Plan Price What you get Free $0 / member Full workspace, but trial-only AI — a small lifetime quota of responses (~20), then nothing. Plus ~£8 / $10 per member / mo More workspace features, but the same trial-only AI. The plan that frustrates most — the price implies AI is included, and beyond the trial it isn’t. Business ~£16 / $20 per member / mo (annual) — $24 month",
+          "date": "2026/06/20 00:00:00",
+          "site": "ainewsandupdates.com"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
+      "url": "https://notion.com/pricing",
+      "passage": "Notion Pricing Plans: Free, Plus, Business, & Enterprise. Notion。One tool to run your company. Select payment mode: Pay monthly Pay yearly Price inUSD Essentials for staying organized. Free $0per member / month For individuals to organize personal projects and life. Sign up Includes: Trial AI capabilities like generating docs, or autofilling databases Trial of Notion AI Capture, organize, and act on responses right inside Notion. Basic forms Publish a Notion page to the web B",
+      "date": "",
+      "site": "notion.com",
+      "rounds": [
+        1,
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Notion定价方案:免费版､Plus 版､商业版和企业版｡",
+      "url": "https://notion.com/zh-CN/pricing",
+      "passage": "Notion定价方案:免费版、Plus 版、商业版和企业版。 Notion。使用一个工具运营公司业务。 受到以下团队的信任 选择支付方式: 月付 年付 年付方案最高可节省 20% 选择货币USD 必备工具,让一切井井有条。 免费 US$0每席位/月 为管理个人的项目和生活而生。 注册 Plus 版* US$10每席位/月 为小型团队和专业人士的携手共赢而生。 立即开始 包括: 试用 AI 功能,如生成文档或自动填充数据库 Notion AI 试用版 在 Notion 中直接捕捉、整理和回复信息。 基础表单 将 Notion 页面发布到网上 基础网站 连接多个 Google 日历以共同管理工作和时间。 Notion 日历 在同一个平台整理成百上千个事项,如项目或任务 数据库,包括子任务、依赖项、自定义属性等 免费版的全部功能,以及: 试用 AI 功能,如生成文档或自动填充数据库 Notion AI 试用版 移除公共表单中的 Notion 品牌标识 自定义表单 自定义顶部标题,选择浅色或深色主题,添加自定义图标,并与 Google Analytics",
+      "date": "",
+      "site": "notion.com",
+      "rounds": [
+        1
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "What is Notion?  Notion",
+      "url": "https://notion.com/es-es/product/notion",
+      "passage": "What is Notion? | Notion Notion。 Espacios de equipo privados Verifica la titularidad de un dominio de correo electrónico para acceder a funciones de seguridad avanzada, como el inicio de sesión único. Verificación de dominios Conéctate a GitHub, Asana y mucho más Conexiones prémium Questions & Answers What is Notion used for? Notion is a connected workspace that brings docs, wikis, projects, and databases together in one place. With Notion AI and custom agents built in, it al",
+      "date": "",
+      "site": "notion.com",
+      "rounds": [
+        1
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "可容纳 Wikis 百科､文档和项目的互联工作空间Notion",
+      "url": "https://notion.com/zh-cn/startups",
+      "passage": "可容纳 Wikis 百科、文档和项目的互联工作空间|Notion Notion。一个工作空间,集齐所有创业必备工具。 AI 工作空间,让你的灵感付诸行动。免费获得长达 6 个月的商业版方案,内含 Notion AI 功能。 破纪录增长的企业都在使用 Notion 效率飞跃,成本锐减。 全能型 AI 工作空间,支持随需扩展。立享 6 个月免费商业版,轻松节省 12000 美元。 AI 工具太多?在此计算潜在节省金额。 AI 搜索35 美元/用户AI 聊天机器人20 美元/用户AI 速记18 美元/用户AI 写作助手20 美元/用户AI 电子邮件应用30 美元/用户AI 探究40 美元/用户日程安排15 美元/用户团队 Wikis 百科10 美元/用户项目管理工具24 美元/用户基础 CRM20 美元/用户网站生成器20 美元/用户表单15 美元/用户 团队规模月节省金额US$340年节省金额US$4,080 创业公司的首选工具。 强大、灵活、极速——这就是全球创业公司都选择入驻 Notion 的原因。 94% 的福布斯 AI 50 强公司使用 No",
+      "date": "",
+      "site": "notion.com",
+      "rounds": [
+        1
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Your connected workspace for wiki, docs & projects  Notion",
+      "url": "https://notion.com/startups",
+      "passage": "Your connected workspace for wiki, docs & projects | Notion Notion。Notion for Startups Build and run your entire startup in one place. The AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included. The fastest growing companies in history build on Notion Move faster, cut costs. Go all-in-one with the AI workspace that scales with you. Get the Business plan free for up to 6 months and save $12,000. The tool of choice for startups. It’",
+      "date": "",
+      "site": "notion.com",
+      "rounds": [
+        1,
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Notion AI for databases",
+      "url": "https://notion.com/help/autofill",
+      "passage": "Notion AI for databases Notion。Notion AI for databases In this Article Learn how to use Notion AI to create databases and make them even more valuable 🪄 Create a database with Notion AI You can create a database in just seconds using Notion AI. Creating a database with Notion AI is free on the Business or Enterprise plans. If you are not on those plans, Notion AI will use credits from your workspace, including any complimentary credits you may have available. From a page To ",
+      "date": "",
+      "site": "notion.com",
+      "rounds": [
+        1
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Notion  Every",
+      "url": "https://notion.com/redeem/every",
+      "passage": "Notion 🤝 Every Notion。Notion 🤝 Every Get 6 months of Notion Business with Notion AI for free. Exclusively for Every All Access Subscribers. The AI workspace for work that matters Capture context, find answers, and automate tasks with AI built for you. Capture knowledge Meetings, decisions, processes. The notes take themselves, and documentation keeps itself up to date. Find answers Was that info in an email? Slide deck? Slack message? Just ask Notion. Automate busywork Agen",
+      "date": "",
+      "site": "notion.com",
+      "rounds": [
+        1,
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Your connected workspace for wiki, docs & projects  Notion",
+      "url": "https://notion.com/es-es/lp/linkedin-new",
+      "passage": "Your connected workspace for wiki, docs & projects | Notion Notion。One workspace. Every startup tool. The AI workspace from idea to exit. Get up to 6 months free on the Business plan with Notion AI included. Unlock your startup offer The fastest growing companies in history build on Notion Move faster, cut costs. Go all-in-one with the AI workspace that scales with you. Get the Business plan free for up to 6 months and save $12,000. Unlock your startup offer ¿Demasiadas herra",
+      "date": "",
+      "site": "notion.com",
+      "rounds": [
+        1,
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Meet your AI team  Notion",
+      "url": "https://notion.com/zh-CN/retro",
+      "passage": "Meet your AI team | Notion Notion。Meet your 24/7 AI team Infinite minds, built for teamwork. Answer questions, prioritize tasks, and write reports—all while you sleep. Trusted by teams at Agents Enterprise search AI Meeting Notes Admin controls Enterprise Search 16:10 Admin Controls 16:10 If it’s something that’s repetitive, we have a Notion Agent for it. Ben LevickHead of AI & Operations, Ramp AI that works where your team works. Try for free. Free $0per member / month For i",
+      "date": "",
+      "site": "notion.com",
+      "rounds": [
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Meet your AI team  Notion",
+      "url": "https://notion.com/pt/break",
+      "passage": "Meet your AI team | Notion。Meet your 24/7 AI team Infinite minds, built for teamwork. Answer questions, prioritize tasks, and write reports—all while you sleep. Trusted by teams at Agents Admin controls Enterprise Search 16:10 Admin Controls 16:10 If it’s something that’s repetitive, we have a Notion Agent for it. Ben LevickHead of AI & Operations, Ramp AI that works where your team works. Try for free. Free $0per member / month For individuals to organize personal projects a",
+      "date": "",
+      "site": "notion.com",
+      "rounds": [
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Notion 2.21: Notion AI, for everyone",
+      "url": "https://notion.com/releases/2023-02-22",
+      "passage": "Notion 2.21: Notion AI, for everyone Notion。Try Notion AI for free No more waitlist, no “limited preview.” That means you can start to leverage the power of AI right inside Notion, across all your existing docs and notes—today. Use Notion AI to augment your capabilities in new and unexpected ways. Just open any Notion page, and give these a try: Generate an instant summary from a page of messy notes. Start a new line, hit space on your keyboard, then select “Summarize.” Becom",
+      "date": "2023/02/22 00:00:00",
+      "site": "notion.com",
+      "rounds": [
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Who’s who in a workspace",
+      "url": "https://notion.com/help/whos-who-in-a-workspace",
+      "passage": "Who’s who in a workspace Notion。Who’s who in a workspace In this help doc Learn about the different kinds of people in a workspace. A Notion workspace can have several types of users or roles: Members Restricted members Guests Temporary members Workspace owners (Enterprise Plan only) Membership admins (Enterprise Plan only) Organization owners Read on to learn more about each type of user. Members Members are individuals in your company or organization. These could be colleag",
+      "date": "",
+      "site": "notion.com",
+      "rounds": [
+        2
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Standard, Select and Notion credits: eligible features",
+      "url": "https://www.notion.com/en-gb/help/standard-select-and-notion-credits-eligible-features",
+      "passage": "Standard, Select and Notion credits: eligible features Notion。Standard, Select and Notion credits: eligible features Learn which Notion AI features use Standard credits, Select credits and Notion credits. When changes start New Business and Enterprise workspaces move to the new credit system explained in this article starting 19/10/26. For existing workspaces, it takes effect on 02/11/26. Business and Enterprise plans include two kinds of AI credits for each member, plus a sh",
+      "date": "",
+      "site": "www.notion.com",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Notion Pricing Plans: Free, Plus, Business and Enterprise.",
+      "url": "https://www.notion.com/en-gb/pricing",
+      "passage": "Notion Pricing Plans: Free, Plus, Business and Enterprise. Notion。One tool to run your company. Essentials for staying organised. Free US$0per member/month For individuals to organise personal projects and life. Sign up Includes: Trial AI capabilities like generating docs or autofilling databases Trial of Notion AI Capture, organise and act on responses right inside Notion. Basic forms Publish a Notion page on the Web Basic sites Connect multiple calendars to manage work and ",
+      "date": "",
+      "site": "www.notion.com",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Notion Pricing Plans: Free, Plus, Business, & Enterprise.",
+      "url": "https://www.notion.com/pricing?sid=cb4ea09c-3c1a-4e08-9595-d96c9d7d1b44",
+      "passage": "Notion Pricing Plans: Free, Plus, Business, & Enterprise. Notion。One tool to run your company. Essentials for staying organized. Free $0per seat / month For individuals to organize personal projects and life. Sign up Plus* $10per seat / month For small teams and professionals to work together. Get started Includes: Trial AI capabilities like generating docs, or autofilling databases Trial of Notion AI Capture, organize, and act on responses right inside Notion. Basic forms Pu",
+      "date": "",
+      "site": "www.notion.com",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Manage your usage allowance for Notion AI",
+      "url": "https://www.notion.com/help/manage-your-usage-allowance-for-notion-ai",
+      "passage": "Manage your usage allowance for Notion AI Notion。Manage your usage allowance for Notion AI In this help doc Learn about the usage allowance for Notion AI, and how admins can manage this for their team. To keep Notion AI fast and reliable, Business and Enterprise plans include a usage allowance for certain Notion AI features. If you come close to using the full allowance, access to some AI features may temporarily pause until your usage refreshes. You can view how your usage i",
+      "date": "",
+      "site": "www.notion.com",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Notion AI Pricing 2026: Every Plan, Cost, and the Add-On Change Explained",
+      "url": "https://felloai.com/notion-ai-pricing/",
+      "passage": "Notion AI Pricing 2026: Every Plan, Cost, and the Add-On Change Explained Fello AI。 Notion Free at $0 and Plus at $10/User/Month You can still try Notion AI for free, but the trial is finite, not a recurring quota. Notion’s own docs describe it as “a limited number of complimentary AI responses”, which is enough to test the writing tools and database autofill in a few sessions. There is no published per-month free quota. The Plus plan ($10/user/month annual, $12 monthly) gets",
+      "date": "2026/10/14 00:00:00",
+      "site": "felloai.com",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "One tool for your whole company.Free for teams to try.",
+      "url": "https://www.notion.so/pricing?pscd=affiliate.notion.so&ps_partner_key=YnJlbmRvbm1hY2RvbmFsZDk3MDI&ps_xid=CTtAwqzlMPHHjk&gsxid=CTtAwqzlMPHHjk&gspk=YnJlbmRvbm1hY2RvbmFsZDk3MDI",
+      "passage": "One tool for your whole company.Free for teams to try.。 Just click the ( ? ) button at the bottom right on desktop, or tap “Help & feedback” if you’re on mobile. Priority support Our team of customer success managers are experts to help you get the most out of Notion. Customer success manager Custom Free Unlimited blocks for individuals. Limited block trial for teams Get started Plus $8 per user/month billed annually Business $15 per user/month billed annually Used by the wor",
+      "date": "",
+      "site": "www.notion.so",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "變更您的方案",
+      "url": "https://www.notion.so/zh-tw/help/upgrade-or-downgrade-your-plan",
+      "passage": "變更您的方案 Notion。變更您的方案 在此說明文件中 我們為各類使用者與團隊提供四種不同的定價方案。在此,我們將逐一介紹,並說明升級或降級工作空間的意義。 注意: 方案適用於工作空間層級並以此計費。一個帳戶可以擁有多個工作空間,且每個工作空間都可以使用不同的方案。 如需計費與付款的詳細指南,請閱讀 這篇文章 → Notion 提供免費方案以及多種付費方案。您可以前往 notion.com/pricing 比較我們的方案並查看價格。方案的適用性可能因工作區而異,因此下方列出的方案未必皆提供給您。我們的方案概覽如下: 免費版:此方案專為想要整理個人專案與任務的個人使用者所設計。 Plus 版:此方案非常適合小型團隊協作。Plus 版可能不適用於所有工作空間。 商業版:此方案讓企業能夠使用 Notion AI 與高階整合功能進行協作。 企業版:此方案專為追求擴充性、高階控制與安全性的較大型組織所設計。它也包含 Notion AI。 員工人數少於 100 人的組織可以 從 Notion 設定中升級至企業版。 員工人數超過 100 人的組織可以 聯絡我",
+      "date": "",
+      "site": "www.notion.so",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Notion Pricing in 2026: Every Tier, Plus the Costs Nobody Mentions",
+      "url": "https://www.usecarly.com/blog/notion-pricing?trk=public_post_comment-text",
+      "passage": "Notion Pricing in 2026: Every Tier, Plus the Costs Nobody Mentions Carly。Notion Pricing in 2026: Every Tier, Plus the Costs Nobody Mentions Notion has four plans: Free at $0, Plus at $10 per member/month, Business at $20 per member/month, and Enterprise at custom pricing. Those Plus and Business figures are the annual-billed rates; pay month-to-month and they rise to roughly $12 and $24 per member respectively. Pricing is per seat, so a 5-person team on Business is $100/month",
+      "date": "2026/07/15 00:00:00",
+      "site": "www.usecarly.com",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Notion AI and Notion credits",
+      "url": "https://wiki.licenseware.io/wiki/notion-ai-and-notion-credits",
+      "passage": "Notion AI and Notion credits Licenseware Wiki。Notion AI and Notion credits This article is about how Notion licenses Notion AI: inclusion in the Business and Enterprise plans, the usage allowance, complimentary responses on Free and Plus, the legacy Notion AI add-on, and Notion credits for Custom Agents, Workers and premium models. For seat billing see Notion seat billing and true-ups. Notion AI is the set of artificial-intelligence features in Notion: Notion Agent, AI Meetin",
+      "date": "2026/10/07 00:00:00",
+      "site": "wiki.licenseware.io",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
+      "title": "Notion AI Review (2026): Features & Pricing",
+      "url": "https://ainewsandupdates.com/?p=99",
+      "passage": "Notion AI Review (2026): Features & Pricing。 Annual billing trims roughly 20%; guests are free on all tiers. Plan Price What you get Free $0 / member Full workspace, but trial-only AI — a small lifetime quota of responses (~20), then nothing. Plus ~£8 / $10 per member / mo More workspace features, but the same trial-only AI. The plan that frustrates most — the price implies AI is included, and beyond the trial it isn’t. Business ~£16 / $20 per member / mo (annual) — $24 month",
+      "date": "2026/06/20 00:00:00",
+      "site": "ainewsandupdates.com",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    }
+  ],
+  "evidenceCard": null,
+  "applicability": null,
+  "verdict": "unreviewed",
+  "notes": "",
+  "analysis": null,
+  "humanReview": {
+    "status": "unreviewed",
+    "reviewer": "",
+    "reviewedAt": null,
+    "verdict": "unreviewed",
+    "notes": ""
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "cardId": "03",
+  "caseId": "03",
+  "claim": "元宝搜索活动赠送的 6000 次免费搜索如何领取，有哪些条件？",
+  "overallStatus": "supported_with_conditions",
+  "summary": "侦探赛道确有活动期 6000 次免费搜索，但需要进入赛道群取得邀请码并核销；额度有效期以活动说明为准，官网没有给出无地区限制或自动到账的承诺。",
+  "cardAuthor": "WorkBuddy（AI 助手，结构化整理 Codex 检索记录并直访赛道规则）",
+  "searchContributor": "元宝搜索记录与 Codex 原草案见 evidence/case-03.json；指定赛事域名零命中，官方规则为后续直访，不是元宝命中",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "侦探赛道选手在活动期可获 6000 次免费搜索额度。",
+      "status": "supported_with_conditions",
+      "timeScope": "活动期；具体额度有效期以活动说明为准",
+      "conditionIds": ["T1", "T4"]
+    },
+    {
+      "id": "C2",
+      "text": "领取需要进入侦探赛道群，按群内指引取得邀请码并核销。",
+      "status": "supported",
+      "timeScope": "当前官方赛道规则页",
+      "conditionIds": ["T2", "T3"]
+    },
+    {
+      "id": "C3",
+      "text": "所有地区账号都能长期自动获得这 6000 次额度。",
+      "status": "unknown",
+      "timeScope": "官网未说明地区覆盖或长期自动发放",
+      "conditionIds": []
+    }
+  ],
+  "conditions": {
+    "T1": {
+      "label": "活动额度",
+      "text": "侦探赛道活动期提供 6000 次免费搜索。",
+      "status": "supported",
+      "quote": "侦探赛道选手每人 6000 次免费搜索。",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 11:22 UTC（本次复核时段）",
+      "sources": [{
+        "title": "WaytoAGI 1024 · 侦探赛道官方规则",
+        "url": "https://1024.waytoagi.com/tracks/detective",
+        "provenance": "direct_official",
+        "date": "页面未提供发布日期"
+      }]
+    },
+    "T2": {
+      "label": "领取步骤",
+      "text": "进入“我的福利”查看群码，扫码进入侦探赛道群，按群内指引获取邀请码并核销。",
+      "status": "supported",
+      "quote": "进入「我的福利」查看群码，扫码进侦探赛道群，按群内指引获取邀请码并核销。",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 11:22 UTC（本次复核时段）",
+      "sources": [{
+        "title": "WaytoAGI 官方领取说明",
+        "url": "https://1024.waytoagi.com/tracks/detective",
+        "provenance": "direct_official",
+        "date": "页面未提供发布日期"
+      }]
+    },
+    "T3": {
+      "label": "邀请码渠道",
+      "text": "邀请码仅在侦探赛道群发放，官网不保存或公开邀请码。",
+      "status": "supported",
+      "quote": "邀请码仅在侦探赛道群发放。",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 11:22 UTC（本次复核时段）",
+      "sources": [{
+        "title": "WaytoAGI 官方邀请码说明",
+        "url": "https://1024.waytoagi.com/tracks/detective",
+        "provenance": "direct_official",
+        "date": "页面未提供发布日期"
+      }]
+    },
+    "T4": {
+      "label": "有效期",
+      "text": "搜索额度有效期以活动说明为准；领取入口和活动期可能结束。",
+      "status": "supported",
+      "quote": "搜索额度有效期以活动说明为准。",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 11:22 UTC（本次复核时段）",
+      "sources": [{
+        "title": "WaytoAGI 官方额度有效期说明",
+        "url": "https://1024.waytoagi.com/tracks/detective",
+        "provenance": "direct_official",
+        "date": "页面未提供发布日期"
+      }]
+    }
+  },
+  "completedStatement": "侦探赛道选手在活动期可获 6000 次免费元宝搜索，但需要进入“我的福利”扫码加入侦探赛道群，按群内指引取得邀请码并核销；邀请码不在官网公开，额度有效期以活动说明为准。",
+  "limitations": [
+    "6000 次是活动额度，不是所有元宝搜索账号的默认长期额度。",
+    "邀请码需要本人按官方渠道领取和核销，官网不保存或公开邀请码。",
+    "活动日期、领取入口和额度有效期以最新官方说明为准。"
+  ],
+  "uncertainties": [
+    "官网没有说明海外账号、企业账号或中国港澳台地区账号是否适用同一领取流程。",
+    "官网没有承诺 2026-11-30 之后仍可领取或继续使用 6000 次额度。",
+    "本案没有读取个人福利页面，不确认任何特定账号的领取状态或剩余额度。"
+  ],
+  "exampleNeed": "我是中国大陆个人选手，愿意扫码进入侦探赛道群并核销邀请码，想在 10 月使用 6000 次免费搜索。",
+  "needExamples": [
+    {"label": "接受群内领取", "text": "我是中国大陆个人选手，愿意扫码进入侦探赛道群并核销邀请码，想在 10 月使用 6000 次免费搜索。"},
+    {"label": "要求自动到账", "text": "我不想加群，也不想填邀请码，希望登录控制台后 6000 次自动到账。"},
+    {"label": "海外与后续时间未知", "text": "我是海外机构账号，想确认 11 月 30 日以后是否仍能领取 6000 次额度。"}
+  ],
+  "applicability": {
+    "criteria": [
+      {
+        "id": "activity-quota",
+        "type": "trigger",
+        "label": "6000 次活动额度",
+        "pattern": "6000|六千",
+        "result": "pass",
+        "passText": "需求指向官方赛道规则列示的 6000 次活动额度，仍需满足进群、邀请码和活动期条件。",
+        "conditionIds": ["T1"]
+      },
+      {
+        "id": "group-step",
+        "type": "trigger",
+        "label": "进群与邀请码步骤",
+        "pattern": "扫码|进群|加群|赛道群|邀请码|核销",
+        "result": "pass",
+        "passText": "需求包含官方要求的赛道群与邀请码步骤。",
+        "conditionIds": ["T2", "T3"]
+      },
+      {
+        "id": "no-group",
+        "type": "trigger",
+        "label": "免进群或自动到账",
+        "pattern": "不想加群|不加群|无需加群|不用加群|自动到账|直接领取|不用邀请码|不需要邀请码",
+        "result": "fail",
+        "failText": "官方领取流程要求进入赛道群并获取、核销邀请码；免进群或自动到账与现有说明不符。",
+        "conditionIds": ["T2", "T3"]
+      },
+      {
+        "id": "region-time-unknown",
+        "type": "trigger",
+        "label": "地区或后续时间",
+        "pattern": "中国香港|香港|澳门|台湾|海外|境外|国际账号|11月30日以后|11月30日后|12月|活动结束以后|长期",
+        "result": "unknown",
+        "failText": "官方页面没有覆盖该地区或活动结束后的额度安排，现有证据不足以判断。",
+        "conditionIds": ["T4"]
+      }
+    ]
+  }
+}

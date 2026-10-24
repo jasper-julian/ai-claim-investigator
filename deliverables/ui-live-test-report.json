@@ -1,0 +1,334 @@
+{
+  "testedAt": "2026-10-24T11:52:41.435Z",
+  "base": "http://127.0.0.1:4191",
+  "live": true,
+  "checks": [
+    {
+      "name": "案例 01 独立链接加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 保留三轮真实查询",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 来源链接可点击",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 请求 ID 可见",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 条件证据卡加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 恰好拆为三项承诺",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 条件来源可点击",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 初始需求可判断",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 需求示例 1 → applies",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 需求示例 2 → does_not_apply",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 需求示例 3 → insufficient",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "超出现有证据的维度要求再次查证",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 默认未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 JSON 含证据卡与适用判断",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 01 导出保持未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 独立链接加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 保留三轮真实查询",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 来源链接可点击",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 请求 ID 可见",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 条件证据卡加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 恰好拆为三项承诺",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 条件来源可点击",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 初始需求可判断",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 需求示例 1 → applies",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 需求示例 2 → does_not_apply",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 需求示例 3 → insufficient",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 默认未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 JSON 含证据卡与适用判断",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 02 导出保持未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 独立链接加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 保留三轮真实查询",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 来源链接可点击",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 请求 ID 可见",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 条件证据卡加载",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 恰好拆为三项承诺",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 条件来源可点击",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 初始需求可判断",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 需求示例 1 → applies",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 需求示例 2 → does_not_apply",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 需求示例 3 → insufficient",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 需求重算未搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 默认未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 JSON 含证据卡与适用判断",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "案例 03 导出保持未人工复核",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "三次真实案例回放均未触发新调查",
+      "passed": true,
+      "details": "investigate=0"
+    },
+    {
+      "name": "刷新后仍加载指定案例",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "无效案例清楚提示",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "无效案例没有触发调查",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "移动端无横向溢出",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "新问题查询接口可达",
+      "passed": true,
+      "details": "HTTP 200"
+    },
+    {
+      "name": "新问题请求携带具体需求",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "新问题走通真实三步查证",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "新问题未伪造条件卡",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "新问题未冒充 AI 自动结论",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "新问题导出保留需求且不伪造证据卡",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "新问题实际查询时间",
+      "passed": true,
+      "details": "2026-10-24T11:52:41.432Z"
+    },
+    {
+      "name": "浏览器无脚本或 CSP 错误",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "consoleErrors": [],
+  "passed": true
+}

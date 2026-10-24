@@ -1,0 +1,170 @@
+{
+  "claim": "Notion AI 免费版是否支持商用？",
+  "overallStatus": "partially_supported",
+  "summary": "Notion Free 确有 Notion AI 的有限试用，但本次打开的官方页面没有给出“每月固定 100 次免费额度”，也没有明确说明试用输出可用于客户商业项目。",
+  "cardAuthor": "WorkBuddy（AI 助手，基于 2026-10-24 的真实元宝检索并直访 Notion 官方页面）",
+  "searchContributor": "元宝搜索三轮真实记录，见 deliverables/exports/live-card-workflow.json；指定域名 notion.com",
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Notion Free 计划包含 Notion AI 的有限试用。",
+      "status": "supported_with_conditions",
+      "timeScope": "2026-10-24 查询时的官方定价页",
+      "conditionIds": ["T1", "T2"]
+    },
+    {
+      "id": "C2",
+      "text": "Notion Free 提供持续可用的每月 100 次 AI 额度。",
+      "status": "unknown",
+      "timeScope": "官方当前页面未给出持续免费次数",
+      "conditionIds": ["T3", "T4"]
+    },
+    {
+      "id": "C3",
+      "text": "Notion Free 试用生成的内容可以用于客户商业项目。",
+      "status": "unknown",
+      "timeScope": "本次打开的定价与帮助页未明确授权或禁止",
+      "conditionIds": ["T5"]
+    }
+  ],
+  "conditions": {
+    "T1": {
+      "label": "Free 价格与定位",
+      "text": "Free 为 0 价，官方描述面向个人整理项目与生活。",
+      "status": "supported",
+      "quote": "Free — ¥0 per seat / month. For individuals to organize personal projects and life.",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 11:55 UTC（本次复核时段）",
+      "sources": [{
+        "title": "Notion 官方定价页",
+        "url": "https://www.notion.com/pricing",
+        "provenance": "direct_official",
+        "date": "动态页面，未提供当日日期"
+      }]
+    },
+    "T2": {
+      "label": "AI 是试用而非持续额度",
+      "text": "Free 的 Notion AI 在定价页标为 Limited Trial；Plus 也列 Limited Trial。",
+      "status": "supported",
+      "quote": "Trial AI capabilities like generating docs, or autofilling databases. Trial of Notion AI. … Standard Credits: Free — Limited Trial; Plus — Limited Trial.",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 11:55 UTC（本次复核时段）",
+      "sources": [{
+        "title": "Notion 官方定价页 · Notion AI 权益",
+        "url": "https://www.notion.com/pricing",
+        "provenance": "direct_official",
+        "date": "动态页面，未提供当日日期"
+      }]
+    },
+    "T3": {
+      "label": "非商业/企业计划的 AI 计费方式",
+      "text": "不在 Business 或 Enterprise 时，Notion AI 使用工作区 credits，包括可能存在的赠送 credits；页面没有公布 Free 的每月固定免费次数。",
+      "status": "supported",
+      "quote": "If you are not on those plans, Notion AI will use credits from your workspace, including any complimentary credits you may have available.",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 11:55 UTC（本次复核时段）",
+      "sources": [{
+        "title": "Notion 官方帮助 · Notion AI for databases",
+        "url": "https://www.notion.com/help/autofill",
+        "provenance": "direct_official",
+        "date": "帮助页，未提供明确发布日"
+      }]
+    },
+    "T4": {
+      "label": "月度 allowance 的计划范围",
+      "text": "每月 Standard/Select credits 的 allowance 属于 Business 和 Enterprise；本次页面没有给 Free 同样的每月额度。",
+      "status": "supported",
+      "quote": "Business and Enterprise plans give each workspace member a set amount of Notion AI credits each month. Standard credits: … 1,500 per member, no rollover. Select credits: … 500 per member, no rollover.",
+      "quoteType": "quote",
+      "checkedAt": "2026-10-24 11:55 UTC（本次复核时段）",
+      "sources": [{
+        "title": "Notion 官方帮助 · Manage your AI credits",
+        "url": "https://www.notion.com/help/manage-your-ai-credits",
+        "provenance": "direct_official",
+        "date": "页面注明 2026-10-19 / 2026-11-02 起的 credit 调整"
+      }]
+    },
+    "T5": {
+      "label": "商业使用授权",
+      "text": "本次打开的定价与 AI 帮助页面没有给出 Free 试用输出用于客户商业项目的明确授权；不能把“个人项目”描述直接扩展为商用许可。",
+      "status": "unknown",
+      "quote": "本次打开的三个官方页面没有给出 Free 试用输出的商业许可条款；定价页只把 Free 描述为面向个人整理项目与生活。",
+      "quoteType": "paraphrase",
+      "checkedAt": "2026-10-24 11:55 UTC（本次复核时段）",
+      "sources": [{
+        "title": "Notion 官方定价页（个人用途描述）",
+        "url": "https://www.notion.com/pricing",
+        "provenance": "direct_official",
+        "date": "动态页面，未提供当日日期"
+      }]
+    }
+  },
+  "completedStatement": "Notion Free 提供 Notion AI 的有限试用，但当前官方页面没有承诺每月固定 100 次免费额度；非 Business/Enterprise 的 AI 使用会消耗工作区 credits 或赠送 credits。试用输出能否用于客户商业项目，本次资料没有给出明确授权，仍需查服务条款或书面许可。",
+  "limitations": [
+    "Free 的 AI 权益是有限试用，不是已确认的持续月度配额。",
+    "Business/Enterprise 的 1,500 Standard + 500 Select credits 不适用于 Free。",
+    "定价页与 credit 规则为动态页面，计划与活动可能变化。"
+  ],
+  "uncertainties": [
+    "Notion 当前是否给新 Free 工作区赠送固定数量的欢迎 credits，本次未读取任何账户，不能确认。",
+    "本次没有完整审阅 Notion 服务条款与输出内容许可，不能给出商业使用的法律结论。",
+    "未核查地区、税务、团队协作与 API 调用差异。"
+  ],
+  "exampleNeed": "我只做个人非商业记录，没有每月固定 AI 用量要求，也不需要 API。",
+  "needExamples": [
+    {"label": "个人试用，不设固定次数", "text": "我只做个人非商业记录，没有每月固定 AI 用量要求，也不需要 API。"},
+    {"label": "每月固定 100 次", "text": "我每月必须使用 100 次 Notion AI，且不想购买付费计划。"},
+    {"label": "客户商业项目", "text": "我要把 Notion AI 免费试用的输出用于客户商业广告。"}
+  ],
+  "applicability": {
+    "criteria": [
+      {
+        "id": "fixed-monthly-uses",
+        "type": "trigger",
+        "label": "每月固定 AI 次数",
+        "pattern": "每月[^。；\\n]{0,18}?\\d+\\s*次",
+        "result": "unknown",
+        "failText": "本次官方页面只把 Free 的 AI 标为有限试用，没有公布每月固定免费次数；不能确认 100 次额度。",
+        "conditionIds": ["T2", "T3", "T4"]
+      },
+      {
+        "id": "personal-trial",
+        "type": "trigger",
+        "label": "个人非商业试用",
+        "pattern": "个人非商业|个人使用|个人项目|非商业|非商用",
+        "result": "pass",
+        "passText": "个人非商业用途与官方对 Free 的个人项目定位一致；实际可用量仍取决于有限试用/赠送 credits。",
+        "conditionIds": ["T1", "T2"]
+      },
+      {
+        "id": "commercial-project",
+        "type": "trigger",
+        "label": "客户商业使用",
+        "pattern": "商用|商业用途|客户商业|客户项目|广告|出售",
+        "negativePattern": "非商业|非商用|不需要商用|不要求商用|不用于商业",
+        "result": "unknown",
+        "failText": "本次官方页面没有明确授权 Free 试用输出用于客户商业项目，现有证据不足以判断。",
+        "conditionIds": ["T5"]
+      },
+      {
+        "id": "api-access",
+        "type": "trigger",
+        "label": "API 自动调用",
+        "pattern": "API|接口调用",
+        "negativePattern": "不需要\\s*API|不用\\s*API|不需要接口",
+        "result": "unknown",
+        "failText": "本次只核对了 Free 与 AI credits 页面，没有确认 API 的免费额度和商业调用条件。",
+        "conditionIds": []
+      },
+      {
+        "id": "notion-region",
+        "type": "trigger",
+        "label": "地区差异",
+        "pattern": "中国香港|香港|澳门|台湾|海外|境外",
+        "result": "unknown",
+        "failText": "本次官方页面没有覆盖该地区的计划与商业条款差异。",
+        "conditionIds": []
+      }
+    ]
+  }
+}
