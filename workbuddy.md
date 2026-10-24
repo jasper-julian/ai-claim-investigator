@@ -51,6 +51,21 @@ WorkBuddy 保留了真实记录、指定域名零命中、补充直访官方来�
 
 未完成或未验证：证据卡仍需 AI 按 Skill 生成，网页不会自动抽条件；没有做跨案例条件抽取、云端持久化和多人并发；Notion 案例只覆盖单个新问题，不能代表所有产品。
 
+## 第三阶段：最终修复、验收、录屏与 GitHub 交付
+
+用户要求实际完成修复、验收、真实录屏和 GitHub 上传。WorkBuddy 的实际工作：
+
+1. 重新核对规则与项目状态，发现并修复一个会阻断全部新查证的缺陷：`investigate.mjs` 的 nonce 正则只匹配 `<script nonce="…">`，与页面实际的 `<script type="module" nonce="…" src="/app.js">` 不符，导致 Skill 新查证必然报“本机查证服务版本不兼容”。修复后新查证成功。
+2. 用新问题「GitHub Copilot Free 每月 2000 次补全和 50 次对话」完成真实 Skill 闭环：三轮元宝检索（请求 ID `adcf20bf-…`、`283b2407-…`、`7fefe0a8-…`），直访 GitHub 官方文档与定价页，写出 3 项承诺、5 条条件的证据卡，保存为本机案卷。
+3. 验证四类需求结论：个人学习 `applies`、公司项目 `does_not_apply`、500 次对话 `insufficient`、紫色皮肤 `out_of_scope`，全部 `searched=false`。
+4. 新增 `scripts/record-demo.mjs`，用 Playwright 录制真实浏览器（1280×720）操作：主演示 3:14，另有三段案例录屏。录制中出现并修复了字幕变量与 nonce 读取两个脚本问题；两次作废的录制消耗的搜索次数已如实计入预算。
+5. 用 ffmpeg 合成、转码为 H.264 MP4，检查时长、分辨率、像素格式，抽帧确认无黑屏，计算 SHA256。
+6. 重新运行离线测试 27/27、浏览器验收 71/71，写 `deliverables/FINAL_TEST_REPORT.md`。
+7. 在 `.local/publish/repo` 克隆公开仓库，选择性同步 49 个文件后提交（`385a377`），使用 `id_ed25519_jasper_julian` 推送 main 与 tag `v1.0-submission`。默认 SSH 身份是另一个账号（`leyuansugar`），无写权限，已改用仓库所有者密钥，未改写历史、未 force push。
+8. 生成 1600×1200 封面、`SUBMISSION_READY.md` 与 `deliverables/submission/` 清单，停在正式提交之前。
+
+未完成：GitHub Release 未创建（本机没有 `gh` 登录或 API token，SSH 只能推 git 对象）；视频已作为仓库文件提供。未做真人试用、未部署公网、未发布社交动态、未提交比赛。
+
 ## 主要修改与新增文件
 
 - 修改：`server.mjs`、`src/yuanbao.mjs`、`public/index.html`、`public/app.js`、`public/casefile.js`、`skills/yuanbao-claim-investigator/SKILL.md`、`skills/.../scripts/investigate.mjs`、`scripts/validate-ui.mjs`、`README.md`、`SUBMISSION.md`、`deliverables/TESTING.md`、`test/*.mjs`。
@@ -62,8 +77,10 @@ WorkBuddy 保留了真实记录、指定域名零命中、补充直访官方来�
 ## 实际结果与限制
 
 - 本机地址：<http://127.0.0.1:4191/>；配置：<http://127.0.0.1:4191/settings>。
-- 真实案例：`/?case=01`、`02`、`03`；本机生成案卷：`/?case=save-4789ff258808`。
+- 真实案例：`/?case=01`、`02`、`03`；新案卷：`/?case=save-e4aa6cf73922`（Copilot）、`/?case=save-4789ff258808`（Notion）。
+- 公开仓库：<https://github.com/jasper-julian/ai-claim-investigator>，提交 `385a377`，tag `v1.0-submission`。
 - 网页没有独立大模型接口；新问题的 AI 深查必须由 Skill 驱动 AI 助手继续阅读原文，并用 `save-card.mjs` 保存后才有独立链接。
 - 需求重算只匹配已核实条件，不搜索、不出概率；超范围会要求再次查证。
+- GitHub Release 未创建（无 API 凭据）；演示视频已作为仓库文件提供，可直接下载。
 - 浏览器退出时沙箱曾阻止 Chrome 清理自身临时文件，已在测试说明中如实记录；最终页面断言全部通过。
-- 持续盯梢、截图识别、云端部署和正式提交未实现或未执行。
+- 持续盯梢、截图识别、云端部署、真人试用和正式提交未实现或未执行。

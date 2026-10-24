@@ -36,6 +36,16 @@
 
 新增真实 Notion 案例（`/?case=save-4789ff258808`）演示“证据不足”：官方页面只写 Free 的 AI 为 Limited Trial，没有公布每月固定免费次数，也没有明确 Free 输出的商业授权，因此“每月 100 次”“可用于客户项目”两项保持未知，不替官方补条件。
 
+新增真实 GitHub Copilot Free 案例（`/?case=save-e4aa6cf73922`）演示“条件随时间变化”与“条件不覆盖”：2024 年公告写 2000 次补全 + 50 次对话，2026-10-24 官方页面仍写 2000 次补全，但对话只写 “Limited chat and agent usage”；免费档只给未通过组织获得 Copilot 的个人，且不含 IP indemnity 与组织管理能力。公司项目判为“条件不覆盖”，而不是“官方禁止商用”。
+
+## 演示视频与开源仓库
+
+- 主演示视频（3:14，1280×720，H.264）：<https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4>
+- 三段真实案例录屏：`docs/videos/query-01.mp4`、`query-02.mp4`、`query-03.mp4`
+- 录制参数、SHA256、真实/回放标注：`docs/videos/README.md`
+- 仓库：<https://github.com/jasper-julian/ai-claim-investigator>（tag `v1.0-submission`，提交 `385a377`）
+- 最终验收：`deliverables/FINAL_TEST_REPORT.md`；提交包：`SUBMISSION_READY.md`
+
 ## 三次真实查询索引
 
 三次均已完成真实元宝调用，回放和截图不重复消耗搜索。既有 AI 草案贡献者为 Codex，未改称 WorkBuddy 原创。
@@ -72,9 +82,9 @@ Case 02、03 的指定域名零命中已如实保留；后续官方原文属于�
 
 - `npm test`：27/27 通过，全部离线。
 - 浏览器回放：71 项检查通过，覆盖三个案例、证据卡三态结论、需求重算不搜索、超范围提示、本机生成案卷、刷新、无效编号、来源链接、导出、移动端和脚本错误。
-- 真实新问题：Canva 与 Notion 两次均走通三轮检索；Notion 案卷另生成证据卡并保存为可刷新独立链接。
+- 真实新问题：Canva、Notion、GitHub Copilot Free 三次均走通三轮检索；Notion 与 Copilot 案卷另生成证据卡并保存为可刷新独立链接。
 - Skill `--case 01` 回放成功，26 个去重来源，新增搜索请求为 0。
-- 详见 `deliverables/TESTING.md` 和测试 JSON。
+- 详见 `deliverables/FINAL_TEST_REPORT.md`、`deliverables/TESTING.md` 和测试 JSON。
 
 ## 公开分享文案（仅准备，尚未发布）
 
@@ -82,4 +92,4 @@ Case 02、03 的指定域名零命中已如实保留；后续官方原文属于�
 
 #元宝搜索 #WaytoAGI #AI切磋大会 #1024超能Coding周末
 
-> 本作品目前仅在本机运行。尚未自动公开发布、上传仓库、正式报名或提交；以上动作由用户确认后执行。
+> 程序仅在本机运行，未部署公网；源码与材料已上传到 <https://github.com/jasper-julian/ai-claim-investigator>。尚未正式报名、提交或发布社交动态，以上动作由本人确认后执行。

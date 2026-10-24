@@ -11,8 +11,9 @@
 
 下载：
 
-- 主视频 Release 附件（同时作为本仓库文件）：<https://github.com/jasper-julian/ai-claim-investigator/releases/latest>
+- 主视频（GitHub 直接下载，7.6 MB）：<https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4>
 - 仓库内文件：`docs/videos/ai-claim-investigator-demo.mp4`、`docs/videos/query-01..03.mp4`
+- Release 资产：本轮**未创建**。当前环境没有 GitHub API 凭据（无 `gh` 登录、无 token），无法上传 Release 附件；视频已作为仓库普通文件提供（7.6 MB，远低于 100 MiB 限制），可直接下载观看。创建 Release 属于待本人操作项。
 
 ## 主视频结构与剪辑说明
 

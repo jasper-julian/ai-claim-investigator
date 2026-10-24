@@ -6,7 +6,7 @@ WaytoAGI 1024 切磋大会侦探赛道作品：输入一句公开 AI 产品宣�
 
 ## 演示视频与快速入口
 
-- 主演示视频（3 分 14 秒，1280×720，H.264）：[`docs/videos/ai-claim-investigator-demo.mp4`](docs/videos/ai-claim-investigator-demo.mp4)｜[Release 附件下载](https://github.com/jasper-julian/ai-claim-investigator/releases/latest)
+- 主演示视频（3 分 14 秒，1280×720，H.264）：[`docs/videos/ai-claim-investigator-demo.mp4`](docs/videos/ai-claim-investigator-demo.mp4)｜[直接下载（7.6 MB）](https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4)
 - 三个真实案例录屏：[`query-01.mp4`](docs/videos/query-01.mp4)、[`query-02.mp4`](docs/videos/query-02.mp4)、[`query-03.mp4`](docs/videos/query-03.mp4)
 - 录制时间、参数、SHA256、真实/回放标识与剪辑说明：[`docs/videos/README.md`](docs/videos/README.md)
 - 三个案例（本机运行后打开）：`/?case=01`、`/?case=02`、`/?case=03`；Notion 与 Copilot 的新案卷见 [SUBMISSION.md](SUBMISSION.md)
