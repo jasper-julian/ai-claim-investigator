@@ -90,6 +90,7 @@ WorkBuddy 保留了真实记录、指定域名零命中、补充直访官方来�
 5. **重录主视频。** 录制脚本不再把预生成卡“当作本次检索生成”，改为：现场真实查询 → 原始检索案卷 → 打开 Skill 先前保存的案卷并明确字幕“载入先前生成的证据卡（对应 22:45 的检索与官方原文，不是针对刚才这次新查询现场生成）”。现场查询为新的一次真实调用（请求 ID `726d8c1f-…`、`5f523fd3-…`、`d33588cf-…`，记录在 `evidence/live/copilot-free-recording-run.json`）。官方文档片段因第三方页面无法保留页面内字幕层，补了一层同款字幕贴图，仅覆盖该 11 秒。
 6. **导出真实对话。** 从本项目会话文本流导出 `docs/conversation/workbuddy-conversation-export.md`，注明时间范围、条数、排除项与脱敏方式，并在上方建立索引。
 7. **文档一致性。** 修正“Canva 有证据卡”的夸大表述（Canva 只有原始检索案卷）、修正“原片随 Release 提供”与“Release 未创建”的矛盾（原片只在本机 `deliverables/video-raw/` 保留），并同步 README、SUBMISSION、SUBMISSION_READY、FINAL_TEST_REPORT 与本记录。
+8. **推送与核验。** 变更提交到公开仓库 main，并打 tag `v1.2-submission` / `v1.3-submission`；用 `git hash-object` 与 `git ls-tree FETCH_HEAD` 核对远端视频 blob（`ea9af4d9…`，7,635,287 B）与本地完全一致；从 raw.githubusercontent.com 实际打开 README、主视频、对话导出与封面确认可下载。
 
 本轮未新增付费服务；新增元宝请求 3 次（主视频现场查询），其余全部复用已有真实记录并标注回放。
 
@@ -105,7 +106,7 @@ WorkBuddy 保留了真实记录、指定域名零命中、补充直访官方来�
 
 - 本机地址：<http://127.0.0.1:4191/>；配置：<http://127.0.0.1:4191/settings>。
 - 真实案例：`/?case=01`、`02`、`03`；新案卷：`/?case=save-cc091f7fc1ca`（Copilot）、`/?case=save-4789ff258808`（Notion）。
-- 公开仓库：<https://github.com/jasper-julian/ai-claim-investigator>，tag `v1.1-submission`（最终提交版本）。
+- 公开仓库：<https://github.com/jasper-julian/ai-claim-investigator>，tag `v1.2-submission`（判定语义修正版本；最终提交以 v1.3-submission 为准）。
 - 网页没有独立大模型接口；新问题的 AI 深查必须由 Skill 驱动 AI 助手继续阅读原文，并用 `save-card.mjs` 保存后才有独立链接。
 - 需求重算只匹配已核实条件，不搜索、不出概率；超范围会要求再次查证。
 - GitHub Release 未创建（无 API 凭据）；演示视频已作为仓库文件提供，可直接下载。
