@@ -1,6 +1,6 @@
 # 官网提交准备（停在正式提交之前）
 
-生成时间：2026-10-24 23:05（UTC+8）
+生成时间：2026-10-24 23:45（UTC+8）
 作品：**AI 宣传查证所**（WaytoAGI 1024 · 侦探赛道）
 状态：材料已备齐；**未提交、未发布社交动态、未勾选任何法律声明**。
 
@@ -23,7 +23,7 @@
 | 项目 | 内容 | 地址 / 大小 | 核对 |
 |---|---|---|---|
 | 封面 | 4:3，1600×1200 PNG，取自实际案卷页面 | `deliverables/submission/cover-1600x1200.png`（339 KB） | 小于 10 MB ✅ |
-| 主体视频 | 3:14，1280×720，H.264，无配音、中文字幕叠层 | <https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4>（7.6 MB） | 小于 500 MB ✅ |
+| 主体视频 | 3:22，1280×720，H.264，无配音、中文字幕叠层 | <https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4>（7.3 MB） | 小于 500 MB ✅ |
 | 仓库 | 源码、证据、报告、视频 | <https://github.com/jasper-julian/ai-claim-investigator> | 公开可读 ✅ |
 | 提交版本 | 提交 SHA | tag `v1.1-submission`（最终提交版本，见仓库 Commits 最新一次） | ✅ |
 | 在线演示 | **无公网部署** | 不提供 `127.0.0.1` 给评委 | 表单如要求在线链接，选择“视频 + 可运行源码/Skill”说明 |
@@ -40,7 +40,7 @@
 
 补充真实案例（不替代上述三次，用于证明不是写死案例）：
 
-- GitHub Copilot Free（2026-10-24 22:40，请求 ID `adcf20bf-…`、`283b2407-…`、`7fefe0a8-…`）：2000 次补全有来源支持；50 次对话在当前页面已无数字；免费档仅限未通过组织获得 Copilot 的个人。案卷 `save-e4aa6cf73922`，卡 `evidence/live/copilot-free-card.json`。
+- GitHub Copilot Free（2026-10-24 22:40，请求 ID `adcf20bf-…`、`283b2407-…`、`7fefe0a8-…`）：2000 次补全有来源支持；50 次对话在当前页面已无数字；免费档仅限未通过组织获得 Copilot 的个人。案卷 `save-cc091f7fc1ca`，卡 `evidence/live/copilot-free-card.json`。“公司项目未采购付费计划”判为证据不足，“要求 IP indemnity/SAML SSO”或“已由组织开通”才判条件不适用。
 - Notion AI Free（2026-10-24 11:52，请求 ID `a4ded514-…`、`8c2679f6-…`、`64a2dce0-…`）：Free 只标 Limited Trial，未公布每月固定次数与商业授权，判为证据不足。案卷 `save-4789ff258808`。
 - Canva 免费版商用（2026-10-24 11:34）：三轮成功，仅原始案卷，无 AI 卡。`deliverables/exports/live-validation.json`。
 
@@ -49,8 +49,8 @@
 ## 4. 深度调查与开发记录
 
 - 深查报告：`deliverables/deep-investigation-case-01.md`（Tripo，命题拆解、三轮台账、官方原文、免费/商用/额度/Bridge/API 差异、仍不确定项）。
-- 真实开发记录：`workbuddy.md`。**明确是摘要**，不是完整对话导出；范围为本项目本次开发，Codex 早期贡献已保留标注。
-- 最终验收：`deliverables/FINAL_TEST_REPORT.md`（离线 27/27、浏览器 71/71、真实查询逐条、修复项、限制）。
+- 真实开发记录：`workbuddy.md`（**摘要**）与 `docs/conversation/workbuddy-conversation-export.md`（真实对话文本导出，2026-10-24 19:21—23:32，5 条用户发言、35 条助手回复，含排除与脱敏说明）；Codex 早期贡献已保留标注。
+- 最终验收：`deliverables/FINAL_TEST_REPORT.md`（离线 31/31、浏览器 76/76、真实查询逐条、修复项、限制）。
 - 录屏参数与哈希：`docs/videos/README.md`。
 
 ## 5. 社交分享（仅文案，本人发布）
@@ -71,7 +71,7 @@
 |---|---|
 | 作品名 / 一句话 / 说明 | 已准备，见第 1 节 |
 | 封面 4:3、<10 MB | 已准备（1600×1200，339 KB） |
-| 主体视频、<500 MB | 已准备（3:14，7.6 MB，H.264） |
+| 主体视频、<500 MB | 已准备（3:22，7.3 MB，H.264） |
 | 3 次真实查询材料 | 已准备（3 段视频 + 截图 + 案卷） |
 | 深度调查材料 | 已准备（Case 01 报告） |
 | 仓库 / 可运行源码 | 已准备（公开仓库 + tag） |
@@ -83,5 +83,5 @@
 
 1. **正式提交**：按官网表单逐项粘贴、上传，勾选法律声明（截止时间以官网为准，公开说明为北京时间 2026-10-25 16:00）。
 2. **社交发布**：在小红书或视频号发布上述文案并带上四个话题，把链接回填到表单。
-3. **GitHub Release（可选）**：当前环境无 GitHub API 凭据，未创建 Release；视频已作为仓库文件提供。如需 Release 附件，用已登录的 GitHub 网页或 `gh release create` 上传 `docs/videos/ai-claim-investigator-demo.mp4`。
+3. **GitHub Release（可选）**：当前环境无 GitHub API 凭据，未创建 Release；视频已作为仓库文件提供。如需 Release 附件，用已登录的 GitHub 网页或 `gh release create` 上传 `docs/videos/ai-claim-investigator-demo.mp4`。原片只在本地 `deliverables/video-raw/`，未随仓库或 Release 提供。
 4. **在线演示（可选）**：如希望评委直接点开网页，需要另行部署（当前故意不暴露本机凭据服务）。

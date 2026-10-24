@@ -10,7 +10,7 @@
 
 | 材料 | 仓库路径 | 直接链接 |
 |---|---|---|
-| 主演示视频 3:14 | `docs/videos/ai-claim-investigator-demo.mp4` | <https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4> |
+| 主演示视频 3:22 | `docs/videos/ai-claim-investigator-demo.mp4` | <https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4> |
 | 案例 01 录屏 | `docs/videos/query-01.mp4` | <https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/query-01.mp4> |
 | 案例 02 录屏 | `docs/videos/query-02.mp4` | <https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/query-02.mp4> |
 | 案例 03 录屏 | `docs/videos/query-03.mp4` | <https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/query-03.mp4> |

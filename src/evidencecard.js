@@ -73,7 +73,9 @@ export function evaluateCard(card, need, evaluatedAt = new Date().toISOString())
           id: criterion.id,
           label: criterion.label,
           result: criterion.result,
-          detail: criterion.result === 'pass' ? criterion.passText : criterion.failText,
+          detail: criterion.result === 'pass'
+            ? criterion.passText
+            : (criterion.detailText || criterion.failText),
           conditionIds: criterion.conditionIds || []
         });
       }

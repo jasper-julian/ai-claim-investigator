@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.1",
-  "caseId": "save-e4aa6cf73922",
+  "caseId": "save-cc091f7fc1ca",
   "claim": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。",
   "domain": "github.com",
   "need": "我只想知道界面有没有紫色主题皮肤。",
-  "startedAt": "2026-10-24T14:47:02.988Z",
-  "completedAt": "2026-10-24T14:47:03.700Z",
-  "exportedAt": "2026-10-24T14:48:10.043Z",
+  "startedAt": "2026-10-24T14:40:35.368Z",
+  "completedAt": "2026-10-24T14:40:37.280Z",
+  "exportedAt": "2026-10-24T15:41:07.516Z",
   "outcome": "researched",
   "rounds": [
     {
@@ -14,7 +14,7 @@
       "query": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。 官方 说明 原文",
       "site": "github.com",
       "status": "success",
-      "requestId": "52cb8fac-58be-4db0-bd9c-cfce17525f6a",
+      "requestId": "adcf20bf-4432-4bbc-92a4-bd1254239111",
       "pages": [
         {
           "title": " GitHub Copilot FAQ",
@@ -86,7 +86,7 @@
       "query": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。 商用 授权 许可 功能 版本 权限 条件 限制 官方",
       "site": "github.com",
       "status": "success",
-      "requestId": "31c5849a-fe69-4475-9f21-fb2853c7f5e3",
+      "requestId": "283b2407-5ae0-4ca7-8848-6f83f0d9f393",
       "pages": [
         {
           "title": "GitHub Copilot for Developers",
@@ -157,7 +157,7 @@
       "label": "找反例与例外",
       "query": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。 商用 授权 许可 功能 版本 权限 不适用 例外 实际使用 公告",
       "status": "success",
-      "requestId": "fd9a8eae-7e6a-45d7-9ff9-02a6aa9487a9",
+      "requestId": "7fefe0a8-6fb6-4408-8f2e-72e7bf955b8b",
       "pages": [
         {
           "title": "GitHub Copilot 评测 2026:四年后还值 10/月吗?",
@@ -172,6 +172,13 @@
           "passage": "GitHub Copilot Ai地带。 支持的语言、IDE 和平台 编程语言:支持多种编程语言,训练数据源于公共代码库,对主流语言如 JavaScript 支持良好,其他语言的支持程度取决于其在公共代码库中的数据量和多样性。 集成开发环境(IDE):可作为扩展集成到 Visual Studio Code、Visual Studio、JetBrains IDEs、Neovim 等主流 IDE 中,在不同开发环境下为开发者提供一致的辅助体验,部分环境已支持聊天功能,未来将在更多环境中拓展。 平台支持:通过 GitHub CLI 在终端提供支持,GitHub Copilot Enterprise 计划将其原生集成到GitHub.com,所有计划都将在 GitHub Mobile 中提供该功能,方便开发者随时随地使用。 定价与计划 个人版(Individual):面向个人开发者、自由职业者、学生和教育工作者,每月 10 美元或每年 100 美元,学生、教师和热门开源项目维护者可免费使用,提供代码补全和聊天协助功能。 商业版(Business):适用于企",
           "date": "2025/01/06 08:03:08",
           "site": "www.huoi.cn"
+        },
+        {
+          "title": "开始使用 GitHub Copilot - GitHub 文档",
+          "url": "https://github.c-cpp.com/zh/copilot/getting-started-with-github-copilot?tool=vscode",
+          "passage": "开始使用 GitHub Copilot - GitHub 文档。开始使用 GitHub Copilot 可以通过在首选的环境中安装扩展来开始使用 GitHub Copilot。 Tool navigation Azure Data Studio JetBrains IDEs Vim/Neovim Visual Studio Visual Studio Code GitHub Copilot 可以通过具有 GitHub Copilot Individual 的个人帐户或通过具有 GitHub Copilot Business 的组织帐户进行管理。 GitHub Copilot 供经过验证的学生、教师和热门开源项目的维护人员免费使用。 如果你不是学生、教师或热门开源项目的维护人员,可以在一次性 30 天试用期中免费试用 GitHub Copilot。 免费试用后,需要付费订阅才能继续使用。有关详细信息,请参阅“关于 GitHub Copilot 的计费”。 尝试 GitHub Copilot 探索开发工具 关于 GitHub Copilot 和 Je",
+          "date": "",
+          "site": "github.c-cpp.com"
         },
         {
           "title": "GitHub Copilot for Developers",
@@ -418,6 +425,18 @@
       "assessment": "unreviewed"
     },
     {
+      "title": "开始使用 GitHub Copilot - GitHub 文档",
+      "url": "https://github.c-cpp.com/zh/copilot/getting-started-with-github-copilot?tool=vscode",
+      "passage": "开始使用 GitHub Copilot - GitHub 文档。开始使用 GitHub Copilot 可以通过在首选的环境中安装扩展来开始使用 GitHub Copilot。 Tool navigation Azure Data Studio JetBrains IDEs Vim/Neovim Visual Studio Visual Studio Code GitHub Copilot 可以通过具有 GitHub Copilot Individual 的个人帐户或通过具有 GitHub Copilot Business 的组织帐户进行管理。 GitHub Copilot 供经过验证的学生、教师和热门开源项目的维护人员免费使用。 如果你不是学生、教师或热门开源项目的维护人员,可以在一次性 30 天试用期中免费试用 GitHub Copilot。 免费试用后,需要付费订阅才能继续使用。有关详细信息,请参阅“关于 GitHub Copilot 的计费”。 尝试 GitHub Copilot 探索开发工具 关于 GitHub Copilot 和 Je",
+      "date": "",
+      "site": "github.c-cpp.com",
+      "rounds": [
+        3
+      ],
+      "provenance": "yuanbao_search",
+      "assessment": "unreviewed"
+    },
+    {
       "title": "GitHub Copilot for Developers",
       "url": "http://git-hub.com/timothywarner/copilot-dev",
       "passage": "GitHub Copilot for Developers GitHub。 GH-300 revision effective August 7. Subscription Tiers (July 2026) Billing is usage-based on GitHub AI Credits. 1 AI credit = $0.01 USD. Base credits match the subscription price one-for-one; the flex allotment sits on top and is designed to change as AI economics change. Credits do not roll over, and the allowance resets at 00:00:00 UTC on the first of each month. Code completions and Next Edit Suggestions are unlimited on paid plans and",
@@ -614,6 +633,10 @@
       {
         "label": "对话次数",
         "text": "我每月需要 500 次对话，补全用量很小，想知道免费版够不够。"
+      },
+      {
+        "label": "要求企业保障",
+        "text": "公司要求提供 IP indemnity 和 SAML SSO，才能用于公司项目里的代码。"
       }
     ],
     "applicability": {
@@ -633,13 +656,36 @@
           ]
         },
         {
+          "id": "enterprise-guarantee",
+          "type": "trigger",
+          "label": "明确要求 IP 赔偿 / 企业级安全 / SSO",
+          "pattern": "IP\\s*indemnity|知识产权赔偿|企业级安全|SAML|\\bSSO\\b|组织策略|审计日志|使用量指标",
+          "negativePattern": "不需要\\s*(IP|赔偿|SSO|审计|企业级安全)|不要求\\s*(IP|赔偿|SSO|审计)",
+          "result": "fail",
+          "failText": "官方功能对比表明确标注 Copilot Free 不含 IP indemnity、企业级安全、github.com 用户管理、使用量指标与 SAML SSO。你的需求明确要求了其中一项，免费档不能覆盖；这不等于“免费版被禁止”，而是这项保障需要改用付费计划或组织方案。",
+          "conditionIds": [
+            "T5"
+          ]
+        },
+        {
+          "id": "org-provided",
+          "type": "trigger",
+          "label": "已通过组织获得 Copilot",
+          "pattern": "(公司|组织|企业)(已经|已)(为我|给我)?(开通|提供|采购)[^。；\\n]{0,10}(Copilot|许可|账号)",
+          "result": "fail",
+          "failText": "官方文档写明 Copilot Free 只面向未通过组织或企业获得 Copilot 的个人开发者；你已经通过组织获得 Copilot，不满足免费档的适用条件。",
+          "conditionIds": [
+            "T4"
+          ]
+        },
+        {
           "id": "org-project",
           "type": "trigger",
           "label": "公司/团队项目",
           "pattern": "(公司|企业|团队|组织)[^。；\\n]{0,12}(项目|开发|代码|使用)",
           "negativePattern": "没有(公司|企业|团队|组织)提供",
-          "result": "fail",
-          "failText": "官方文档写明 Copilot Free 只面向未通过组织或企业获得 Copilot 的个人开发者；免费档也不含 IP indemnity、企业级安全与组织策略管理。公司项目的这些条件不在免费档覆盖范围内；这不等于“禁止商用”，但需要按组织政策与许可条款另行确认。",
+          "result": "unknown",
+          "detailText": "现有官方原文只说明 Copilot Free 面向未通过组织或企业获得 Copilot 的个人开发者，并没有就“在公司项目里使用免费版”的许可与合规给出结论。免费档不含 IP indemnity、企业级安全与组织管理，也不等于你的需求要求了这些保障；商用许可与组织政策需要另行查证，不能判成与已核实条件冲突。",
           "conditionIds": [
             "T4",
             "T5"
@@ -652,7 +698,7 @@
           "pattern": "(对话|聊天)",
           "negativePattern": "(不需要|不用|无需)(对话|聊天)",
           "result": "unknown",
-          "failText": "当前官方页面只写“Limited chat and agent usage”与 AI credits 额度，没有公布每月固定对话条数；2024-12-18 公告中的 50 条不能直接当作今天仍有效的数字，这一项需要再次查证。",
+          "detailText": "当前官方页面只写“Limited chat and agent usage”与 AI credits 额度，没有公布每月固定对话条数；2024-12-18 公告中的 50 条不能直接当作今天仍有效的数字，这一项需要再次查证。",
           "conditionIds": [
             "T3"
           ]
@@ -670,8 +716,8 @@
         }
       ]
     },
-    "cardId": "save-e4aa6cf73922",
-    "caseId": "save-e4aa6cf73922"
+    "cardId": "save-cc091f7fc1ca",
+    "caseId": "save-cc091f7fc1ca"
   },
   "applicability": {
     "status": "out_of_scope",
@@ -680,7 +726,7 @@
     "checks": [],
     "searched": false,
     "needsResearch": true,
-    "evaluatedAt": "2026-10-24T14:48:10.043Z"
+    "evaluatedAt": "2026-10-24T15:41:07.516Z"
   },
   "verdict": "unreviewed",
   "notes": "",

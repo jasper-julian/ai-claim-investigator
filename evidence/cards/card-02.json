@@ -121,7 +121,7 @@
         "type": "trigger",
         "label": "CLI 需求",
         "pattern": "CLI|命令行",
-        "negativePattern": "不需要\\s*CLI|不要求\\s*CLI|不用\\s*CLI|不使用\\s*CLI",
+        "negativePattern": "不需要\\s*CLI|不要求\\s*CLI|不用\\s*CLI|不使用\\s*CLI|已订阅|已购买|已有\\s*(标准版|高级版|旗舰版)",
         "result": "fail",
         "failText": "当前官方版本权益表未把 CLI 访问列入体验版；免费体验不能直接满足 CLI 需求。",
         "conditionIds": ["T3"]

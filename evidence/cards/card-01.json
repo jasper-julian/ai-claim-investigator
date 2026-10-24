@@ -154,7 +154,7 @@
         "type": "trigger",
         "label": "Blender Bridge 传送",
         "pattern": "Blender\\s*Bridge|Bridge|插件传输|发送到\\s*Blender|一键导入\\s*Blender",
-        "negativePattern": "不使用\\s*Bridge|不用\\s*Bridge|不需要\\s*Bridge|不使用插件",
+        "negativePattern": "不使用\\s*Bridge|不用\\s*Bridge|不需要\\s*Bridge|不使用插件|已有\\s*(Pro|Max|Team)|已订阅\\s*(Pro|Max|Team)",
         "result": "fail",
         "failText": "通过官方 Bridge 发送模型需要 Pro、Max 或 Team；免费下载插件不能消除这个计划门槛。",
         "conditionIds": ["T2"]
@@ -164,7 +164,7 @@
         "type": "trigger",
         "label": "API 插件/接口",
         "pattern": "API|接口调用|开发者密钥",
-        "negativePattern": "不使用\\s*API|不用\\s*API|不需要\\s*API",
+        "negativePattern": "不使用\\s*API|不用\\s*API|不需要\\s*API|已购买\\s*API|单独付费|独立付费|愿意付费|公司付费|付费\\s*API",
         "result": "fail",
         "failText": "API 插件与 Studio 订阅分开计费，Studio 免费积分不能直接当成 API 免费额度。",
         "conditionIds": ["T5"]

@@ -72,6 +72,46 @@ test('需求校验和检索维度识别可用', () => {
   assert.deepEqual(facets.map(item => item.id), ['quota', 'commercial', 'format']);
 });
 
+test('公司项目不等于条件冲突：未查明的商用许可返回证据不足', async () => {
+  const live = JSON.parse(await readFile(new URL('../evidence/live/copilot-free-card.json', import.meta.url), 'utf8'));
+  const need = '我要在公司项目里用 Copilot 写代码，团队没有采购付费计划，想直接用免费版。';
+  const result = evaluateCard(live, need, '2026-10-24T12:00:00.000Z');
+  assert.equal(result.status, 'insufficient');
+  assert.equal(result.searched, false);
+  assert.equal(result.needsResearch, true);
+  const orgCheck = result.checks.find(check => check.id === 'org-project');
+  assert.equal(orgCheck.result, 'unknown');
+  assert.match(orgCheck.detail, /另行查证/);
+  assert.doesNotMatch(orgCheck.detail, /禁止商用|违反|与你的需求冲突/);
+  assert.doesNotMatch(JSON.stringify(result), /概率|probability|confidence/i);
+});
+
+test('只有官方原文与明确要求直接冲突时才判不适用', async () => {
+  const live = JSON.parse(await readFile(new URL('../evidence/live/copilot-free-card.json', import.meta.url), 'utf8'));
+  const guarantee = evaluateCard(live, '公司要求提供 IP indemnity 和 SAML SSO，才能用于公司项目里的代码。', '2026-10-24T12:00:00.000Z');
+  assert.equal(guarantee.status, 'does_not_apply');
+  assert.ok(guarantee.checks.some(check => check.id === 'enterprise-guarantee' && check.result === 'fail'));
+  assert.equal(guarantee.searched, false);
+  const provided = evaluateCard(live, '公司已经给我开通了 Copilot 企业版，我还想用免费版补足额度。', '2026-10-24T12:00:00.000Z');
+  assert.equal(provided.status, 'does_not_apply');
+  assert.ok(provided.checks.some(check => check.id === 'org-provided' && check.result === 'fail'));
+});
+
+test('需求里写了已付费或已有付费计划时，不把免费档缺项当成冲突', async () => {
+  const first = await card('01');
+  assert.equal(evaluateCard(first, '我每月生成 5 个模型，API 我单独付费购买。').status, 'applies');
+  assert.equal(evaluateCard(first, '我每月生成 5 个模型，个人非商业，使用 Blender Bridge 发送，已有 Pro 计划。').status, 'applies');
+  const second = await card('02');
+  const paidCli = evaluateCard(second, '我已订阅标准版，CLI 用付费额度，只想确认体验版额度。');
+  assert.notEqual(paidCli.status, 'does_not_apply');
+});
+
+test('新真实卡的需求示例覆盖适用、证据不足与直接冲突', async () => {
+  const live = JSON.parse(await readFile(new URL('../evidence/live/copilot-free-card.json', import.meta.url), 'utf8'));
+  const statuses = live.needExamples.map(example => evaluateCard(live, example.text, '2026-10-24T12:00:00.000Z').status);
+  assert.deepEqual(statuses, ['applies', 'insufficient', 'insufficient', 'does_not_apply']);
+});
+
 test('导出同时包含证据卡、当前需求、适用判断和来源', async () => {
   const value = await card('01');
   const record = {

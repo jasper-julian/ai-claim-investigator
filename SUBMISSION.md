@@ -36,11 +36,17 @@
 
 新增真实 Notion 案例（`/?case=save-4789ff258808`）演示“证据不足”：官方页面只写 Free 的 AI 为 Limited Trial，没有公布每月固定免费次数，也没有明确 Free 输出的商业授权，因此“每月 100 次”“可用于客户项目”两项保持未知，不替官方补条件。
 
-新增真实 GitHub Copilot Free 案例（`/?case=save-e4aa6cf73922`）演示“条件随时间变化”与“条件不覆盖”：2024 年公告写 2000 次补全 + 50 次对话，2026-10-24 官方页面仍写 2000 次补全，但对话只写 “Limited chat and agent usage”；免费档只给未通过组织获得 Copilot 的个人，且不含 IP indemnity 与组织管理能力。公司项目判为“条件不覆盖”，而不是“官方禁止商用”。
+新增真实 GitHub Copilot Free 案例（`/?case=save-cc091f7fc1ca`）演示“条件随时间变化”与“未知不等于冲突”：2024 年公告写 2000 次补全 + 50 次对话，2026-10-24 官方页面仍写 2000 次补全，但对话只写 “Limited chat and agent usage”；免费档只给未通过组织获得 Copilot 的个人，且不含 IP indemnity、企业级安全与组织管理。
+
+这个案例同时是判定语义的回归样本：
+- “公司项目里想直接用免费版，团队没采购付费计划” → **证据不足**：官方原文没有就此给出许可结论，缺项不等于禁止；
+- “公司要求 IP indemnity 和 SAML SSO 才能用” → **条件不适用**：官方明确写免费档不含这些保障，属于直接冲突；
+- “公司已经给我开通了 Copilot 企业版” → **条件不适用**：直接不符合免费档适用人群；
+- “个人学习、每月 300 次补全” → **适用**。
 
 ## 演示视频与开源仓库
 
-- 主演示视频（3:14，1280×720，H.264）：<https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4>
+- 主演示视频（3:22，1280×720，H.264）：<https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4>
 - 三段真实案例录屏：`docs/videos/query-01.mp4`、`query-02.mp4`、`query-03.mp4`
 - 录制参数、SHA256、真实/回放标注：`docs/videos/README.md`
 - 仓库：<https://github.com/jasper-julian/ai-claim-investigator>（tag `v1.1-submission`）
@@ -72,18 +78,20 @@ Case 02、03 的指定域名零命中已如实保留；后续官方原文属于�
 2. 依次打开 `/?case=01`、`02`、`03`，展示刷新加载、三轮请求 ID、来源日期和官方域名零命中提示；点击任意来源可打开原文。
 3. 在 Case 01 修改“我的具体需求”，依次点三个示例，展示同一份证据得到“适用 / 条件不适用 / 证据不足”三种结论，并指出页面写着“本次判断未发起新搜索”；再填入“紫色主题皮肤”，展示超范围时要求再次查证。
 4. 打开 `/?case=save-4789ff258808`，这是 AI 按 Skill 真实检索并直访 Notion 官方页面后保存的本机案卷，展示“证据不足”如何处理，以及刷新后仍可打开。
-5. 输入一个新公开产品说法和需求并点击“开始查证”，展示真实三步搜索与随需求变化的查询词。网页不会自动给出 AI 判决，可复制任务交给 Skill 深查。
-6. 演示来源展开、人工复核标记和 Markdown/JSON 导出。未明确完成人工复核时，导出仍写“尚未人工复核”。
-7. 打开 `/?case=99`，展示无效案例提示，且不触发搜索。
+5. 打开 `/?case=save-cc091f7fc1ca`（Copilot Free），依次点四个需求示例：个人学习 `applies`、公司项目 `insufficient`、每月 500 次对话 `insufficient`、要求 IP indemnity 与 SAML SSO `does_not_apply`；说明“官方没写”不会被判成“禁止”。
+6. 输入一个新公开产品说法和需求并点击“开始查证”，展示真实三步搜索与随需求变化的查询词。网页不会自动给出 AI 判决，可复制任务交给 Skill 深查。
+7. 演示来源展开、人工复核标记和 Markdown/JSON 导出。未明确完成人工复核时，导出仍写“尚未人工复核”。
+8. 打开 `/?case=99`，展示无效案例提示，且不触发搜索。
 
 额外动态验证已用新问题“Canva 免费版生成的内容是否都可以商用？”完成三轮真实查询，记录位于 `deliverables/exports/live-validation.json`，截图为 `deliverables/screenshots/live-validation.png`。它不是替代指定三次案例的第四条参评记录，而是证明新问题可走通。
 
 ## 测试结果
 
-- `npm test`：27/27 通过，全部离线。
-- 浏览器回放：71 项检查通过，覆盖三个案例、证据卡三态结论、需求重算不搜索、超范围提示、本机生成案卷、刷新、无效编号、来源链接、导出、移动端和脚本错误。
-- 真实新问题：Canva、Notion、GitHub Copilot Free 三次均走通三轮检索；Notion 与 Copilot 案卷另生成证据卡并保存为可刷新独立链接。
+- `npm test`：31/31 通过，全部离线。
+- 浏览器回放：76 项检查通过，覆盖三个案例、证据卡四态结论、需求重算不搜索、“公司项目→证据不足 / 要求企业保障→不适用”的语义回归、超范围提示、本机生成案卷、刷新、无效编号、来源链接、导出、移动端和脚本错误。
+- 真实新问题：Canva、Notion、GitHub Copilot Free 三次均走通三轮检索；Canva 只有原始检索案卷，Notion 与 Copilot 另生成证据卡并保存为可刷新独立链接。
 - Skill `--case 01` 回放成功，26 个去重来源，新增搜索请求为 0。
+- 真实开发对话导出：`docs/conversation/workbuddy-conversation-export.md`（2026-10-24 19:21—23:32，5 条用户发言、35 条助手回复，含排除与脱敏说明）。
 - 详见 `deliverables/FINAL_TEST_REPORT.md`、`deliverables/TESTING.md` 和测试 JSON。
 
 ## 公开分享文案（仅准备，尚未发布）

@@ -1,0 +1,215 @@
+{
+  "claim": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。",
+  "domain": "github.com",
+  "need": "我在公司项目里写代码，想知道免费版能不能用于商业开发，是否限制团队或组织使用。",
+  "startedAt": "2026-10-24T15:33:27.236Z",
+  "completedAt": "2026-10-24T15:33:28.061Z",
+  "rounds": [
+    {
+      "label": "找宣传原句与官方说明",
+      "query": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。 官方 说明 原文",
+      "facet": "source",
+      "site": "github.com",
+      "status": "success",
+      "requestId": "726d8c1f-3170-4780-8b74-263472410c8e",
+      "pages": [
+        {
+          "title": " GitHub Copilot FAQ",
+          "url": "https://github.com/community/community/discussions/144674",
+          "passage": "🔖 GitHub Copilot FAQ GitHub。🔖 GitHub Copilot FAQ #144674 Akash1134 asked this question in Copilot Conversations Akash1134 on Nov 15, 2024Nov 15, 2024 Akash1134 on Nov 15, 2024Nov 15, 2024 GitHub Copilot FAQ Your complete guide to using GitHub Copilot effectively. Whether you're just getting started, troubleshooting issues, or exploring advanced features, you'll find answers and resources here. Note Last updated: January 9, 2026 | For real-time Copilot status, check GitHub's",
+          "date": "2024/11/15 00:00:00",
+          "site": "GitHub"
+        },
+        {
+          "title": "Introducing GitHub Copilot Free · community · Discussion #147189",
+          "url": "https://github.com/orgs/community/discussions/147189",
+          "passage": "Introducing GitHub Copilot Free · community · Discussion #147189 GitHub。Introducing GitHub Copilot Free #147189 We’re thrilled to announce the GitHub Copilot Free plan! It’s now easier than ever for developers to explore the power of GitHub Copilot in your favourite IDE Visual Studio Code, Visual Studio, JetBrains, and directly on GitHub. 🎉 By signing in with your personal GitHub account, you’ll gain 2000 code completions and 50 chat messages per month—enough to experience h",
+          "date": "",
+          "site": "GitHub"
+        },
+        {
+          "title": "GitHub Copilot for Developers",
+          "url": "https://github.com/timothywarner/copilot-dev/blob/main/README.md",
+          "passage": "GitHub Copilot for Developers GitHub。 GH-300 revision effective August 7. Subscription Tiers (July 2026) Billing is usage-based on GitHub AI Credits . 1 AI credit = $0.01 USD. Base credits match the subscription price one-for-one; the flex allotment sits on top and is designed to change as AI economics change. Credits do not roll over, and the allowance resets at 00:00:00 UTC on the first of each month. Code completions and Next Edit Suggestions are unlimited on paid plans an",
+          "date": "2026/07/22 00:00:00",
+          "site": "GitHub"
+        },
+        {
+          "title": "Pricing calculator",
+          "url": "https://github.com/pricing/calculator?feature=codespaces",
+          "passage": "Pricing calculator GitHub。Pricing calculator Configure and estimate the costs for GitHub products. Plans GitHub Enterprise Security, compliance and flexible deployment. Maximize developer agility and productivity. Developers can enjoy a fully-feature environment to build and innovate from idea to production. Work more collaboratively and efficiently anytime, anywhere, with secure open-source code repos and integrated code-to-cloud workflows. Number of seats Cost per month $0.",
+          "date": "",
+          "site": "GitHub"
+        },
+        {
+          "title": "Pricing calculator",
+          "url": "https://github.com/pricing/calculator?feature=actions",
+          "passage": "Pricing calculator GitHub。Pricing calculator Configure and estimate the costs for GitHub products. Plans GitHub Enterprise Security, compliance and flexible deployment. Maximize developer agility and productivity. Developers can enjoy a fully-feature environment to build and innovate from idea to production. Work more collaboratively and efficiently anytime, anywhere, with secure open-source code repos and integrated code-to-cloud workflows. Number of seats Cost per month $0.",
+          "date": "",
+          "site": "GitHub"
+        },
+        {
+          "title": "Command your craft",
+          "url": "https://github.com/features/copilot?culture=en-us",
+          "passage": "Command your craft GitHub。 Access to Copilot Business and Enterprise is managed by your GitHub Administrator. They can control access to preview features, models, and set GitHub Copilot policies for your organization. Additionally, you can use your network firewall to explicitly allow access to Copilot Business and/or block access to Copilot Pro or Free. For more details, refer to the documentation . Plans & Pricing What are the differences between the Free, Pro, Pro+, Max, B",
+          "date": "",
+          "site": "GitHub"
+        },
+        {
+          "title": "GitHub Copilot",
+          "url": "https://github.com/features/copilot?q=is%3Aissue+sort%3Areactions-heart-desc+label%3Abug+is%3Aclosed",
+          "passage": "GitHub Copilot GitHub。GitHub Copilot More Command your craft Your AI accelerator for every workflow, from the editor to the enterprise. Go beyond one-size-fits-all Choose from leading LLMs optimized for speed, accuracy, or cost. Use your agents, your way Use GitHub Copilot, your own custom agents, or the third-party ones you already rely on. Stay in your flow Copilot works where you do—in GitHub, your IDE, the CLI, project tools, chat apps, and custom MCP servers. Workflow Co",
+          "date": "",
+          "site": "GitHub"
+        },
+        {
+          "title": "39.4 大模型本地部署",
+          "url": "https://github.com/lfourneen/FreeBSD-Ask/blob/main/di-39-zhang-ren-gong-zhi-neng-ai/di-39.4-jie-da-mo-xing-ben-di-bu-shu.md",
+          "passage": "39.4 大模型本地部署 GitHub。 GitHub Copilot CLI GitHub Copilot CLI 是 GitHub 的闭源项目。GitHub 提供免费套餐(每月 2000 次代码补全和 50 次聊天请求),超出额度或使用高级功能则需付费订阅。 GitHub Copilot CLI 将 AI 编程助手集成到命令行环境中,用户可以通过自然语言对话编写、调试和理解代码,并与 GitHub 工作流程实现集成。 安装 使用 pkg 安装: # pkg install github-copilot-cli 使用 Ports 安装: # cd /usr/ports/misc/github-copilot-cli/ # make install clean 使用 GitHub Copilot CLI $ copilot 在浏览器打开 https://github.com/login/device,输入 Copilot 输出的一次性验证码,在授权后即可使用 Copilot。 连续按两次 Ctrl + C 即可退出该工具。...",
+          "date": "",
+          "site": "GitHub"
+        },
+        {
+          "title": "更新 Copilot 设置页",
+          "url": "https://github.com/V-orl/github-chinese/commit/7acc2065990f5a8d5e8e1348eb9628a933f53a29",
+          "passage": "更新 Copilot 设置页 GitHub。\", 4665 + //\"Copilot Free is active for your account\": \"您的账户已启用 Copilot 免费版\", 4666 + //\"Responses are capped at 2,000 code completions and 50 chat messages per month.\": \"回复上限为每月 2,000 次代码完成和 50 条聊天信息。\", 4665 4667 \"Get unlimited usage with Copilot Pro\": \"通过 Copilot Pro 无限制使用\", 4666 4668 \"Unlimited messages and interactions\": \"信息和互动无限制\", 4667 4669 \"Access to the latest models\": \"访问最新模型\", @@ -4670,7 +4672,7 @@ I18N[\"zh-CN\"][\"settings/copilot\"] = { // 设置 - G",
+          "date": "",
+          "site": "GitHub"
+        }
+      ]
+    },
+    {
+      "label": "核对商用、功能",
+      "query": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。 商用 授权 许可 功能 版本 权限 条件 限制 官方",
+      "facet": "commercial,feature",
+      "site": "github.com",
+      "status": "success",
+      "requestId": "5f523fd3-0280-4f5b-88dd-359e0f7c76e4",
+      "pages": [
+        {
+          "title": "GitHub Copilot for Developers",
+          "url": "https://github.com/timothywarner/copilot-dev/blob/main/README.md",
+          "passage": "GitHub Copilot for Developers GitHub。 GH-300 revision effective August 7. Subscription Tiers (July 2026) Billing is usage-based on GitHub AI Credits . 1 AI credit = $0.01 USD. Base credits match the subscription price one-for-one; the flex allotment sits on top and is designed to change as AI economics change. Credits do not roll over, and the allowance resets at 00:00:00 UTC on the first of each month. Code completions and Next Edit Suggestions are unlimited on paid plans an",
+          "date": "2026/07/22 00:00:00",
+          "site": "GitHub"
+        },
+        {
+          "title": " GitHub Copilot FAQ",
+          "url": "https://github.com/orgs/community/discussions/144674",
+          "passage": "🔖 GitHub Copilot FAQ GitHub。🔖 GitHub Copilot FAQ #144674 Akash1134 asked this question in Copilot Conversations Akash1134 on Nov 15, 2024Nov 15, 2024 Akash1134 on Nov 15, 2024Nov 15, 2024 GitHub Copilot FAQ Your complete guide to using GitHub Copilot effectively. Whether you're just getting started, troubleshooting issues, or exploring advanced features, you'll find answers and resources here. Note Last updated: January 9, 2026 | For real-time Copilot status, check GitHub's",
+          "date": "2024/11/15 00:00:00",
+          "site": "GitHub"
+        },
+        {
+          "title": "GitHub Copilot",
+          "url": "https://github.com/features/copilot?q=is%3Aissue+sort%3Areactions-heart-desc+label%3Abug+is%3Aclosed",
+          "passage": "GitHub Copilot GitHub。GitHub Copilot More Command your craft Your AI accelerator for every workflow, from the editor to the enterprise. Go beyond one-size-fits-all Choose from leading LLMs optimized for speed, accuracy, or cost. Use your agents, your way Use GitHub Copilot, your own custom agents, or the third-party ones you already rely on. Stay in your flow Copilot works where you do—in GitHub, your IDE, the CLI, project tools, chat apps, and custom MCP servers. Workflow Co",
+          "date": "",
+          "site": "GitHub"
+        },
+        {
+          "title": "GitHub Copilot · Plans & pricing",
+          "url": "https://github.com/features/copilot/plans?cft=copilot_li.features_copilot_!",
+          "passage": "GitHub Copilot · Plans & pricing GitHub。Take flight with GitHub Copilot Pricing plans For individualsFor businesses Free For getting started with GitHub Copilot. $0USD Get startedOpen in VS Code What's included: 2,000 completions per month Access to Haiku 4.5, GPT-5 mini, and more Copilot CLI Community Support No credit card required. Verified students have access to the GitHub Copilot Student plan. Learn more Pro For everyday coding with agents in GitHub Copilot. $10USDper u",
+          "date": "",
+          "site": "GitHub"
+        },
+        {
+          "title": "Command your craft",
+          "url": "https://github.com/features/copilot?culture=en-us",
+          "passage": "Command your craft GitHub。GitHub Copilot GitHub Copilot Your AI accelerator for every workflow, from the editor to the enterprise. Go beyond one-size-fits-all Choose from leading LLMs optimized for speed, accuracy, or cost. Use your agents, your way Use GitHub Copilot, your own custom agents, or the third-party ones you already rely on. Stay in your flow Copilot works where you do—in GitHub, your IDE, the CLI, project tools, chat apps, and custom MCP servers. Workflow Code, c",
+          "date": "",
+          "site": "GitHub"
+        },
+        {
+          "title": "GitHub Copilot · Your AI coding agent · GitHub",
+          "url": "https://github.com/features/copilot?after=0.14.0",
+          "passage": "Command your craft Your AI accelerator for every workflow, from the editor to the enterprise. Download for Linux See plans & pricing Already have Visual Studio Code? Open now Companies powered by GitHub DuolingoFedExAmerican AirlinesShopifyStripeCocaColaCoyote LogisticsMercado LibreGeneral Motors DuolingoFedExAmerican AirlinesShopifyStripeCocaColaCoyote LogisticsMercado LibreGeneral Motors Go beyond one-size-fits-all Choose from leading LLMs optimized for speed, accuracy, or ",
+          "date": "",
+          "site": "GitHub"
+        },
+        {
+          "title": "Make and commit code changes locally or on GitHub",
+          "url": "https://github.com/features/copilot/plans?locale=en-US",
+          "passage": "Make and commit code changes locally or on GitHub GitHub。 GitHub Copilot has multiple offerings for organizations and individual developers. Key differences between the plans include total GitHub AI Credits and available models. To see more information and a comparison chart between plans, please see our plans & pricing page . What happens when I hit my usage limit? When you've used your monthly allowance, you have a few options: Wait for your next cycle. Your included allowa",
+          "date": "",
+          "site": "GitHub"
+        },
+        {
+          "title": "Introducing GitHub Copilot Free · community · Discussion #147189",
+          "url": "https://github.com/orgs/community/discussions/147189",
+          "passage": "Introducing GitHub Copilot Free · community · Discussion #147189 GitHub。Introducing GitHub Copilot Free #147189 We’re thrilled to announce the GitHub Copilot Free plan! It’s now easier than ever for developers to explore the power of GitHub Copilot in your favourite IDE Visual Studio Code, Visual Studio, JetBrains, and directly on GitHub. 🎉 By signing in with your personal GitHub account, you’ll gain 2000 code completions and 50 chat messages per month—enough to experience h",
+          "date": "",
+          "site": "GitHub"
+        }
+      ]
+    },
+    {
+      "label": "找反例与例外",
+      "query": "GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。 商用 授权 许可 功能 版本 权限 不适用 例外 实际使用 公告",
+      "facet": "counterexample",
+      "status": "success",
+      "requestId": "d33588cf-eb4b-4ffa-95d4-22a68ce9b8c3",
+      "pages": [
+        {
+          "title": "GitHub Copilot 评测 2026:四年后还值 10/月吗?",
+          "url": "https://www.nxcode.io/zh/resources/news/github-copilot-review-2026-worth-10-dollars",
+          "passage": "GitHub Copilot 评测 2026:四年后还值 $10/月吗? NxCode。 Agent 模式缩小了差距 Copilot 的 Agent 模式现在可以进行多文件编辑、运行终端命令并自主迭代。虽然不如 Cursor 的 Composer 或 Claude Code 强大,但覆盖了大多数场景。 免费层很慷慨 Copilot Free 每月提供 2,000 次补全和 50 条聊天消息。没有其他主要 AI 编码工具提供如此实用的免费层。 GitHub 集成无可匹敌 PR 摘要、自动代码审查、Copilot Workspace 的 Issue 到代码功能、与 GitHub Actions 的集成。 缺点 Agent 模式弱于竞品 复杂的多文件重构——需要理解跨代码库架构影响的那种——Cursor 和 Claude Code 更胜一筹。 聊天不如 Claude 深入的代码解释和架构讨论方面,Claude 提供明显更好的回复。 300 次高级请求感觉受限 Pro 计划每月 300 次高级模型请求。重度用户月中就会用完。 定价 计划 价格 补全 聊天",
+          "date": "2026/03/20 00:00:00",
+          "site": "www.nxcode.io"
+        },
+        {
+          "title": "GitHub Copilot",
+          "url": "https://www.huoi.cn/sites/652.html",
+          "passage": "GitHub Copilot Ai地带。 支持的语言、IDE 和平台 编程语言:支持多种编程语言,训练数据源于公共代码库,对主流语言如 JavaScript 支持良好,其他语言的支持程度取决于其在公共代码库中的数据量和多样性。 集成开发环境(IDE):可作为扩展集成到 Visual Studio Code、Visual Studio、JetBrains IDEs、Neovim 等主流 IDE 中,在不同开发环境下为开发者提供一致的辅助体验,部分环境已支持聊天功能,未来将在更多环境中拓展。 平台支持:通过 GitHub CLI 在终端提供支持,GitHub Copilot Enterprise 计划将其原生集成到GitHub.com,所有计划都将在 GitHub Mobile 中提供该功能,方便开发者随时随地使用。 定价与计划 个人版(Individual):面向个人开发者、自由职业者、学生和教育工作者,每月 10 美元或每年 100 美元,学生、教师和热门开源项目维护者可免费使用,提供代码补全和聊天协助功能。 商业版(Business):适用于企",
+          "date": "2025/01/06 08:03:08",
+          "site": "www.huoi.cn"
+        },
+        {
+          "title": "GitHub Copilot for Developers",
+          "url": "http://git-hub.com/timothywarner/copilot-dev",
+          "passage": "GitHub Copilot for Developers GitHub。 GH-300 revision effective August 7. Subscription Tiers (July 2026) Billing is usage-based on GitHub AI Credits. 1 AI credit = $0.01 USD. Base credits match the subscription price one-for-one; the flex allotment sits on top and is designed to change as AI economics change. Credits do not roll over, and the allowance resets at 00:00:00 UTC on the first of each month. Code completions and Next Edit Suggestions are unlimited on paid plans and",
+          "date": "",
+          "site": "git-hub.com"
+        },
+        {
+          "title": "关于个人 GitHub Copilot 计划及其权益",
+          "url": "http://gitdocs.cn/en/copilot/concepts/billing/individual-plans",
+          "passage": "关于个人 GitHub Copilot 计划及其权益 GitHub文档。关于个人 GitHub Copilot 计划及其权益 GitHub 为个人开发者提供多种 Copilot 计划,每种计划具备不同的功能、模型访问权限和使用限制,以满足各种编码需求。 本文内容 GitHub 为个人开发者提供三种 Copilot 计划,并提供专门的学生套餐,每种计划均依据您的编码习惯、对 AI 模型的兴趣以及所需的灵活程度来满足不同需求。 您可以从以下计划中进行选择。 GitHub Copilot 免费 适用于想要开始使用 Copilot 的开发者。 每月在 IDE 中提供最多 2,000 条内联建议 每月最多提供 50 次高级请求 旨在让您有限度地体验 Copilot 的功能 无需订阅或付款 仅供 个人使用,不适用于组织或企业管理的用户 适合想在升级到付费计划前探索 Copilot 功能的开发者 GitHub Copilot 学生版 经验证的学生可以免费获取无限次补全及额外模型。 在 IDE 中提供 无限次补全 可使用 Copilot Chat 以及额外模型 ",
+          "date": "",
+          "site": "gitdocs.cn"
+        },
+        {
+          "title": " GitHub Copilot FAQ",
+          "url": "https://github.com/community/community/discussions/144674",
+          "passage": "🔖 GitHub Copilot FAQ GitHub。🔖 GitHub Copilot FAQ #144674 Akash1134 asked this question in Copilot Conversations Akash1134 on Nov 15, 2024Nov 15, 2024 Akash1134 on Nov 15, 2024Nov 15, 2024 GitHub Copilot FAQ Your complete guide to using GitHub Copilot effectively. Whether you're just getting started, troubleshooting issues, or exploring advanced features, you'll find answers and resources here. Note Last updated: January 9, 2026 | For real-time Copilot status, check GitHub's",
+          "date": "2024/11/15 00:00:00",
+          "site": "GitHub"
+        },
+        {
+          "title": "GitHub Copilot works where you work",
+          "url": "https://dstplatform.ru/#expert",
+          "passage": "GitHub Copilot works where you work。Features Agent mode: Because two brains are better than one From broken to brilliant, fast. Need to make a sweeping change? Agent mode helps you do it quickly by analyzing code, proposing edits, running tests, and validating results across multiple files. Try agent mode Plans the path, handles the work. Agent mode reasons through the problem, coordinates next steps, and applies the changes—while keeping you in the driver’s seat. Don’t sweat",
+          "date": "",
+          "site": "dstplatform.ru"
+        },
+        {
+          "title": "GitHub Copilot",
+          "url": "https://github.com/features/copilot?q=is%3Aissue+sort%3Areactions-heart-desc+label%3Abug+is%3Aclosed",
+          "passage": "GitHub Copilot GitHub。GitHub Copilot More Command your craft Your AI accelerator for every workflow, from the editor to the enterprise. Go beyond one-size-fits-all Choose from leading LLMs optimized for speed, accuracy, or cost. Use your agents, your way Use GitHub Copilot, your own custom agents, or the third-party ones you already rely on. Stay in your flow Copilot works where you do—in GitHub, your IDE, the CLI, project tools, chat apps, and custom MCP servers. Workflow Co",
+          "date": "",
+          "site": "GitHub"
+        },
+        {
+          "title": "Announcing 150M developers and a new free tier for GitHub Copilot in VS Code",
+          "url": "https://github.blog/news-insights/product-news/github-copilot-in-vscode-free/?_bhlid=1c96dda4366d8070d06e00abf1c4746e80a06fe2",
+          "passage": "Announcing 150M developers and a new free tier for GitHub Copilot in VS Code The GitHub Blog。Come and join 150M developers on GitHub that can now code with Copilot for free in VS Code. GitHub has a long history of offering free products and services to developers. Starting with free open source and public collaboration, we added free private repos, free minutes for GitHub Actions and GitHub Codespaces, and free package and release storage. Today, we are adding GitHub Copilot ",
+          "date": "2024/12/18 00:00:00",
+          "site": "github.blog"
+        }
+      ]
+    }
+  ],
+  "outcome": "success",
+  "verdict": "unreviewed"
+}

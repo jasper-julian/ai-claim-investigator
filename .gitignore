@@ -2,3 +2,7 @@
 .env*
 !.env.example
 node_modules/
+deliverables/video-raw/
+*.webm
+*.zip
+.DS_Store

@@ -6,32 +6,34 @@ WaytoAGI 1024 切磋大会侦探赛道作品：输入一句公开 AI 产品宣�
 
 ## 演示视频与快速入口
 
-- 主演示视频（3 分 14 秒，1280×720，H.264）：[`docs/videos/ai-claim-investigator-demo.mp4`](docs/videos/ai-claim-investigator-demo.mp4)｜[直接下载（7.6 MB）](https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4)
+- 主演示视频（3 分 22 秒，1280×720，H.264）：[`docs/videos/ai-claim-investigator-demo.mp4`](docs/videos/ai-claim-investigator-demo.mp4)｜[直接下载（7.3 MB）](https://raw.githubusercontent.com/jasper-julian/ai-claim-investigator/main/docs/videos/ai-claim-investigator-demo.mp4)
 - 三个真实案例录屏：[`query-01.mp4`](docs/videos/query-01.mp4)、[`query-02.mp4`](docs/videos/query-02.mp4)、[`query-03.mp4`](docs/videos/query-03.mp4)
 - 录制时间、参数、SHA256、真实/回放标识与剪辑说明：[`docs/videos/README.md`](docs/videos/README.md)
-- 三个案例（本机运行后打开）：`/?case=01`、`/?case=02`、`/?case=03`；Notion 与 Copilot 的新案卷见 [SUBMISSION.md](SUBMISSION.md)
+- 三个案例（本机运行后打开）：`/?case=01`、`/?case=02`、`/?case=03`；新案卷 `/?case=save-cc091f7fc1ca`（Copilot Free）、`/?case=save-4789ff258808`（Notion AI）
 - 深查报告：[`deliverables/deep-investigation-case-01.md`](deliverables/deep-investigation-case-01.md)
 - 最终验收报告（离线/浏览器/真实查询逐项结果）：[`deliverables/FINAL_TEST_REPORT.md`](deliverables/FINAL_TEST_REPORT.md)
 - 参赛提交包说明：[`SUBMISSION_READY.md`](SUBMISSION_READY.md)
+- 开发记录：[`workbuddy.md`](workbuddy.md)（摘要）｜[真实对话导出](docs/conversation/workbuddy-conversation-export.md)（2026-10-24 19:21—23:32，含范围与脱敏说明）
 
 ## 快速启动
 
 ```sh
 cd /Users/gongao/Documents/waytoagi/detective
 npm start        # 打开 http://127.0.0.1:4191/
-npm test         # 27 项离线测试，不访问外部搜索
+npm test         # 31 项离线测试，不访问外部搜索
 ```
 
-视频中的「网页 → Skill → 证据卡」链路是两段：网页只做检索与案卷，条件卡由 WorkBuddy 加载 `skills/yuanbao-claim-investigator/SKILL.md` 后完成，再用 `save-card.mjs` 保存为本机案卷。录屏如实分开标注，不把回放讲成现场新查询。
+视频中的「网页 → Skill → 证据卡」链路是两段：网页只做检索与案卷，条件卡由 WorkBuddy 加载 `skills/yuanbao-claim-investigator/SKILL.md` 后完成，再用 `save-card.mjs` 保存为本机案卷。主视频前段是现场真实检索，后段是对已保存案卷的回放；字幕明确写“载入 Skill 先前生成的证据卡”，不把回放讲成现场新查询，也不把复用的卡说成针对某次新查询现场生成。
 
 ## 已交付
 
 - 本机网页案卷工具：新查询、按需求生成检索计划、三轮检索过程、来源去重与展开、失败/零结果、真实案例回放、人工复核、Markdown/JSON 导出。
 - **条件证据卡闭环**：宣传原句 → 最多 3 项可验证承诺 → 带原文的条件（T1…Tn）→ 我的使用需求 → 适用结论。三张真实案例卡各自稳定给出“适用 / 条件不适用 / 证据不足”三种结果，且需求重算**不发起新搜索**。
+- **“未知”不冒充“冲突”**：需求提到公司项目，但官方原文只说明适用人群与缺项、没有禁止商用时，结论返回“证据不足”；只有官方原文与用户明确要求（如 IP indemnity、SAML SSO、已由组织提供 Copilot）直接冲突时，才判“条件不适用”。
 - 可运行的 `yuanbao-claim-investigator` Skill：指导 AI 拆承诺、按需求调用元宝、打开关键原文、写条件卡，并可把结果保存为本机独立案卷。
 - 三次真实元宝查询：`evidence/case-01.json` 至 `case-03.json`，保留时间、请求 ID、结果及 Codex AI 草案；条件卡另存于 `evidence/cards/`，未改写原始记录。
 - 三次案例截图、完整导出案卷、Case 01 深查报告和浏览器验证记录，位于 `deliverables/`。
-- 额外真实新问题验证：Canva 免费版商用、Notion AI 免费版商用、GitHub Copilot Free 商用与额度；三者均有独立请求 ID 与证据卡，证明流程不依赖三个写死案例。
+- 额外真实新问题验证：Canva 免费版商用（只有原始检索案卷，没有 AI 证据卡）、Notion AI 免费版商用与 GitHub Copilot Free 商用/额度（两者都有请求 ID、证据卡和可刷新的本机案卷）。它们证明流程不依赖三个写死案例，也如实保留了“只做到检索”的中间状态。
 - 主演示视频 + 三段案例录屏，参数与哈希见 `docs/videos/README.md`。
 - 完整源码与脱敏证据随本仓库提供；可通过 GitHub 的 Code → Download ZIP 下载。个人 `.local/`、环境文件或密钥不随仓库发布。
 
@@ -54,6 +56,7 @@ npm start
 - 案例 01：<http://127.0.0.1:4191/?case=01>
 - 案例 02：<http://127.0.0.1:4191/?case=02>
 - 案例 03：<http://127.0.0.1:4191/?case=03>
+- 本机生成案卷（Copilot Free 证据卡）：<http://127.0.0.1:4191/?case=save-cc091f7fc1ca>
 - 本机生成案卷（Notion AI 证据卡）：<http://127.0.0.1:4191/?case=save-4789ff258808>
 
 服务仅监听 `127.0.0.1`，尚未发布云端站点。
@@ -137,15 +140,16 @@ node skills/yuanbao-claim-investigator/scripts/investigate.mjs \
 npm test
 ```
 
-当前 **27 项离线测试全部通过**，不访问外部搜索。覆盖参数、Site、错误分类、案例回放、动态检索计划、证据卡与三态适用结论、需求重算不搜索、本机案卷保存与凭据拒绝、导出完整性、人工复核、同源/CSRF、密钥不回传和项目配置隔离。
+当前 **31 项离线测试全部通过**，不访问外部搜索。覆盖参数、Site、错误分类、案例回放、动态检索计划、证据卡与三态适用结论、需求重算不搜索、“未知不判冲突”的语义回归、本机案卷保存与凭据拒绝、导出完整性、人工复核、同源/CSRF、密钥不回传和项目配置隔离。
 
-浏览器验证结果见 `deliverables/ui-test-report.json` 与 `deliverables/TESTING.md`（71 项检查）。验证脚本需要本机 Chrome 和隔离安装的 `playwright-core`，不属于运行作品所需依赖；默认只回放，只有显式加 `--live` 才会消耗新搜索。
+浏览器验证结果见 `deliverables/ui-test-report.json` 与 `deliverables/TESTING.md`（76 项检查）。验证脚本需要本机 Chrome 和隔离安装的 `playwright-core`，不属于运行作品所需依赖；默认只回放，只有显式加 `--live` 才会消耗新搜索。
 
 ## 实际限制
 
 - 固定三轮检索是取证起点，不保证每个问题都召回完整条款；检索词会随需求变化，但轮数上限仍为 3，AI 可在 Skill 中根据证据缺口继续补充调查并如实记录。
 - 条件证据卡由 AI 助手按 Skill 生成：网页不会自动把检索摘要变成承诺卡。未生成卡时页面明确显示“原始检索案卷”，不伪造结论。
 - 需求重算是**本地确定性匹配**，只判断已核实条件是否覆盖需求；它不验证新事实，超范围会要求再次查证。
+- 官方原文没写明的维度返回**证据不足**，不把缺项当成禁止；例如“公司项目能否用免费版”仍取决于组织政策与许可，作品不给统一答案。
 - 搜索摘要可能过时、截断或偏离问题；主要判断必须打开原文。动态价格和活动只对应查询时点。
 - 指定域名零命中是覆盖不足，不能据此证伪。补充直访官方原文与元宝命中始终分开标记。
 - 服务同一时间处理一份新调查；接口失败会停止后续轮次，避免鉴权或额度错误继续消耗请求。

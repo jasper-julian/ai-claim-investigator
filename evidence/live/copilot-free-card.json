@@ -138,6 +138,10 @@
     {
       "label": "对话次数",
       "text": "我每月需要 500 次对话，补全用量很小，想知道免费版够不够。"
+    },
+    {
+      "label": "要求企业保障",
+      "text": "公司要求提供 IP indemnity 和 SAML SSO，才能用于公司项目里的代码。"
     }
   ],
   "applicability": {
@@ -154,13 +158,32 @@
         "conditionIds": ["T1", "T2"]
       },
       {
+        "id": "enterprise-guarantee",
+        "type": "trigger",
+        "label": "明确要求 IP 赔偿 / 企业级安全 / SSO",
+        "pattern": "IP\\s*indemnity|知识产权赔偿|企业级安全|SAML|\\bSSO\\b|组织策略|审计日志|使用量指标",
+        "negativePattern": "不需要\\s*(IP|赔偿|SSO|审计|企业级安全)|不要求\\s*(IP|赔偿|SSO|审计)",
+        "result": "fail",
+        "failText": "官方功能对比表明确标注 Copilot Free 不含 IP indemnity、企业级安全、github.com 用户管理、使用量指标与 SAML SSO。你的需求明确要求了其中一项，免费档不能覆盖；这不等于“免费版被禁止”，而是这项保障需要改用付费计划或组织方案。",
+        "conditionIds": ["T5"]
+      },
+      {
+        "id": "org-provided",
+        "type": "trigger",
+        "label": "已通过组织获得 Copilot",
+        "pattern": "(公司|组织|企业)(已经|已)(为我|给我)?(开通|提供|采购)[^。；\\n]{0,10}(Copilot|许可|账号)",
+        "result": "fail",
+        "failText": "官方文档写明 Copilot Free 只面向未通过组织或企业获得 Copilot 的个人开发者；你已经通过组织获得 Copilot，不满足免费档的适用条件。",
+        "conditionIds": ["T4"]
+      },
+      {
         "id": "org-project",
         "type": "trigger",
         "label": "公司/团队项目",
         "pattern": "(公司|企业|团队|组织)[^。；\\n]{0,12}(项目|开发|代码|使用)",
         "negativePattern": "没有(公司|企业|团队|组织)提供",
-        "result": "fail",
-        "failText": "官方文档写明 Copilot Free 只面向未通过组织或企业获得 Copilot 的个人开发者；免费档也不含 IP indemnity、企业级安全与组织策略管理。公司项目的这些条件不在免费档覆盖范围内；这不等于“禁止商用”，但需要按组织政策与许可条款另行确认。",
+        "result": "unknown",
+        "detailText": "现有官方原文只说明 Copilot Free 面向未通过组织或企业获得 Copilot 的个人开发者，并没有就“在公司项目里使用免费版”的许可与合规给出结论。免费档不含 IP indemnity、企业级安全与组织管理，也不等于你的需求要求了这些保障；商用许可与组织政策需要另行查证，不能判成与已核实条件冲突。",
         "conditionIds": ["T4", "T5"]
       },
       {
@@ -170,7 +193,7 @@
         "pattern": "(对话|聊天)",
         "negativePattern": "(不需要|不用|无需)(对话|聊天)",
         "result": "unknown",
-        "failText": "当前官方页面只写“Limited chat and agent usage”与 AI credits 额度，没有公布每月固定对话条数；2024-12-18 公告中的 50 条不能直接当作今天仍有效的数字，这一项需要再次查证。",
+        "detailText": "当前官方页面只写“Limited chat and agent usage”与 AI credits 额度，没有公布每月固定对话条数；2024-12-18 公告中的 50 条不能直接当作今天仍有效的数字，这一项需要再次查证。",
         "conditionIds": ["T3"]
       },
       {

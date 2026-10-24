@@ -2,7 +2,16 @@
 
 日期：2026-10-24
 
-> 本文是本次开发工作的**摘要**，不是完整对话导出，也不冒称完整聊天记录。真实开发对话仍保留在 WorkBuddy 会话中，之后可按产品能力另行导出。用户要求的当前模型选择未改变。
+> 本文是本次开发工作的**摘要**，不是完整对话导出，也不冒称完整聊天记录。真实开发对话已导出到 `docs/conversation/workbuddy-conversation-export.md`，见下方索引。用户要求的当前模型选择未改变。
+
+## 真实对话导出索引
+
+- 文件：[`docs/conversation/workbuddy-conversation-export.md`](docs/conversation/workbuddy-conversation-export.md)
+- 来源：本项目 WorkBuddy 会话原始文本流（会话 ID `1b4dfbf9-209c-4cda-8035-cc5d0fe5030b`）。
+- 时间范围：2026-10-24 19:21:57 — 23:32:05（UTC+8）；用户实际发言 5 条、助手可见回复 35 条，共 40 条消息。
+- 排除内容：系统注入（工作目录/记忆/技能提示）、30 条后台任务通知、工具调用与工具原始返回、内部推理、2 条上下文压缩摘要与 1 条系统续接提示。
+- 脱敏：家目录替换为 `<HOME>`，邮箱与令牌模式替换为脱敏标记；凭据从未写入。
+- 性质：这是真实对话的**文本导出**，覆盖上述时间范围的可见消息，但不是完整会话回放（工具细节不在其中）。本文仍是摘要，两者互相索引、不互相替代。
 
 ## 接手前的 Codex 基础
 
@@ -66,6 +75,24 @@ WorkBuddy 保留了真实记录、指定域名零命中、补充直访官方来�
 
 未完成：GitHub Release 未创建（本机没有 `gh` 登录或 API token，SSH 只能推 git 对象）；视频已作为仓库文件提供。未做真人试用、未部署公网、未发布社交动态、未提交比赛。
 
+## 第四阶段：判定语义修复、重录与真实对话导出
+
+独立核对发现三处必须修正的问题，本轮逐项处理：
+
+1. **证据不足被判成条件冲突。** `evidence/live/copilot-free-card.json` 的 `org-project` 规则把“公司项目”直接写成 `result: fail`，但卡内引用只说明免费档面向未通过组织获得 Copilot 的个人，并列出免费档缺少的企业保障，并没有证明“公司项目里使用免费版”被禁止。现在拆成三件事：
+   - `org-project` → `unknown`（商用许可与组织政策未查明，返回 `insufficient`）；
+   - `enterprise-guarantee` → `fail`（用户明确要求 IP indemnity / SAML SSO 等免费档明确不含的保障，才算直接冲突）；
+   - `org-provided` → `fail`（已通过组织获得 Copilot，直接不符合免费档适用人群）。
+   同时给 `src/evidencecard.js` 增加 `detailText`，让“未知”项可以使用独立说明，不再借 `failText`。
+2. **同类过度触发检查。** `card-01` 的 API 与 Blender Bridge 规则原本只要出现关键词就判不适用；现在把“已单独付费 / 已有 Pro、Max、Team 计划”排除。`card-02` 的 CLI 规则排除“已订阅或已购买付费版”。回归测试覆盖这些反例。
+3. **测试。** 新增 4 项语义回归：公司项目 → `insufficient` 且说明中不含“禁止/冲突”定性；明确要求企业保障或已由组织提供 → `does_not_apply`；已付费需求不被误判；新卡四个示例覆盖 `applies / insufficient / insufficient / does_not_apply`。`npm test` 由 27 项增至 **31 项，全部通过**；浏览器验收增至 **76 项断言，全部通过**（新增公司项目、企业保障、个人学习三项语义检查）。
+4. **重建案卷。** 用修正后的卡从同一份真实检索记录（`evidence/live/copilot-free.json`，请求 ID `adcf20bf-…`、`283b2407-…`、`7fefe0a8-…`）重建本机案卷 `save-cc091f7fc1ca`，删除含错误结论的 `save-e4aa6cf73922`，避免旧链接继续展示错判。
+5. **重录主视频。** 录制脚本不再把预生成卡“当作本次检索生成”，改为：现场真实查询 → 原始检索案卷 → 打开 Skill 先前保存的案卷并明确字幕“载入先前生成的证据卡（对应 22:45 的检索与官方原文，不是针对刚才这次新查询现场生成）”。现场查询为新的一次真实调用（请求 ID `726d8c1f-…`、`5f523fd3-…`、`d33588cf-…`，记录在 `evidence/live/copilot-free-recording-run.json`）。官方文档片段因第三方页面无法保留页面内字幕层，补了一层同款字幕贴图，仅覆盖该 11 秒。
+6. **导出真实对话。** 从本项目会话文本流导出 `docs/conversation/workbuddy-conversation-export.md`，注明时间范围、条数、排除项与脱敏方式，并在上方建立索引。
+7. **文档一致性。** 修正“Canva 有证据卡”的夸大表述（Canva 只有原始检索案卷）、修正“原片随 Release 提供”与“Release 未创建”的矛盾（原片只在本机 `deliverables/video-raw/` 保留），并同步 README、SUBMISSION、SUBMISSION_READY、FINAL_TEST_REPORT 与本记录。
+
+本轮未新增付费服务；新增元宝请求 3 次（主视频现场查询），其余全部复用已有真实记录并标注回放。
+
 ## 主要修改与新增文件
 
 - 修改：`server.mjs`、`src/yuanbao.mjs`、`public/index.html`、`public/app.js`、`public/casefile.js`、`skills/yuanbao-claim-investigator/SKILL.md`、`skills/.../scripts/investigate.mjs`、`scripts/validate-ui.mjs`、`README.md`、`SUBMISSION.md`、`deliverables/TESTING.md`、`test/*.mjs`。
@@ -77,7 +104,7 @@ WorkBuddy 保留了真实记录、指定域名零命中、补充直访官方来�
 ## 实际结果与限制
 
 - 本机地址：<http://127.0.0.1:4191/>；配置：<http://127.0.0.1:4191/settings>。
-- 真实案例：`/?case=01`、`02`、`03`；新案卷：`/?case=save-e4aa6cf73922`（Copilot）、`/?case=save-4789ff258808`（Notion）。
+- 真实案例：`/?case=01`、`02`、`03`；新案卷：`/?case=save-cc091f7fc1ca`（Copilot）、`/?case=save-4789ff258808`（Notion）。
 - 公开仓库：<https://github.com/jasper-julian/ai-claim-investigator>，tag `v1.1-submission`（最终提交版本）。
 - 网页没有独立大模型接口；新问题的 AI 深查必须由 Skill 驱动 AI 助手继续阅读原文，并用 `save-card.mjs` 保存后才有独立链接。
 - 需求重算只匹配已核实条件，不搜索、不出概率；超范围会要求再次查证。

@@ -6,7 +6,7 @@
 
 命令：`npm test`
 
-结果：**27/27 通过，0 失败**。
+结果：**31/31 通过，0 失败**（2026-10-24 23:31 UTC+8，Node v22.22.2）。
 
 覆盖：
 
@@ -25,23 +25,25 @@
 - 三个案例的需求示例分别得到 `applies`、`does_not_apply`、`insufficient`，需求重算 `searched=false`；
 - 超出现有条件的维度返回 `out_of_scope` 并要求再次查证；
 - 需求长度、空白与缺字段校验，facet 识别；
-- 本机生成案卷可保存、刷新读取，并拒绝凭据字段与错误 CSRF。
+- 本机生成案卷可保存、刷新读取，并拒绝凭据字段与错误 CSRF；
+- 语义回归：公司项目 → `insufficient`，明确要求 IP indemnity/SAML SSO 或已由组织提供 Copilot → `does_not_apply`，已付费需求不被误判。
 
-首次运行曾发现 2 项测试需要适配新错误对象及 URL 规范化行为，修正断言后全部通过；没有把失败测试删除或跳过。新增证据卡与本机案卷测试后，测试数从 18 增至 27。
+首次运行曾发现 2 项测试需要适配新错误对象及 URL 规范化行为，修正断言后全部通过；没有把失败测试删除或跳过。测试数从 18 → 27 → 31（本轮新增 4 项判定语义回归）。
 
 ## 2. 浏览器真实页面回放
 
 脚本：`scripts/validate-ui.mjs`，本机 Chrome，1440px 桌面与 390px 移动端。
 
-结果：**71/71 检查通过**，详见 `ui-test-report.json`。
+结果：**76/76 检查通过**，详见 `ui-test-report.json`。
 
 - 三个独立案例均加载三轮记录、请求 ID 和可点击来源；
 - 每个案例均加载条件证据卡、3 项承诺和可点击条件来源；
 - 每个案例的三个需求示例分别得到 `applies` / `does_not_apply` / `insufficient`，且 `data-searched=false`；
 - Case 01 填入“紫色主题皮肤”后得到 `out_of_scope`，页面明确要求再次查证；
 - 三次回放调用 `/investigate` 的次数为 0；
-- 本机生成案卷 `/?case=save-4789ff258808` 独立链接可加载、可刷新，保留 3 轮真实查询与 22 个去重来源；
+- 本机生成案卷 `/?case=save-cc091f7fc1ca` 独立链接可加载、可刷新，保留 3 轮真实查询与去重来源；
 - 本机生成案卷导出文件名含案卷号，含证据卡、需求与适用判断，且保持 `unreviewed`；
+- Copilot 案卷：点“公司项目”→ `insufficient` 且不出现“条件冲突”文案；填“要求 IP indemnity 与 SAML SSO”→ `does_not_apply`；“个人学习”→ `applies`；
 - 刷新 `/?case=02` 仍回到 Case 02；
 - `/?case=99` 清楚提示，且不触发调查；
 - Markdown 和 JSON 实际触发浏览器下载并保存；
@@ -106,7 +108,7 @@
 | 把免费试用输出用于客户商业广告 | `insufficient` | 否 |
 | 只想确认有没有紫色主题皮肤 | `out_of_scope`，要求再次查证 | 否 |
 
-`does_not_apply`（条件不适用）由三张静态真实案例卡稳定覆盖，每张卡的示例 2 均得到该结果。Notion 卡没有为了凑结论而制造反驳：现有官方证据不足以支持“不适用”。
+`does_not_apply`（条件不适用）由三张静态真实案例卡稳定覆盖，每张卡的示例 2 均得到该结果。Notion 卡与 Copilot 卡都没有为了凑结论而制造反驳：现有官方证据不足以支持“不适用”时返回证据不足。
 
 ### 5.4 本机生成案卷
 
@@ -129,3 +131,11 @@ node skills/yuanbao-claim-investigator/scripts/save-card.mjs \
 - 未测试每一种服务商错误码的真实触发，只用离线样本验证分类与停止逻辑。
 - 未自动公开发布、报名或提交。
 - 证据卡目前由 AI 助手按 Skill 生成并保存，网页本身不会自动生成卡；跨案例的自动条件抽取尚未实现。
+
+## 7. 本轮修正（2026-10-24 23:20—23:45 UTC+8）
+
+- **判定语义**：`evidence/live/copilot-free-card.json` 的 `org-project` 从 `fail` 改为 `unknown`；新增 `enterprise-guarantee`（明确要求 IP indemnity / SAML SSO 等免费档明确不含的保障）与 `org-provided`（已由组织开通）两条直接冲突规则；`chat-quota` 保留未知。`src/evidencecard.js` 支持 `detailText`，未知项使用独立说明。
+- **同类检查**：`card-01` 的 API/Bridge、`card-02` 的 CLI 增加“已付费/已有付费计划”排除，避免把愿意付费的需求判成条件冲突。
+- **重建案卷**：用同一份真实记录与修正后的卡生成 `save-cc091f7fc1ca`，删除含错误结论的 `save-e4aa6cf73922`。
+- **重录**：主视频改为“现场检索 + 载入已保存案卷回放”两段，字幕明确“载入 Skill 先前生成的证据卡”；同时修复“先打字幕再跳转导致字幕被刷新清掉”的脚本缺陷。新主视频 3:22，SHA256 `a289ec6f…`。
+- **对话导出**：`docs/conversation/workbuddy-conversation-export.md`，40 条可见消息，排除系统注入、30 条任务通知、工具原始返回与 2 条压缩摘要。

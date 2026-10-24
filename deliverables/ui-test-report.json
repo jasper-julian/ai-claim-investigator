@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-10-24T14:56:17.147Z",
+  "testedAt": "2026-10-24T15:47:16.666Z",
   "base": "http://127.0.0.1:4191",
   "live": false,
   "checks": [
@@ -291,10 +291,35 @@
     {
       "name": "本机生成案卷需求判断有结构化结论",
       "passed": true,
-      "details": "does_not_apply"
+      "details": "insufficient"
     },
     {
       "name": "本机生成案卷需求重算不搜索",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "公司项目但未查明的商用许可 → 证据不足",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "公司项目结论未声称条件冲突",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "明确要求官方未包含的保障 → 条件不适用",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "企业保障结论引用官方缺项而非禁止",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "个人学习需求 → 适用",
       "passed": true,
       "details": ""
     },
@@ -311,7 +336,7 @@
     {
       "name": "本机生成案卷导出文件名含案卷号",
       "passed": true,
-      "details": "AI宣传查证所-case-save-e4aa6cf73922.json"
+      "details": "AI宣传查证所-case-save-cc091f7fc1ca.json"
     },
     {
       "name": "本机生成案卷导出含证据卡与需求",

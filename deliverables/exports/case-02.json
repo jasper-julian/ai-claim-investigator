@@ -6,7 +6,7 @@
   "need": "我想确认免费版生成内容在中国香港能否商用。",
   "startedAt": "2026-10-24T08:05:23.915Z",
   "completedAt": "2026-10-24T08:05:24.551Z",
-  "exportedAt": "2026-10-24T14:56:11.204Z",
+  "exportedAt": "2026-10-24T15:47:10.864Z",
   "outcome": "replay",
   "rounds": [
     {
@@ -375,7 +375,7 @@
           "type": "trigger",
           "label": "CLI 需求",
           "pattern": "CLI|命令行",
-          "negativePattern": "不需要\\s*CLI|不要求\\s*CLI|不用\\s*CLI|不使用\\s*CLI",
+          "negativePattern": "不需要\\s*CLI|不要求\\s*CLI|不用\\s*CLI|不使用\\s*CLI|已订阅|已购买|已有\\s*(标准版|高级版|旗舰版)",
           "result": "fail",
           "failText": "当前官方版本权益表未把 CLI 访问列入体验版；免费体验不能直接满足 CLI 需求。",
           "conditionIds": [
@@ -450,7 +450,7 @@
     ],
     "searched": false,
     "needsResearch": true,
-    "evaluatedAt": "2026-10-24T14:56:11.204Z"
+    "evaluatedAt": "2026-10-24T15:47:10.864Z"
   },
   "verdict": "unreviewed",
   "notes": "",

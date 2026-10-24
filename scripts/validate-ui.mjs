@@ -76,7 +76,7 @@ try {
   check('三次真实案例回放均未触发新调查', investigateRequests === 0, `investigate=${investigateRequests}`);
 
   const caseList = await fetch(`${base}/cases`, {signal: AbortSignal.timeout(15000)}).then(response => response.json());
-  const generated = caseList.cases.find(item => item.generated === true);
+  const generated = caseList.cases.find(item => item.generated === true && /Copilot/.test(item.claim)) || caseList.cases.find(item => item.generated === true);
   if (generated) {
     const id = generated.id;
     await page.goto(`${base}/?case=${id}`, {waitUntil: 'networkidle'});
@@ -88,6 +88,17 @@ try {
     const firstStatus = await page.locator('#fit-result').getAttribute('data-status');
     check('本机生成案卷需求判断有结构化结论', ['applies', 'does_not_apply', 'insufficient'].includes(firstStatus), firstStatus);
     check('本机生成案卷需求重算不搜索', await page.locator('#fit-result').getAttribute('data-searched') === 'false');
+    if (/Copilot/.test(generated.claim)) {
+      await page.locator('.example-needs button', {hasText: '公司项目'}).first().click();
+      check('公司项目但未查明的商用许可 → 证据不足', await page.locator('#fit-result').getAttribute('data-status') === 'insufficient');
+      check('公司项目结论未声称条件冲突', await page.locator('#fit-result').textContent().then(text => !text.includes('至少一项已核实条件与你的需求冲突')));
+      await page.locator('#card-need').fill('公司要求提供 IP indemnity 和 SAML SSO，才能用于公司项目里的代码。');
+      await page.locator('#reevaluate').click();
+      check('明确要求官方未包含的保障 → 条件不适用', await page.locator('#fit-result').getAttribute('data-status') === 'does_not_apply');
+      check('企业保障结论引用官方缺项而非禁止', await page.locator('#fit-result').textContent().then(text => text.includes('免费档不能覆盖')));
+      await page.locator('.example-needs button', {hasText: '个人学习'}).first().click();
+      check('个人学习需求 → 适用', await page.locator('#fit-result').getAttribute('data-status') === 'applies');
+    }
     await page.locator('#card-need').fill('我只想知道界面有没有紫色主题皮肤。');
     await page.locator('#reevaluate').click();
     check('本机生成案卷超范围要求再次查证', await page.locator('#fit-result').getAttribute('data-status') === 'out_of_scope');

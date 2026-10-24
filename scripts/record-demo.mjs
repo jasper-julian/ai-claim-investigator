@@ -1,5 +1,5 @@
 import {createRequire} from 'node:module';
-import {mkdir, rename, rm, readFile, writeFile} from 'node:fs/promises';
+import {mkdir, rename, rm, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 
 const require = createRequire(import.meta.url);
@@ -15,6 +15,9 @@ await mkdir(shotDir, {recursive: true});
 const only = process.argv.find(arg => arg.startsWith('--only='))?.split('=')[1] || 'all';
 const claim = 'GitHub Copilot 免费版每月提供 2000 次代码补全和 50 次对话，个人开发者可以免费使用。';
 const need = '我在公司项目里写代码，想知道免费版能不能用于商业开发，是否限制团队或组织使用。';
+// 该案卷由 WorkBuddy Skill 于 2026-10-24 22:45（UTC+8）基于真实检索与官方原文生成，并已保存为本机案卷。
+// 录制只做回放与页面交互，不把这张卡说成针对录制时新查询现场生成。
+const savedCase = process.env.COPILOT_CASE_ID || 'save-cc091f7fc1ca';
 
 const browser = await chromium.launch({
   executablePath: process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
@@ -85,34 +88,14 @@ async function scrollTo(page, selector) {
   }, selector);
 }
 
-async function saveCaseFrom(page, record) {
-  const html = await fetch(base, {signal: AbortSignal.timeout(10000)}).then(response => response.text());
-  const nonce = html.match(/<script[^>]*\snonce="([a-f0-9]+)"/)?.[1];
-  void page;
-  if (!nonce) throw new Error('页面 nonce 读取失败');
-  const card = JSON.parse(await readFile(resolve(root, 'evidence/live/copilot-free-card.json'), 'utf8'));
-  const response = await fetch(`${base}/skill/cases`, {
-    method: 'POST',
-    signal: AbortSignal.timeout(30000),
-    headers: {Origin: base, 'Content-Type': 'application/json', 'X-CSRF-Token': nonce},
-    body: JSON.stringify({
-      claim: record.claim,
-      domain: record.domain,
-      need: record.need,
-      startedAt: record.startedAt,
-      completedAt: record.completedAt,
-      rounds: record.rounds,
-      card
-    })
-  });
-  const data = await response.json();
-  if (!response.ok) throw new Error(data.error || '保存失败');
-  await writeFile(resolve(root, 'evidence/live/copilot-free-demo-run.json'), JSON.stringify(record, null, 2) + '\n');
-  return data.caseId;
+async function recordLiveRun(record) {
+  const target = resolve(root, 'evidence/live/copilot-free-recording-run.json');
+  await writeFile(target, JSON.stringify(record, null, 2) + '\n');
+  return target;
 }
 
-async function recordMain() {
-  const session = await newRecording('main');
+async function recordLive() {
+  const session = await newRecording('live');
   const {page} = session;
   let liveRecord = null;
   page.on('response', async response => {
@@ -155,13 +138,21 @@ async function recordMain() {
   await scrollTo(page, '.card-absent');
   await hold(page, 5200);
 
-  await caption(page, '⑤ Skill 读取这份检索记录与官方原文，生成证据卡并保存为本机案卷', '保存调用同源 + CSRF 校验，只写入本机 .local/generated');
-  if (!liveRecord) throw new Error('没有捕获到本次 /investigate 响应，无法保存案卷');
-  const caseId = await saveCaseFrom(page, liveRecord);
-  await hold(page, 1400);
-  await page.goto(`${base}/?case=${caseId}`, {waitUntil: 'networkidle'});
+  if (!liveRecord) throw new Error('没有捕获到本次 /investigate 响应');
+  await recordLiveRun(liveRecord);
+  console.log(JSON.stringify({segment: 'live', file: await finish(session)}));
+}
+
+// 回放段：只做页面交互与已保存案卷的回放，不发起搜索。
+// 证据卡由 Skill 于 2026-10-24 22:45 基于真实检索与官方原文生成并保存；字幕必须说明这是“载入”，不是录制时现场生成。
+async function recordReplay() {
+  const session = await newRecording('replay');
+  const {page} = session;
+
+  await page.goto(`${base}/?case=${savedCase}`, {waitUntil: 'networkidle'});
   await page.locator('.evidence-card').waitFor();
-  await hold(page, 6400);
+  await caption(page, '⑤ 载入 Skill 先前生成的证据卡（本段为回放）', '这张卡对应 22:45 的检索记录与官方原文，请求 ID 见案卷；不是录制时现场生成');
+  await hold(page, 7600);
   await page.locator('.evidence-card').screenshot({path: resolve(shotDir, 'demo-evidence-card.png')}).catch(() => {});
 
   await caption(page, '⑥ 三项承诺、五条条件：原文摘录、来源日期、核查时间都在卡上', '支持、未知与附条件分开写，不合并成一句结论');
@@ -170,25 +161,26 @@ async function recordMain() {
   await scrollTo(page, '.completed');
   await hold(page, 5400);
 
-  await caption(page, '⑦ 打开官方原文核对（不是只看搜索摘要）', 'GitHub Docs · Plans for GitHub Copilot：2000 次补全与“仅个人开发者”的原文');
   await page.goto('https://docs.github.com/en/copilot/get-started/plans', {waitUntil: 'domcontentloaded', timeout: 60000});
+  await caption(page, '⑦ 打开官方原文核对（不是只看搜索摘要）', 'GitHub Docs · Plans for GitHub Copilot：2000 次补全与“仅个人开发者”的原文');
   await hold(page, 3000);
   await page.mouse.wheel(0, 900);
-  await hold(page, 3600);
+  await hold(page, 3800);
   await page.screenshot({path: resolve(shotDir, 'demo-official-doc.png')}).catch(() => {});
 
-  await caption(page, '⑧ 回到案卷：换一个需求，结论就变了', '重新判断是本地确定性匹配：不发起搜索，也不输出真假概率');
-  await page.goto(`${base}/?case=${caseId}`, {waitUntil: 'networkidle'});
+  await page.goto(`${base}/?case=${savedCase}`, {waitUntil: 'networkidle'});
   await page.locator('.evidence-card').waitFor();
+  await caption(page, '⑧ 换需求重算：适用 / 证据不足 / 明确冲突分开判断', '只做本地确定性匹配：不发起搜索，也不输出真假概率');
   await scrollTo(page, '.need-box');
   await hold(page, 3200);
   const statuses = [];
-  for (let index = 0; index < 3; index++) {
+  const exampleCount = await page.locator('.example-needs button').count();
+  for (let index = 0; index < exampleCount; index++) {
     await page.locator('.example-needs button').nth(index).click();
-    await hold(page, 3000);
+    await hold(page, 3400);
     statuses.push(await page.locator('#fit-result').getAttribute('data-status'));
   }
-  await page.locator('.need-box').screenshot({path: resolve(shotDir, 'demo-need-three-states.png')});
+  await page.locator('.need-box').screenshot({path: resolve(shotDir, 'demo-need-states.png')});
 
   await caption(page, '⑨ 超出现有证据的维度，明确要求再次查证', '不拿已有条件硬套新问题，也不假装已经搜索过');
   await page.locator('#card-need').fill('我只想知道界面有没有紫色主题皮肤。');
@@ -204,16 +196,16 @@ async function recordMain() {
   await hold(page, 4600);
   await page.screenshot({path: resolve(shotDir, 'demo-export.png')});
 
-  await caption(page, '⑪ 打开导出的案卷文件核对字段', 'schemaVersion 1.1：evidenceCard、applicability、humanReview、rounds 都在');
   await page.goto(`file://${resolve(root, 'deliverables/exports/demo-export.json')}`, {waitUntil: 'domcontentloaded'});
+  await caption(page, '⑪ 打开导出的案卷文件核对字段', 'schemaVersion 1.1：evidenceCard、applicability、humanReview、rounds 都在');
   await hold(page, 5200);
   await page.mouse.wheel(0, 1200);
   await hold(page, 3600);
   await page.screenshot({path: resolve(shotDir, 'demo-export-file.png')});
 
-  await caption(page, '⑫ 同一套方法可以换产品：Tripo 插件免费 ≠ 生成免费', '历史真实查询回放：2026-10-24 的请求 ID 与来源日期');
   await page.goto(`${base}/?case=01`, {waitUntil: 'networkidle'});
   await page.locator('.round').first().waitFor();
+  await caption(page, '⑫ 同一套方法可以换产品：Tripo 插件免费 ≠ 生成免费', '历史真实查询回放：2026-10-24 的请求 ID 与来源日期');
   await scrollTo(page, '.evidence-card');
   await hold(page, 6200);
   for (let index = 0; index < 3; index++) {
@@ -221,9 +213,9 @@ async function recordMain() {
     await hold(page, 2200);
   }
 
-  await caption(page, '⑬ 活动额度、地区与时间条件同样适用', '案例 03：6000 次需要进群核销邀请码，有效期以活动说明为准');
   await page.goto(`${base}/?case=03`, {waitUntil: 'networkidle'});
   await page.locator('.round').first().waitFor();
+  await caption(page, '⑬ 活动额度、地区与时间条件同样适用', '案例 03：6000 次需要进群核销邀请码，有效期以活动说明为准');
   await scrollTo(page, '.evidence-card');
   await hold(page, 5200);
   for (let index = 0; index < 3; index++) {
@@ -231,11 +223,11 @@ async function recordMain() {
     await hold(page, 2000);
   }
 
-  await caption(page, '本机运行 · 未部署公网 · 元宝搜索是核心取证手段', '三步：检索 → 打开原文 → 条件判断；查不到就写证据不足');
   await page.goto(base, {waitUntil: 'networkidle'});
+  await caption(page, '本机运行 · 未部署公网 · 元宝搜索是核心取证手段', '三步：检索 → 打开原文 → 条件判断；查不到就写证据不足');
   await hold(page, 6000);
 
-  console.log(JSON.stringify({segment: 'main', caseId, statuses, file: await finish(session)}));
+  console.log(JSON.stringify({segment: 'replay', savedCase, statuses, file: await finish(session)}));
 }
 
 async function recordCase(id, lines) {
@@ -271,9 +263,9 @@ async function recordSupplement() {
   const session = await newRecording('supplement');
   const {page} = session;
 
-  await caption(page, '同一套流程，换一个产品同样成立：WorkBuddy 体验版与 CLI', '历史真实查询回放 · 案例 02');
   await page.goto(`${base}/?case=02`, {waitUntil: 'networkidle'});
   await page.locator('.round').first().waitFor();
+  await caption(page, '同一套流程，换一个产品同样成立：WorkBuddy 体验版与 CLI', '历史真实查询回放 · 案例 02');
   await hold(page, 4200);
   await scrollTo(page, '.evidence-card');
   await hold(page, 4600);
@@ -290,13 +282,14 @@ async function recordSupplement() {
   await markdown.saveAs(mdPath);
   await hold(page, 2600);
   await page.goto(`file://${mdPath}`, {waitUntil: 'domcontentloaded'});
+  await caption(page, '打开导出的 Markdown：条件、来源与复核状态都在文件里', '尚未人工复核的状态不会被导出成“已复核”');
   await hold(page, 4800);
   await page.mouse.wheel(0, 800);
   await hold(page, 3600);
   await page.screenshot({path: resolve(shotDir, 'demo-markdown-file.png')});
 
-  await caption(page, '从检索到条件判断，再到可复核的案卷文件', '本机运行；未部署公网；元宝搜索是核心取证手段');
   await page.goto(base, {waitUntil: 'networkidle'});
+  await caption(page, '从检索到条件判断，再到可复核的案卷文件', '本机运行；未部署公网；元宝搜索是核心取证手段');
   await hold(page, 4200);
 
   console.log(JSON.stringify({segment: 'supplement', file: await finish(session)}));
@@ -306,15 +299,15 @@ async function recordExtra() {
   const session = await newRecording('extra');
   const {page} = session;
 
-  await caption(page, '边界：网页负责检索与案卷，AI 深查由 WorkBuddy Skill 完成', '网页没有独立大模型接口，不会自动生成承诺拆解或判决；这条链路在视频里如实分开');
   await page.goto(base, {waitUntil: 'networkidle'});
+  await caption(page, '边界：网页负责检索与案卷，AI 深查由 WorkBuddy Skill 完成', '网页没有独立大模型接口，不会自动生成承诺拆解或判决；这条链路在视频里如实分开');
   await hold(page, 8000);
   await scrollTo(page, '.boundary');
   await hold(page, 6200);
 
-  await caption(page, '每条条件都能点回原文；元宝命中与补充直访分开标注', '来源日期、核查时间与出处类型都写在卡上');
   await page.goto(`${base}/?case=01`, {waitUntil: 'networkidle'});
   await page.locator('.condition a').first().waitFor();
+  await caption(page, '每条条件都能点回原文；元宝命中与补充直访分开标注', '来源日期、核查时间与出处类型都写在卡上');
   await scrollTo(page, '.condition');
   await hold(page, 7400);
   await page.mouse.wheel(0, 600);
@@ -323,7 +316,12 @@ async function recordExtra() {
   console.log(JSON.stringify({segment: 'extra', file: await finish(session)}));
 }
 
-if (only === 'all' || only === 'main') await recordMain();
+if (only === 'all' || only === 'main') {
+  await recordLive();
+  await recordReplay();
+}
+if (only === 'live') await recordLive();
+if (only === 'replay') await recordReplay();
 if (only === 'all' || only === 'supplement') await recordSupplement();
 if (only === 'all' || only === 'extra') await recordExtra();
 if (only === 'all' || only === 'cases') {
